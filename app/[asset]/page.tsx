@@ -858,6 +858,34 @@ export default function AssetPage() {
                         </p>
                       </div>
                     </div>
+
+                    <div className="flex gap-4">
+                      <div className="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <svg className="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 className="font-medium text-gray-900">Real World Assets</h4>
+                        <p className="text-sm text-gray-600 mt-1">
+                          Tokenize physical assets like real estate, commodities, or collectibles on the blockchain.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex gap-4">
+                      <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <svg className="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 className="font-medium text-gray-900">The Next Big Thing</h4>
+                        <p className="text-sm text-gray-600 mt-1">
+                          Pioneer something entirely new - the blockchain space is waiting for your innovation.
+                        </p>
+                      </div>
+                    </div>
             </div>
           </div>
         </div>
