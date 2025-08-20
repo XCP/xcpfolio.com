@@ -110,11 +110,14 @@ async function checkAssetStatus(assetName: string): Promise<'available' | 'sold'
 
 export async function GET(
   request: Request,
-  { params }: { params: { asset: string } }
+  { params }: { params: Promise<{ asset: string }> }
 ) {
+  // Await params in Next.js 15
+  const resolvedParams = await params;
+  
   // Extract asset name from the route (removes .json extension if present)
   // Could be either ASSETNAME or XCPFOLIO.ASSETNAME
-  let assetName = params.asset.replace('.json', '').toUpperCase();
+  let assetName = resolvedParams.asset.replace('.json', '').toUpperCase();
   let parentAsset = assetName;
   
   // Check if this is already a subasset request
