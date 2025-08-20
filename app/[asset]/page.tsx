@@ -590,7 +590,12 @@ export default function AssetPage() {
                                       const dateStr = date.toISOString().split('T')[0];
                                       const age = formatAge(detailedAsset.first_issuance_block_time);
                                       const ageText = age.replace(' old', ' ago');
-                                      return `${dateStr} (${ageText})`;
+                                      return (
+                                        <>
+                                          {dateStr}
+                                          <span className="hidden sm:inline"> ({ageText})</span>
+                                        </>
+                                      );
                                     })()
                                   : 'N/A'}
                               </dd>
