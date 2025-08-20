@@ -1,0 +1,14 @@
+# Robots.txt for xcpfolio.com
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://xcpfolio.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow API routes from being crawled
+Disallow: /api/

@@ -209,7 +209,7 @@ export default function AssetPage() {
               {/* Left Side - Asset Info (2 cols) */}
               <div className="lg:col-span-2 p-8 lg:p-12">
                 {/* Status */}
-                <div className="mb-4">
+                <div className="mb-4 flex justify-center lg:justify-start">
                   {isSold ? (
                     <span className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm font-medium bg-red-50 text-red-700 border border-red-200">
                       <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -235,7 +235,7 @@ export default function AssetPage() {
                 </div>
 
                 {/* Asset Name */}
-                <h1 className={`font-bold text-gray-900 mb-3 ${
+                <h1 className={`font-bold text-gray-900 mb-3 text-center lg:text-left ${
                   isNumeric 
                     ? 'text-2xl sm:text-5xl' 
                     : asset.length >= 10 
@@ -249,12 +249,12 @@ export default function AssetPage() {
                   {asset}
                 </h1>
                 
-                <p className="text-xl text-gray-600 mb-6">
+                <p className="text-xl text-gray-600 mb-6 text-center lg:text-left">
                   Counterparty Asset Name<span className="hidden sm:inline"> Ownership</span>
                 </p>
 
                 {/* Quick Stats */}
-                <div className="flex flex-wrap gap-3 mb-8">
+                <div className="flex flex-wrap gap-3 mb-8 justify-center lg:justify-start">
                   {metadata && (
                     <>
                       <div className="bg-gray-50 rounded-lg px-4 py-2">
