@@ -1,6 +1,14 @@
 {
-  "name": "web",
-  "version": "0.1.0",
+  "name": "xcpfolio",
+  "version": "1.0.0-beta",
+  "description": "Premium Counterparty asset name marketplace",
+  "author": "21e14",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XCP/xcpfolio.com"
+  },
+  "keywords": ["counterparty", "xcp", "blockchain", "bitcoin", "marketplace"],
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
