@@ -35,20 +35,13 @@ export const metadata: Metadata = {
     siteName: "XCPFOLIO",
     type: "website",
     locale: "en_US",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "XCPFOLIO - Counterparty Asset Marketplace"
-      }
-    ],
+    // Dynamic OG images are generated per page
   },
   twitter: {
     card: "summary_large_image",
     title: "XCPFOLIO - Premium Counterparty Asset Names",
     description: "Browse and purchase premium Counterparty blockchain asset names",
-    images: ["/og-image.png"],
+    // Dynamic OG images are generated per page
     creator: "@droplister",
   },
   metadataBase: new URL("https://xcpfolio.com"),
