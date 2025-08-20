@@ -207,7 +207,10 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
         console.log('Making request with timeout...');
         
         // Add timeout to the request
-        const requestPromise = provider.request({ method: 'xcp_requestAccounts', params: [] });
+        const requestPromise = provider.request?.({ method: 'xcp_requestAccounts', params: [] });
+        if (!requestPromise) {
+          throw new Error('Provider request method not available');
+        }
         const timeoutPromise = new Promise((_, reject) => 
           setTimeout(() => reject(new Error('Request timeout after 10 seconds')), 10000)
         );
@@ -217,12 +220,14 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
       } catch (requestErr) {
         console.log('provider.request failed:', requestErr);
         
-        console.log('Trying provider.enable as fallback...');
-        try {
-          accounts = await provider.enable();
-          console.log('provider.enable result:', accounts);
-        } catch (enableErr) {
-          console.log('provider.enable failed:', enableErr);
+        if (provider.enable) {
+          console.log('Trying provider.enable as fallback...');
+          try {
+            accounts = await provider.enable();
+            console.log('provider.enable result:', accounts);
+          } catch (enableErr) {
+            console.log('provider.enable failed:', enableErr);
+          }
         }
       }
       
