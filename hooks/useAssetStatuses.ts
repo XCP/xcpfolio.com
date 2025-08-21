@@ -14,7 +14,7 @@ export function useAssetStatuses() {
   const { data, isLoading, error } = useQuery<StatusResponse>({
     queryKey: ['asset-statuses-minimal'],
     queryFn: async () => {
-      const response = await fetch('/api/assets/status-minimal');
+      const response = await fetch('/data/status-minimal.json');
       if (!response.ok) throw new Error('Failed to fetch statuses');
       return response.json();
     },
