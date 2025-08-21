@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/:asset.json',
-        destination: '/api/:asset',
+        destination: '/data/assets/:asset.json',
       },
     ];
   },
