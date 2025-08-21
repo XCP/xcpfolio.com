@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755818725969,
+  "timestamp": 1755819710625,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2015,11 +2015,11 @@
     },
     {
       "asset": "LOCH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOCA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LMONEY",
@@ -2027,7 +2027,7 @@
     },
     {
       "asset": "LLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLLC",
@@ -2039,7 +2039,7 @@
     },
     {
       "asset": "LLCS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLCC",
@@ -2067,7 +2067,7 @@
     },
     {
       "asset": "LCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LCOM",
@@ -2083,7 +2083,7 @@
     },
     {
       "asset": "LALA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LAAA",

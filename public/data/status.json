@@ -1,9 +1,9 @@
 {
-  "generated": "2025-08-21T23:25:25.967Z",
+  "generated": "2025-08-21T23:41:50.623Z",
   "total": 999,
-  "available": 499,
+  "available": 505,
   "sold": 6,
-  "notListed": 494,
+  "notListed": 488,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4528,8 +4528,8 @@
     },
     {
       "asset": "LOCH",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/LOCH",
@@ -4537,8 +4537,8 @@
     },
     {
       "asset": "LOCA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/LOCA",
@@ -4555,8 +4555,8 @@
     },
     {
       "asset": "LLTD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLTD",
@@ -4582,8 +4582,8 @@
     },
     {
       "asset": "LLCS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLCS",
@@ -4645,8 +4645,8 @@
     },
     {
       "asset": "LCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/LCOMPANY",
@@ -4681,8 +4681,8 @@
     },
     {
       "asset": "LALA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/LALA",
