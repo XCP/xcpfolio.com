@@ -49,7 +49,8 @@ export async function GET(
     const response = {
       asset,
       status,
-      price,
+      price, // Actual price from orders
+      suggestedPrice: metadata?.ask_price || null, // Suggested price from CSV
       age,
       ageText: age ? `${age} ${age === 1 ? 'year' : 'years'} old` : null,
       category: metadata?.category || 'Asset',

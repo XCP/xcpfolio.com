@@ -26,7 +26,7 @@ async function getAssetData(asset: string) {
     
     return {
       status: data.status,
-      price: data.price,
+      price: data.price || data.suggestedPrice, // Use actual price, fallback to suggested
       age: data.ageText,
       category: data.category,
       length: data.length
