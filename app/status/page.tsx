@@ -178,7 +178,6 @@ export default function StatusPage() {
       return (
         <div className="text-sm">
           <span className="font-medium text-gray-900">{ttd}</span>
-          <span className="text-gray-500 ml-1">blocks</span>
         </div>
       );
     }
@@ -365,7 +364,7 @@ export default function StatusPage() {
           </div>
         </div>
         {averageTTD !== null && (
-          <div className="mt-4 pt-3 border-t border-gray-200">
+          <div className="mt-4 pt-3 border-t border-gray-200 text-center">
             <p className="text-xs text-gray-500">
               Average TTD: <span className="font-medium">{averageTTD.toFixed(1)}</span> blocks after confirmation
             </p>
