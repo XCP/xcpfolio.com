@@ -25,9 +25,12 @@ interface Order {
   status: string;
   tx_hash?: string;
   block_index?: number;
+  give_asset_info?: {
+    asset_longname?: string;
+  };
 }
 
-const XCPFOLIO_ADDRESS = '1BoTXcPiDFJgXMbydpRPDKKaqM1MbaEuSe';
+const XCPFOLIO_ADDRESS = '1BotpWeW4cWRZ26rLvBCRHTeWtaH5fUYPX';
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
 const DATA_DIR = path.join(PUBLIC_DIR, 'data');
 const ASSETS_DIR = path.join(DATA_DIR, 'assets');
@@ -100,14 +103,16 @@ async function fetchOrdersFrom1Bot(): Promise<{
     const openData = openResponse.ok ? await openResponse.json() : { result: [] };
     const filledData = filledResponse.ok ? await filledResponse.json() : { result: [] };
     
-    // Filter for XCPFOLIO.* subassets
-    const openOrders = (openData.result || []).filter((order: Order) => 
-      order.give_asset?.startsWith('XCPFOLIO.')
-    );
+    // Filter for XCPFOLIO.* subassets (checking both give_asset and asset_longname)
+    const openOrders = (openData.result || []).filter((order: Order) => {
+      const assetName = order.give_asset_info?.asset_longname || order.give_asset;
+      return assetName?.startsWith('XCPFOLIO.');
+    });
     
-    const filledOrders = (filledData.result || []).filter((order: Order) => 
-      order.give_asset?.startsWith('XCPFOLIO.')
-    );
+    const filledOrders = (filledData.result || []).filter((order: Order) => {
+      const assetName = order.give_asset_info?.asset_longname || order.give_asset;
+      return assetName?.startsWith('XCPFOLIO.');
+    });
     
     console.log(`Found ${openOrders.length} open orders, ${filledOrders.length} filled orders`);
     
@@ -166,13 +171,15 @@ async function generateStaticFiles() {
   // Create order maps
   const openOrdersMap = new Map<string, Order>();
   openOrders.forEach(order => {
-    const assetName = order.give_asset.replace('XCPFOLIO.', '');
+    const fullAssetName = order.give_asset_info?.asset_longname || order.give_asset;
+    const assetName = fullAssetName.replace('XCPFOLIO.', '');
     openOrdersMap.set(assetName, order);
   });
   
   const filledOrdersMap = new Map<string, Order>();
   filledOrders.forEach(order => {
-    const assetName = order.give_asset.replace('XCPFOLIO.', '');
+    const fullAssetName = order.give_asset_info?.asset_longname || order.give_asset;
+    const assetName = fullAssetName.replace('XCPFOLIO.', '');
     filledOrdersMap.set(assetName, order);
   });
   
