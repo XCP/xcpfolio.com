@@ -137,7 +137,7 @@ function generateAssetJSON(
   
   if (status === 'available' && actualPrice) {
     statusImage = 'https://xcpfolio.com/status/available.svg';
-    description = `🟢 FOR SALE: Buy 1 ${subassetName} for ${actualPrice} XCP to receive ownership of ${assetName}`;
+    description = `🟢 FOR SALE: Buy 1 ${subassetName} for ${actualPrice} XCP to claim ownership of ${assetName}`;
   } else if (status === 'sold') {
     statusImage = 'https://xcpfolio.com/status/sold.svg';
     description = `🔴 SOLD: ${assetName} ownership has been transferred. This token is no longer redeemable.`;
