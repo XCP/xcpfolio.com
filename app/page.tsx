@@ -128,7 +128,6 @@ export default function Home() {
   }, [subassets, searchQuery, selectedCategory, selectedLength, sortBy]);
 
   return (
-    <>
     <main className="min-h-screen bg-gray-50">
       <Header totalAssets={!isLoading && subassets.length > 0 ? subassets.length : undefined} />
 
@@ -506,8 +505,7 @@ export default function Home() {
             </button>
           </div>
         )}
+      <Footer />
     </main>
-    <Footer />
-    </>
   );
 }
