@@ -232,7 +232,7 @@ async function generateStaticFiles() {
     });
   }
   
-  // Generate main status file
+  // Generate main status file with full data (for OG images, layouts, etc)
   console.log('Generating status.json...');
   const statusData = {
     generated: new Date().toISOString(),
@@ -246,13 +246,14 @@ async function generateStaticFiles() {
   const statusPath = path.join(DATA_DIR, 'status.json');
   fs.writeFileSync(statusPath, JSON.stringify(statusData, null, 2));
   
-  // Generate minimal status file (for faster loading)
+  // Generate minimal status file for homepage (just asset name and status)
+  console.log('Generating status-minimal.json...');
   const minimalStatus = {
-    generated: statusData.generated,
-    total: statusData.total,
-    available,
-    sold,
-    notListed,
+    timestamp: Date.now(),
+    statuses: assetStatuses.map(asset => ({
+      asset: asset.asset,
+      status: asset.status as 'available' | 'sold' | 'not-listed',
+    })),
   };
   
   const minimalPath = path.join(DATA_DIR, 'status-minimal.json');
