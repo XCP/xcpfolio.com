@@ -37,10 +37,11 @@ export async function GET(
       }
     }
     
-    // Calculate age
+    // Calculate age - prefer CSV data, fallback to blockchain data
     let age = null;
-    if (metadata?.first_issued) {
-      const years = Math.floor((Date.now() / 1000 - metadata.first_issued) / (365 * 24 * 60 * 60));
+    const timestamp = metadata?.first_issued || detailedAsset?.first_issuance_block_time;
+    if (timestamp) {
+      const years = Math.floor((Date.now() / 1000 - timestamp) / (365 * 24 * 60 * 60));
       age = years;
     }
     

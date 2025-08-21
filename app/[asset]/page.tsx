@@ -945,6 +945,30 @@ export default function AssetPage() {
                 Counterparty protocol.
               </p>
             </div>
+
+            {/* FAQ 5 */}
+            <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                What if there's a problem with my purchase?
+              </h3>
+              <p className="text-gray-600 text-sm">
+                All purchases are executed via the Counterparty DEX on the Bitcoin blockchain. If your order doesn't fill, 
+                your XCP is automatically returned. For completed purchases, if ownership transfer fails for any reason, 
+                contact support at dan@droplister.com with your transaction hash for manual resolution.
+              </p>
+            </div>
+
+            {/* FAQ 6 */}
+            <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                Can I change the asset from divisible to indivisible?
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Yes! Assets start as divisible (allowing decimal amounts like 0.5 tokens) but you can permanently change 
+                them to indivisible (whole numbers only, ideal for NFTs) with your first issuance. This is a one-time 
+                decision that cannot be reversed, so choose carefully based on your use case.
+              </p>
+            </div>
           </div>
         </div>
       </section>
