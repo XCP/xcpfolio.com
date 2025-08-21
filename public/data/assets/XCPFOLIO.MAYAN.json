@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.MAYAN",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.MAYAN for 10 XCP to claim ownership of MAYAN",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "🔴 SOLD: MAYAN ownership has been transferred. This token is no longer redeemable.",
+  "image": "https://xcpfolio.com/status/sold.svg",
   "website": "https://xcpfolio.com/MAYAN"
 }

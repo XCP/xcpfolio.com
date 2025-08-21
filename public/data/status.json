@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-21T17:57:58.647Z",
+  "generated": "2025-08-21T18:36:22.166Z",
   "total": 999,
-  "available": 500,
-  "sold": 2,
+  "available": 499,
+  "sold": 3,
   "notListed": 497,
   "assets": [
     {
@@ -4289,8 +4289,7 @@
     },
     {
       "asset": "MAYAN",
-      "status": "available",
-      "price": 10,
+      "status": "sold",
       "category": "Mythology",
       "length": 5,
       "url": "https://xcpfolio.com/MAYAN",

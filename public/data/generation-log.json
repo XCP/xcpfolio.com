@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-08-21T17:57:58.648Z",
-  "duration": 707,
+  "timestamp": "2025-08-21T18:36:22.168Z",
+  "duration": 1003,
   "assets": 999,
-  "available": 500,
-  "sold": 2,
+  "available": 499,
+  "sold": 3,
   "notListed": 497,
   "success": true
 }
