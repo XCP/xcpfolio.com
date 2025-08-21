@@ -53,7 +53,7 @@ export async function GET(
       suggestedPrice: metadata?.ask_price || null, // Suggested price from CSV
       age,
       ageText: age ? `${age} ${age === 1 ? 'year' : 'years'} old` : null,
-      category: metadata?.category || 'Asset',
+      category: metadata?.category || null,
       length: metadata?.length || asset.length,
       owner: detailedAsset?.owner || null,
       issuer: detailedAsset?.issuer || null,

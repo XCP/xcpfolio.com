@@ -166,7 +166,7 @@ export default async function Image({ params }: { params: Promise<{ asset: strin
             </div>
           )}
           
-          {data.category && (
+          {data.category && data.category !== 'Asset' && (
             <div
               style={{
                 backgroundColor: 'rgba(255, 255, 255, 0.2)',
