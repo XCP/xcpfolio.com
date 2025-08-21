@@ -30,6 +30,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/status" className="text-sm text-gray-600 hover:text-blue-600 transition-colors" aria-label="Check order status">
+                  Order Status
+                </Link>
+              </li>
+              <li>
                 <a href="https://counterparty.io" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-blue-600 transition-colors" aria-label="Visit Counterparty Protocol website (opens in new tab)">
                   Counterparty Protocol
                 </a>
