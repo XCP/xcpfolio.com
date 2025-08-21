@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755817106314,
+  "timestamp": 1755818725969,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2011,7 +2011,7 @@
     },
     {
       "asset": "LOTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOCH",
@@ -2035,7 +2035,7 @@
     },
     {
       "asset": "LLCX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLCS",

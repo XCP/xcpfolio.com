@@ -1,9 +1,9 @@
 {
-  "generated": "2025-08-21T22:58:26.312Z",
+  "generated": "2025-08-21T23:25:25.967Z",
   "total": 999,
-  "available": 497,
+  "available": 499,
   "sold": 6,
-  "notListed": 496,
+  "notListed": 494,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4519,8 +4519,8 @@
     },
     {
       "asset": "LOTO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/LOTO",
@@ -4573,8 +4573,8 @@
     },
     {
       "asset": "LLCX",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLCX",
