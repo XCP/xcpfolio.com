@@ -8,28 +8,62 @@ export const size = {
 }
 export const contentType = 'image/png'
 
-// Fetch asset data from our status API
+// Fetch asset data from static JSON files
 async function getAssetData(asset: string) {
   try {
-    // Use our centralized status API endpoint
-    const statusUrl = `${process.env.NEXT_PUBLIC_BASE_URL || 'https://xcpfolio.com'}/api/status/${asset}`;
-    const response = await fetch(statusUrl, { 
+    // Fetch from the static JSON file
+    const assetUrl = `${process.env.NEXT_PUBLIC_BASE_URL || 'https://xcpfolio.com'}/data/assets/${asset}.json`;
+    const response = await fetch(assetUrl, { 
       cache: 'no-store',
       next: { revalidate: 60 }
     });
     
     if (!response.ok) {
-      throw new Error(`Status API returned ${response.status}`);
+      throw new Error(`Asset JSON not found: ${response.status}`);
     }
     
-    const data = await response.json();
+    const assetData = await response.json();
+    
+    // Parse the description to determine status and price
+    let status = 'NOT LISTED';
+    let price = null;
+    
+    if (assetData.description.includes('🟢 FOR SALE:')) {
+      status = 'AVAILABLE';
+      // Extract price from description like "for 5 XCP"
+      const priceMatch = assetData.description.match(/for (\d+(?:\.\d+)?) XCP/);
+      if (priceMatch) {
+        price = parseFloat(priceMatch[1]);
+      }
+    } else if (assetData.description.includes('🔴 SOLD:')) {
+      status = 'SOLD';
+    }
+    
+    // Also fetch from status.json for metadata like category and length
+    const statusUrl = `${process.env.NEXT_PUBLIC_BASE_URL || 'https://xcpfolio.com'}/data/status.json`;
+    const statusResponse = await fetch(statusUrl, { 
+      cache: 'no-store',
+      next: { revalidate: 60 }
+    });
+    
+    let category = 'Asset';
+    let length = null;
+    
+    if (statusResponse.ok) {
+      const statusData = await statusResponse.json();
+      const assetInfo = statusData.assets?.find((a: any) => a.asset === asset);
+      if (assetInfo) {
+        category = assetInfo.category || 'Asset';
+        length = assetInfo.length;
+      }
+    }
     
     return {
-      status: data.status,
-      price: data.price || data.suggestedPrice, // Use actual price, fallback to suggested
-      age: data.ageText,
-      category: data.category,
-      length: data.length
+      status,
+      price,
+      age: null, // Would need to calculate from first_issued
+      category,
+      length
     };
   } catch (error) {
     console.error('Error fetching asset data:', error);

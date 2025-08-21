@@ -9,22 +9,53 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params
   const asset = resolvedParams.asset.toUpperCase()
   
-  // Fetch status from our API to get price and availability
+  // Fetch from static JSON files
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'https://xcpfolio.com'}/api/status/${asset}`, {
+    const assetResponse = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'https://xcpfolio.com'}/data/assets/${asset}.json`, {
       next: { revalidate: 60 }
     })
     
-    if (response.ok) {
-      const data = await response.json()
+    if (assetResponse.ok) {
+      const assetData = await assetResponse.json()
+      
+      // Parse status and price from description
+      let status = 'NOT LISTED'
+      let price = null
+      
+      if (assetData.description.includes('🟢 FOR SALE:')) {
+        status = 'AVAILABLE'
+        const priceMatch = assetData.description.match(/for (\d+(?:\.\d+)?) XCP/)
+        if (priceMatch) {
+          price = parseFloat(priceMatch[1])
+        }
+      } else if (assetData.description.includes('🔴 SOLD:')) {
+        status = 'SOLD'
+      }
+      
+      // Fetch metadata from status.json
+      let category = 'Asset'
+      let length = null
+      
+      const statusResponse = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'https://xcpfolio.com'}/data/status.json`, {
+        next: { revalidate: 60 }
+      })
+      
+      if (statusResponse.ok) {
+        const statusData = await statusResponse.json()
+        const assetInfo = statusData.assets?.find((a: any) => a.asset === asset)
+        if (assetInfo) {
+          category = assetInfo.category || 'Asset'
+          length = assetInfo.length
+        }
+      }
       
       let title = `${asset} - Counterparty Asset Name`
       let description = `Own the ${asset} Counterparty asset name. `
       
-      if (data.status === 'AVAILABLE' && data.price) {
-        title = `${asset} - ${data.price} XCP | XCPFOLIO`
-        description = `Buy ${asset} for ${data.price} XCP. ${data.category} Counterparty asset name${data.length ? ` (${data.length} characters)` : ''}. Instant ownership transfer on the Bitcoin blockchain.`
-      } else if (data.status === 'SOLD') {
+      if (status === 'AVAILABLE' && price) {
+        title = `${asset} - ${price} XCP | XCPFOLIO`
+        description = `Buy ${asset} for ${price} XCP. ${category} Counterparty asset name${length ? ` (${length} characters)` : ''}. Instant ownership transfer on the Bitcoin blockchain.`
+      } else if (status === 'SOLD') {
         title = `${asset} - Sold | XCPFOLIO`
         description = `${asset} has been sold. Browse other premium Counterparty asset names available for purchase.`
       } else {
@@ -35,7 +66,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       return {
         title,
         description,
-        keywords: `${asset}, Counterparty, XCP, blockchain asset, crypto name, NFT name, ${data.category || 'asset'}`,
+        keywords: `${asset}, Counterparty, XCP, blockchain asset, crypto name, NFT name, ${category || 'asset'}`,
         openGraph: {
           title,
           description,
