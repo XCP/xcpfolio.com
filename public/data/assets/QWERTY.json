@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.QWERTY",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.QWERTY for 10 XCP to claim ownership of QWERTY",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "🔴 SOLD: QWERTY ownership has been transferred. This token is no longer redeemable.",
+  "image": "https://xcpfolio.com/status/sold.svg",
   "website": "https://xcpfolio.com/QWERTY"
 }

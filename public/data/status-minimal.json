@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755804193651,
+  "timestamp": 1755815309173,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -271,7 +271,7 @@
     },
     {
       "asset": "WYSIWYG",
-      "status": "available"
+      "status": "sold"
     },
     {
       "asset": "WWWX",
@@ -759,7 +759,7 @@
     },
     {
       "asset": "TORRENTS",
-      "status": "available"
+      "status": "sold"
     },
     {
       "asset": "TORR",
@@ -1311,7 +1311,7 @@
     },
     {
       "asset": "QWERTY",
-      "status": "available"
+      "status": "sold"
     },
     {
       "asset": "QUINN",

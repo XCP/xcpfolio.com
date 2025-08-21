@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-21T19:23:13.649Z",
+  "generated": "2025-08-21T22:28:29.171Z",
   "total": 999,
-  "available": 499,
-  "sold": 3,
+  "available": 496,
+  "sold": 6,
   "notListed": 497,
   "assets": [
     {
@@ -609,8 +609,7 @@
     },
     {
       "asset": "WYSIWYG",
-      "status": "available",
-      "price": 10,
+      "status": "sold",
       "category": "Internet",
       "length": 7,
       "url": "https://xcpfolio.com/WYSIWYG",
@@ -1707,8 +1706,7 @@
     },
     {
       "asset": "TORRENTS",
-      "status": "available",
-      "price": 10,
+      "status": "sold",
       "category": "Internet",
       "length": 8,
       "url": "https://xcpfolio.com/TORRENTS",
@@ -2948,8 +2946,7 @@
     },
     {
       "asset": "QWERTY",
-      "status": "available",
-      "price": 10,
+      "status": "sold",
       "category": "Internet",
       "length": 6,
       "url": "https://xcpfolio.com/QWERTY",
