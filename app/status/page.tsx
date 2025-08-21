@@ -26,6 +26,7 @@ export default function StatusPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [autoRefresh, setAutoRefresh] = useState(true);
+  const [averageTTD, setAverageTTD] = useState<number | null>(null);
 
   const fetchOrders = async () => {
     try {
@@ -35,6 +36,24 @@ export default function StatusPage() {
       if (data.success) {
         setOrders(data.orders);
         setError(null);
+        
+        // Calculate average TTD for confirmed orders
+        const confirmedOrdersWithBlocks = data.orders.filter(
+          (order: Order) => order.status === 'confirmed' && 
+          order.purchasedBlock && 
+          order.confirmedBlock
+        );
+        
+        if (confirmedOrdersWithBlocks.length > 0) {
+          const totalTTD = confirmedOrdersWithBlocks.reduce(
+            (sum: number, order: Order) => 
+              sum + ((order.confirmedBlock || 0) - (order.purchasedBlock || 0)),
+            0
+          );
+          setAverageTTD(totalTTD / confirmedOrdersWithBlocks.length);
+        } else {
+          setAverageTTD(null);
+        }
       } else {
         setError(data.error || 'Failed to fetch orders');
       }
@@ -152,6 +171,22 @@ export default function StatusPage() {
     return <span className="text-gray-400">—</span>;
   };
 
+  const getTTD = (order: Order) => {
+    // Calculate TTD only for confirmed orders with both blocks
+    if (order.status === 'confirmed' && order.purchasedBlock && order.confirmedBlock) {
+      const ttd = order.confirmedBlock - order.purchasedBlock;
+      return (
+        <div className="text-sm">
+          <span className="font-medium text-gray-900">{ttd}</span>
+          <span className="text-gray-500 ml-1">blocks</span>
+        </div>
+      );
+    }
+    
+    // Show dash for all non-delivered orders
+    return <span className="text-gray-400">—</span>;
+  };
+
   if (loading) {
     return (
       <div className="container mx-auto px-4 py-8">
@@ -227,6 +262,9 @@ export default function StatusPage() {
                   Delivered
                 </th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  TTD
+                </th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Transaction
                 </th>
               </tr>
@@ -276,6 +314,9 @@ export default function StatusPage() {
                   <td className="px-6 py-4 whitespace-nowrap">
                     {getDeliveryInfo(order)}
                   </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    {getTTD(order)}
+                  </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm">
                     {order.txid ? (
                       <a
@@ -319,7 +360,17 @@ export default function StatusPage() {
           <div>
             <span className="font-medium">Delivered:</span> Asset successfully transferred
           </div>
+          <div>
+            <span className="font-medium">TTD:</span> Time To Delivery in blocks
+          </div>
         </div>
+        {averageTTD !== null && (
+          <div className="mt-4 pt-3 border-t border-gray-200">
+            <p className="text-xs text-gray-500">
+              Average TTD: <span className="font-medium">{averageTTD.toFixed(1)}</span> blocks after confirmation
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
