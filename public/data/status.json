@@ -1,9 +1,9 @@
 {
-  "generated": "2025-08-21T23:41:50.623Z",
+  "generated": "2025-08-21T23:58:16.605Z",
   "total": 999,
-  "available": 505,
+  "available": 506,
   "sold": 6,
-  "notListed": 488,
+  "notListed": 487,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4546,8 +4546,8 @@
     },
     {
       "asset": "LMONEY",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/LMONEY",

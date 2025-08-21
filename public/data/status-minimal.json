@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755819710625,
+  "timestamp": 1755820696607,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2023,7 +2023,7 @@
     },
     {
       "asset": "LMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLTD",
