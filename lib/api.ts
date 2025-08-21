@@ -140,8 +140,25 @@ export async function getDetailedAsset(asset: string): Promise<DetailedAsset | n
 export async function getAssetOrders(asset: string): Promise<Order[]> {
   try {
     const fullAssetName = asset.includes('.') ? asset : `XCPFOLIO.${asset}`;
+    
+    // First get the asset info to find the numeric ID
+    const assetInfoResponse = await fetch(`${API_BASE}/v2/assets/${fullAssetName}`);
+    if (!assetInfoResponse.ok) {
+      console.error('Asset not found:', fullAssetName);
+      return [];
+    }
+    
+    const assetInfo = await assetInfoResponse.json();
+    const numericAssetId = assetInfo.result?.asset; // This will be like "A9354266626025749995"
+    
+    if (!numericAssetId) {
+      console.error('No numeric ID found for:', fullAssetName);
+      return [];
+    }
+    
+    // Use the numeric ID to query orders
     const response = await fetch(
-      `${API_BASE}/v2/assets/${fullAssetName}/orders?status=open&verbose=true`
+      `${API_BASE}/v2/assets/${numericAssetId}/orders?status=open&verbose=true`
     );
     const data = await response.json();
     return data.result || [];
@@ -155,8 +172,25 @@ export async function getAssetOrders(asset: string): Promise<Order[]> {
 export async function getAssetOrderHistory(asset: string): Promise<Order[]> {
   try {
     const fullAssetName = asset.includes('.') ? asset : `XCPFOLIO.${asset}`;
+    
+    // First get the asset info to find the numeric ID
+    const assetInfoResponse = await fetch(`${API_BASE}/v2/assets/${fullAssetName}`);
+    if (!assetInfoResponse.ok) {
+      console.error('Asset not found:', fullAssetName);
+      return [];
+    }
+    
+    const assetInfo = await assetInfoResponse.json();
+    const numericAssetId = assetInfo.result?.asset;
+    
+    if (!numericAssetId) {
+      console.error('No numeric ID found for:', fullAssetName);
+      return [];
+    }
+    
+    // Use the numeric ID to query orders
     const response = await fetch(
-      `${API_BASE}/v2/assets/${fullAssetName}/orders?status=all&verbose=true&limit=50&sort=tx_index:desc`
+      `${API_BASE}/v2/assets/${numericAssetId}/orders?status=all&verbose=true&limit=50&sort=tx_index:desc`
     );
     const data = await response.json();
     return data.result || [];
@@ -199,8 +233,25 @@ export async function getAddressOrders(address: string): Promise<Order[]> {
 export async function getAssetOrderMatches(asset: string): Promise<OrderMatch[]> {
   try {
     const fullAssetName = asset.includes('.') ? asset : `XCPFOLIO.${asset}`;
+    
+    // First get the asset info to find the numeric ID
+    const assetInfoResponse = await fetch(`${API_BASE}/v2/assets/${fullAssetName}`);
+    if (!assetInfoResponse.ok) {
+      console.error('Asset not found:', fullAssetName);
+      return [];
+    }
+    
+    const assetInfo = await assetInfoResponse.json();
+    const numericAssetId = assetInfo.result?.asset;
+    
+    if (!numericAssetId) {
+      console.error('No numeric ID found for:', fullAssetName);
+      return [];
+    }
+    
+    // Use the numeric ID to query matches
     const response = await fetch(
-      `${API_BASE}/v2/assets/${fullAssetName}/matches?status=completed&verbose=true`
+      `${API_BASE}/v2/assets/${numericAssetId}/matches?status=completed&verbose=true`
     );
     const data = await response.json();
     return data.result || [];
