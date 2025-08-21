@@ -1,9 +1,9 @@
 {
-  "generated": "2025-08-21T11:21:24.261Z",
+  "generated": "2025-08-21T11:40:54.685Z",
   "total": 999,
-  "available": 248,
+  "available": 259,
   "sold": 0,
-  "notListed": 751,
+  "notListed": 740,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2230,8 +2230,8 @@
     },
     {
       "asset": "SKYY",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SKYY",
@@ -2239,8 +2239,8 @@
     },
     {
       "asset": "SIXX",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SIXX",
@@ -2248,8 +2248,8 @@
     },
     {
       "asset": "SIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/SIPO",
@@ -2257,8 +2257,8 @@
     },
     {
       "asset": "SINN",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SINN",
@@ -2266,8 +2266,8 @@
     },
     {
       "asset": "SIBYLS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Mythology",
       "length": 6,
       "url": "https://xcpfolio.com/SIBYLS",
@@ -2275,8 +2275,8 @@
     },
     {
       "asset": "SIBYL",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Mythology",
       "length": 5,
       "url": "https://xcpfolio.com/SIBYL",
@@ -2284,8 +2284,8 @@
     },
     {
       "asset": "SHHH",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/SHHH",
@@ -2293,8 +2293,8 @@
     },
     {
       "asset": "SHEN",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 4,
       "url": "https://xcpfolio.com/SHEN",
@@ -2302,8 +2302,8 @@
     },
     {
       "asset": "SHAREZ",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREZ",
@@ -2311,8 +2311,8 @@
     },
     {
       "asset": "SHAREY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREY",
@@ -2320,8 +2320,8 @@
     },
     {
       "asset": "SHAREX",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREX",
