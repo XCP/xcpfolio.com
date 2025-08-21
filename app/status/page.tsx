@@ -320,11 +320,6 @@ export default function StatusPage() {
             <span className="font-medium">Delivered:</span> Asset successfully transferred
           </div>
         </div>
-        
-        <p className="mt-4 text-xs text-gray-500">
-          Average delivery time is typically under 2 minutes. During high network congestion, 
-          deliveries may take longer. Transactions are automatically retried if they get stuck.
-        </p>
       </div>
     </div>
   );
