@@ -63,33 +63,21 @@ export default function StatusPage() {
   };
 
   const formatTime = (timestamp: number) => {
-    const date = new Date(timestamp);
     const now = Date.now();
     const diff = now - timestamp;
 
-    // If less than 1 hour ago, show relative time
+    // Always show relative time
+    if (diff < 60000) return 'Just now';
     if (diff < 3600000) {
       const minutes = Math.floor(diff / 60000);
-      if (minutes < 1) return 'Just now';
       return `${minutes}m ago`;
     }
-
-    // If today, show time
-    const today = new Date();
-    if (date.toDateString() === today.toDateString()) {
-      return date.toLocaleTimeString('en-US', { 
-        hour: 'numeric', 
-        minute: '2-digit' 
-      });
+    if (diff < 86400000) {
+      const hours = Math.floor(diff / 3600000);
+      return `${hours}h ago`;
     }
-
-    // Otherwise show date
-    return date.toLocaleDateString('en-US', { 
-      month: 'short', 
-      day: 'numeric',
-      hour: 'numeric',
-      minute: '2-digit'
-    });
+    const days = Math.floor(diff / 86400000);
+    return `${days}d ago`;
   };
 
   const getStatusBadge = (order: Order) => {
@@ -123,21 +111,45 @@ export default function StatusPage() {
     }
   };
 
-  const getDeliveryTime = (order: Order) => {
-    if (!order.deliveredAt) {
-      if (order.status === 'failed' || order.status === 'permanently_failed') return 'N/A';
-      if (order.status === 'confirming' && order.confirmations !== undefined) {
-        return `${order.confirmations}/1 confirmations`;
-      }
-      return 'Pending...';
+  const getDeliveryInfo = (order: Order) => {
+    // Only show delivery info for confirmed orders
+    if (order.status === 'confirmed' && order.deliveredAt) {
+      return (
+        <div>
+          {order.confirmedBlock ? (
+            <>
+              <div className="text-sm font-medium text-gray-900">
+                Block {order.confirmedBlock.toLocaleString()}
+              </div>
+              <div className="text-xs text-gray-500">
+                {formatTime(order.deliveredAt)}
+              </div>
+            </>
+          ) : (
+            <div className="text-sm text-gray-500">
+              {formatTime(order.deliveredAt)}
+            </div>
+          )}
+        </div>
+      );
     }
     
-    const seconds = Math.floor((order.deliveredAt - order.purchasedAt) / 1000);
-    if (seconds < 60) return `${seconds}s`;
-    const minutes = Math.floor(seconds / 60);
-    if (minutes < 60) return `${minutes}m ${seconds % 60}s`;
-    const hours = Math.floor(minutes / 60);
-    return `${hours}h ${minutes % 60}m`;
+    // Show nothing or spinner for non-delivered orders
+    if (order.status === 'failed' || order.status === 'permanently_failed') {
+      return <span className="text-gray-400">—</span>;
+    }
+    
+    if (order.status === 'confirming' || order.status === 'broadcasting' || order.status === 'processing') {
+      // Show a subtle spinner for in-progress orders
+      return (
+        <div className="flex justify-start">
+          <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-gray-400"></div>
+        </div>
+      );
+    }
+    
+    // For pending or any other status, show empty
+    return <span className="text-gray-400">—</span>;
   };
 
   if (loading) {
@@ -212,7 +224,7 @@ export default function StatusPage() {
                   Purchased
                 </th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Delivery Time
+                  Delivered
                 </th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Transaction
@@ -266,8 +278,8 @@ export default function StatusPage() {
                       )}
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                    {getDeliveryTime(order)}
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    {getDeliveryInfo(order)}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm">
                     {order.txid ? (
