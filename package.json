@@ -8,13 +8,22 @@
     "type": "git",
     "url": "https://github.com/XCP/xcpfolio.com"
   },
-  "keywords": ["counterparty", "xcp", "blockchain", "bitcoin", "marketplace"],
+  "keywords": [
+    "counterparty",
+    "xcp",
+    "blockchain",
+    "bitcoin",
+    "marketplace"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.84.2",
@@ -26,9 +35,14 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

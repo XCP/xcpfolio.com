@@ -137,7 +137,7 @@ export default function Home() {
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 border border-blue-100">
           <div className="flex items-center justify-between">
             <div className="flex-1">
-              <h3 className="text-lg font-semibold text-gray-900 mb-1">Buy Counterparty Asset Names on the DEX</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-1">Buy Counterparty Asset Names</h3>
               <p className="text-sm text-gray-600">
                 Purchase premium asset names with XCP. Simple pricing, fast transfers.
               </p>
@@ -395,19 +395,16 @@ export default function Home() {
                       Asset Name
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Category
+                      Price
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Length
+                      Category
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Age
                     </th>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Price
-                    </th>
-                    <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Status
+                    <th className="px-6 py-3 text-center">
+                      {/* Empty header for status column */}
                     </th>
                   </tr>
                 </thead>
@@ -425,16 +422,13 @@ export default function Home() {
                           </Link>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                          {asset.metadata?.ask_price ? `${asset.metadata.ask_price} XCP` : '-'}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                           {asset.metadata?.category || '-'}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                          {asset.metadata?.length || '-'}
-                        </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                           {asset.metadata?.first_issued ? formatAge(asset.metadata.first_issued) : '-'}
-                        </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                          {asset.metadata?.ask_price ? `${asset.metadata.ask_price} XCP` : '-'}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-center">
                           {(() => {

@@ -8,53 +8,28 @@ export const size = {
 }
 export const contentType = 'image/png'
 
-// Fetch asset data from our API
+// Fetch asset data from our status API
 async function getAssetData(asset: string) {
   try {
-    // Get metadata from our CSV data
-    const metadataUrl = `${process.env.NEXT_PUBLIC_BASE_URL || 'https://xcpfolio.com'}/api/${asset}`;
-    const metadataResponse = await fetch(metadataUrl, { 
+    // Use our centralized status API endpoint
+    const statusUrl = `${process.env.NEXT_PUBLIC_BASE_URL || 'https://xcpfolio.com'}/api/status/${asset}`;
+    const response = await fetch(statusUrl, { 
       cache: 'no-store',
       next: { revalidate: 60 }
     });
-    const metadata = await metadataResponse.json();
     
-    // Get orders to check if available
-    const ordersUrl = `https://api.counterparty.io/v2/assets/XCPFOLIO.${asset.toUpperCase()}/orders?status=open`;
-    const ordersResponse = await fetch(ordersUrl, { 
-      cache: 'no-store',
-      next: { revalidate: 60 }
-    });
-    const ordersData = await ordersResponse.json();
-    const orders = ordersData.result || [];
-    
-    // Determine status
-    let status = 'NOT LISTED';
-    let price = null;
-    
-    if (orders.length > 0) {
-      status = 'AVAILABLE';
-      // Get the lowest price order
-      const sellOrders = orders.filter((o: any) => o.give_asset === `XCPFOLIO.${asset.toUpperCase()}`);
-      if (sellOrders.length > 0) {
-        const lowestPrice = Math.min(...sellOrders.map((o: any) => o.get_quantity / 100000000));
-        price = lowestPrice;
-      }
+    if (!response.ok) {
+      throw new Error(`Status API returned ${response.status}`);
     }
     
-    // Calculate age if we have first_issued
-    let age = null;
-    if (metadata.first_issued) {
-      const years = Math.floor((Date.now() / 1000 - metadata.first_issued) / (365 * 24 * 60 * 60));
-      age = `${years} ${years === 1 ? 'year' : 'years'} old`;
-    }
+    const data = await response.json();
     
     return {
-      status,
-      price,
-      age,
-      category: metadata.category || 'Asset',
-      length: metadata.length
+      status: data.status,
+      price: data.price,
+      age: data.ageText,
+      category: data.category,
+      length: data.length
     };
   } catch (error) {
     console.error('Error fetching asset data:', error);
