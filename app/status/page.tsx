@@ -243,14 +243,9 @@ export default function StatusPage() {
                     {typeof order.price === 'string' ? order.price : order.price.toFixed(8)}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <a
-                      href={`https://xchain.io/address/${order.buyer}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-blue-600 hover:text-blue-800"
-                    >
+                    <span className="text-sm text-gray-900">
                       {formatAddress(order.buyer)}
-                    </a>
+                    </span>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
                     {getStatusBadge(order)}
