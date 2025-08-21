@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-21T15:00:00.672Z",
+  "generated": "2025-08-21T15:30:02.833Z",
   "total": 999,
-  "available": 396,
-  "sold": 0,
+  "available": 395,
+  "sold": 1,
   "notListed": 603,
   "assets": [
     {
@@ -421,8 +421,7 @@
     },
     {
       "asset": "XSERIES",
-      "status": "available",
-      "price": 5,
+      "status": "sold",
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/XSERIES",
