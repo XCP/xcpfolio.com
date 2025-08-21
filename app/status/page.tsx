@@ -8,11 +8,14 @@ interface Order {
   asset: string;
   price: number;
   buyer: string;
-  status: 'pending' | 'processing' | 'broadcasting' | 'confirmed' | 'failed';
+  status: 'pending' | 'processing' | 'broadcasting' | 'confirming' | 'confirmed' | 'failed' | 'permanently_failed';
   stage?: string;
   purchasedAt: number;
+  purchasedBlock?: number;
   deliveredAt?: number;
   confirmedAt?: number;
+  confirmedBlock?: number;
+  confirmations?: number;
   txid?: string;
   error?: string;
   retryCount?: number;
@@ -95,6 +98,12 @@ export default function StatusPage() {
     switch (order.status) {
       case 'confirmed':
         return <span className={`${baseClasses} bg-green-100 text-green-800`}>Delivered ✓</span>;
+      case 'confirming':
+        return (
+          <span className={`${baseClasses} bg-blue-100 text-blue-800`}>
+            Confirming<span className="inline-block animate-pulse">...</span>
+          </span>
+        );
       case 'broadcasting':
         return <span className={`${baseClasses} bg-blue-100 text-blue-800`}>Broadcasting...</span>;
       case 'processing':
@@ -105,6 +114,8 @@ export default function StatusPage() {
         );
       case 'pending':
         return <span className={`${baseClasses} bg-gray-100 text-gray-800`}>Pending</span>;
+      case 'permanently_failed':
+        return <span className={`${baseClasses} bg-red-100 text-red-800`}>Failed (Permanent)</span>;
       case 'failed':
         return <span className={`${baseClasses} bg-red-100 text-red-800`}>Failed</span>;
       default:
@@ -114,7 +125,10 @@ export default function StatusPage() {
 
   const getDeliveryTime = (order: Order) => {
     if (!order.deliveredAt) {
-      if (order.status === 'failed') return 'N/A';
+      if (order.status === 'failed' || order.status === 'permanently_failed') return 'N/A';
+      if (order.status === 'confirming' && order.confirmations !== undefined) {
+        return `${order.confirmations}/1 confirmations`;
+      }
       return 'Pending...';
     }
     
@@ -214,7 +228,7 @@ export default function StatusPage() {
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                    {order.price.toFixed(4)}
+                    {typeof order.price === 'string' ? order.price : order.price.toFixed(8)}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
                     <a
@@ -234,8 +248,23 @@ export default function StatusPage() {
                       </span>
                     )}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                    {formatTime(order.purchasedAt)}
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div>
+                      {order.purchasedBlock ? (
+                        <>
+                          <div className="text-sm font-medium text-gray-900">
+                            Block {order.purchasedBlock.toLocaleString()}
+                          </div>
+                          <div className="text-xs text-gray-500">
+                            {formatTime(order.purchasedAt)}
+                          </div>
+                        </>
+                      ) : (
+                        <div className="text-sm text-gray-500">
+                          {formatTime(order.purchasedAt)}
+                        </div>
+                      )}
+                    </div>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                     {getDeliveryTime(order)}
@@ -276,6 +305,9 @@ export default function StatusPage() {
           </div>
           <div>
             <span className="font-medium">Broadcasting:</span> Transaction sent to Bitcoin network
+          </div>
+          <div>
+            <span className="font-medium">Confirming:</span> In mempool, waiting for confirmation
           </div>
           <div>
             <span className="font-medium">Delivered:</span> Asset successfully transferred
