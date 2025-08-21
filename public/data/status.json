@@ -1,9 +1,9 @@
 {
-  "generated": "2025-08-21T22:44:59.981Z",
+  "generated": "2025-08-21T22:58:26.312Z",
   "total": 999,
-  "available": 496,
+  "available": 497,
   "sold": 6,
-  "notListed": 497,
+  "notListed": 496,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4052,8 +4052,8 @@
     },
     {
       "asset": "MOAR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/MOAR",

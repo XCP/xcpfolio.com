@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755816299983,
+  "timestamp": 1755817106314,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1803,7 +1803,7 @@
     },
     {
       "asset": "MOAR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MNOP",
