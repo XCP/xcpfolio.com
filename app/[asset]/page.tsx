@@ -382,6 +382,8 @@ export default function AssetPage() {
                       onClick={() => handleBuy(orders[0] || undefined)}
                       disabled={isCreatingOrder}
                       className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-200 text-lg shadow-md cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                      aria-label={`Purchase ${asset} for ${formatPrice(displayOrder.get_quantity)} ${displayOrder.get_asset}`}
+                      aria-busy={isCreatingOrder}
                     >
                       {isCreatingOrder ? (
                         <span className="flex items-center justify-center gap-2">
@@ -398,14 +400,14 @@ export default function AssetPage() {
                     
                     {/* Error Message */}
                     {orderError && (
-                      <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg">
+                      <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg" role="alert" aria-live="polite">
                         <p className="text-sm text-red-700">{orderError}</p>
                       </div>
                     )}
                     
                     {/* Success Message */}
                     {orderSuccess && (
-                      <div className="mt-4 p-3 bg-green-50 border border-green-200 rounded-lg">
+                      <div className="mt-4 p-3 bg-green-50 border border-green-200 rounded-lg" role="status" aria-live="polite">
                         <p className="text-sm text-green-700">{orderSuccess}</p>
                       </div>
                     )}
@@ -419,6 +421,7 @@ export default function AssetPage() {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="font-mono text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1"
+                            aria-label={`View order transaction ${orders[0].tx_hash.slice(0, 8)} on XCP.io (opens in new tab)`}
                           >
                             {orders[0].tx_hash.slice(0, 8)}...
                             <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -9,7 +9,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-white border-t border-gray-200 mt-auto">
+    <footer className="bg-white border-t border-gray-200 mt-auto" role="contentinfo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Left - Brand */}
@@ -25,17 +25,17 @@ export function Footer() {
             <h4 className="font-semibold text-gray-900 mb-2">Resources</h4>
             <ul className="space-y-1">
               <li>
-                <Link href="/how-it-works" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
+                <Link href="/how-it-works" className="text-sm text-gray-600 hover:text-blue-600 transition-colors" aria-label="Learn how XCPFOLIO works">
                   How It Works
                 </Link>
               </li>
               <li>
-                <a href="https://counterparty.io" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
+                <a href="https://counterparty.io" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-blue-600 transition-colors" aria-label="Visit Counterparty Protocol website (opens in new tab)">
                   Counterparty Protocol
                 </a>
               </li>
               <li>
-                <a href="https://xcp.io" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
+                <a href="https://xcp.io" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-blue-600 transition-colors" aria-label="Visit XCP Explorer (opens in new tab)">
                   XCP Explorer
                 </a>
               </li>
@@ -52,7 +52,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/XCP/xcpfolio.com" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">
+                <a href="https://github.com/XCP/xcpfolio.com" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-blue-600 transition-colors" aria-label="View XCPFOLIO source code on GitHub (opens in new tab)">
                   GitHub
                 </a>
               </li>

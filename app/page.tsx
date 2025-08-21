@@ -166,6 +166,7 @@ export default function Home() {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="w-full h-10 pl-10 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent focus:bg-white transition-colors text-sm"
+                    aria-label="Search asset names"
                   />
                   <svg className="absolute left-3 top-3 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -179,6 +180,7 @@ export default function Home() {
                   value={selectedCategory}
                   onChange={(e) => setSelectedCategory(e.target.value)}
                   className="w-full h-10 px-4 py-2 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:bg-white transition-colors text-sm font-medium"
+                  aria-label="Filter by category"
                 >
                   <option value="all">All Categories</option>
                   {categories.map(cat => (
@@ -193,6 +195,7 @@ export default function Home() {
                   value={selectedLength}
                   onChange={(e) => setSelectedLength(e.target.value)}
                   className="w-full h-10 px-4 py-2 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:bg-white transition-colors text-sm font-medium"
+                  aria-label="Filter by name length"
                 >
                   <option value="all">Any Length</option>
                   <option value="4">LLLL (4 chars)</option>
@@ -210,6 +213,7 @@ export default function Home() {
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value as 'name' | 'age' | 'price' | 'length')}
                   className="h-10 px-3 py-2 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:bg-white transition-colors text-sm font-medium w-full md:w-auto"
+                  aria-label="Sort assets by"
                 >
                   <option value="name">Name (A-Z)</option>
                   <option value="age">Age (Old to New)</option>
@@ -219,7 +223,7 @@ export default function Home() {
               </div>
               
               {/* View Toggle - Hidden on mobile */}
-              <div className="hidden md:flex bg-gray-100 rounded-lg p-1 h-10 flex-shrink-0">
+              <div className="hidden md:flex bg-gray-100 rounded-lg p-1 h-10 flex-shrink-0" role="group" aria-label="View mode">
                 <button
                   onClick={() => setViewMode('cards')}
                   className={`px-3 py-1.5 rounded text-sm font-medium transition-colors ${
@@ -227,6 +231,8 @@ export default function Home() {
                       ? 'bg-white text-blue-600 shadow-sm' 
                       : 'text-gray-600 hover:text-gray-900'
                   }`}
+                  aria-label="Card view"
+                  aria-pressed={viewMode === 'cards'}
                 >
                   <svg className="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
@@ -240,6 +246,8 @@ export default function Home() {
                       ? 'bg-white text-blue-600 shadow-sm' 
                       : 'text-gray-600 hover:text-gray-900'
                   }`}
+                  aria-label="Table view"
+                  aria-pressed={viewMode === 'table'}
                 >
                   <svg className="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" />
@@ -305,10 +313,10 @@ export default function Home() {
       </div>
 
       {/* Asset Display */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12" role="main">
         {isLoading ? (
-          <div className="text-center py-12">
-            <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+          <div className="text-center py-12" role="status" aria-live="polite">
+            <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900" aria-hidden="true"></div>
             <p className="mt-4 text-gray-600">Loading assets...</p>
           </div>
         ) : viewMode === 'cards' ? (
@@ -323,12 +331,13 @@ export default function Home() {
                   key={asset.asset}
                   href={`/${name}`}
                   className="group"
+                  aria-label={`View ${name} asset details`}
                 >
                   <div className="relative bg-white rounded-xl shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 border border-gray-100 hover:border-blue-200">
                     {/* SOLD Badge Overlay - Show based on real status */}
                     {getStatus(name) === 'sold' && (
                       <div className="absolute -top-3 left-2 z-10">
-                        <div className="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md border-2 border-white">
+                        <div className="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md border-2 border-white" aria-label="Sold">
                           SOLD
                         </div>
                       </div>
@@ -417,6 +426,7 @@ export default function Home() {
                           <Link 
                             href={`/${name}`}
                             className="text-blue-600 hover:text-blue-900 font-semibold"
+                            aria-label={`View ${name} asset`}
                           >
                             {name}
                           </Link>
@@ -439,6 +449,7 @@ export default function Home() {
                                 <Link 
                                   href={`/${name}`}
                                   className="inline-flex items-center gap-1 px-3 py-1 text-xs font-medium text-green-700 bg-green-50 hover:bg-green-100 border border-green-200 rounded-lg transition-colors cursor-pointer"
+                                  aria-label={`${name} is available for purchase`}
                                 >
                                   <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -448,7 +459,7 @@ export default function Home() {
                               );
                             } else if (status === 'sold') {
                               return (
-                                <span className="inline-flex items-center gap-1 px-3 py-1 text-xs font-medium text-red-700 bg-red-50 border border-red-200 rounded-lg">
+                                <span className="inline-flex items-center gap-1 px-3 py-1 text-xs font-medium text-red-700 bg-red-50 border border-red-200 rounded-lg" aria-label="Sold">
                                   <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                                   </svg>
@@ -460,7 +471,8 @@ export default function Home() {
                                 <Link 
                                   href={`/${name}`}
                                   className="inline-flex items-center gap-1 px-3 py-1 text-xs font-medium text-gray-600 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-colors cursor-pointer"
-                                >
+                                  aria-label={`${name} is not listed for sale`}
+                >
                                   <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8 7a1 1 0 000 2h1v1a1 1 0 102 0V9h1a1 1 0 100-2h-1V6a1 1 0 10-2 0v1H8z" clipRule="evenodd" />
                                   </svg>

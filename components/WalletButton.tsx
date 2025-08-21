@@ -14,6 +14,7 @@ export function WalletButton() {
         <button
           onClick={disconnect}
           className="px-4 py-2 text-sm bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors cursor-pointer"
+          aria-label="Disconnect wallet"
         >
           Disconnect
         </button>
@@ -24,7 +25,7 @@ export function WalletButton() {
   return (
     <div className="flex items-center gap-2">
       {error && (
-        <span className="text-sm text-red-600" title={error}>
+        <span className="text-sm text-red-600" title={error} role="alert" aria-label="Wallet connection error">
           ⚠️
         </span>
       )}
@@ -32,6 +33,8 @@ export function WalletButton() {
         onClick={connect}
         disabled={connecting}
         className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+        aria-label="Connect XCP wallet"
+        aria-busy={connecting}
       >
         {connecting ? 'Connecting...' : 'Connect Wallet'}
       </button>
