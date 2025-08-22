@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755867259483,
+  "timestamp": 1755869589757,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2059,7 +2059,7 @@
     },
     {
       "asset": "LELE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LCORP",
@@ -2087,7 +2087,7 @@
     },
     {
       "asset": "LAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KTRADE",
@@ -2107,7 +2107,7 @@
     },
     {
       "asset": "KMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KLTD",
@@ -2115,7 +2115,7 @@
     },
     {
       "asset": "KLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KITT",
@@ -2123,7 +2123,7 @@
     },
     {
       "asset": "KIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KIERKEGAARD",
@@ -2131,7 +2131,7 @@
     },
     {
       "asset": "KIDD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KHAT",
@@ -2183,7 +2183,7 @@
     },
     {
       "asset": "JSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JOYAS",
@@ -2191,7 +2191,7 @@
     },
     {
       "asset": "JOES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JMONEY",
@@ -2199,7 +2199,7 @@
     },
     {
       "asset": "JLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JLLC",
@@ -2215,7 +2215,7 @@
     },
     {
       "asset": "JIAO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JFUND",
@@ -2227,7 +2227,7 @@
     },
     {
       "asset": "JETE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JCORP",
@@ -2239,7 +2239,7 @@
     },
     {
       "asset": "JCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JAAA",
@@ -2255,7 +2255,7 @@
     },
     {
       "asset": "IVYY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IVVY",
@@ -2263,7 +2263,7 @@
     },
     {
       "asset": "IVIV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ITRANCHE",
