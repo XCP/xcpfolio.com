@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755870629390,
+  "timestamp": 1755872678448,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2407,7 +2407,7 @@
     },
     {
       "asset": "ICCC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICASH",
@@ -2415,7 +2415,7 @@
     },
     {
       "asset": "IBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IBBB",
@@ -2423,7 +2423,7 @@
     },
     {
       "asset": "IAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HYPERCOMPLEX",
@@ -2431,7 +2431,7 @@
     },
     {
       "asset": "HURST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HULL",
@@ -2439,7 +2439,7 @@
     },
     {
       "asset": "HUGG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HUBB",
@@ -2447,11 +2447,11 @@
     },
     {
       "asset": "HTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HSTOCK",
@@ -2459,7 +2459,7 @@
     },
     {
       "asset": "HSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HSHARE",
@@ -2467,7 +2467,7 @@
     },
     {
       "asset": "HOVER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOUSING",
@@ -2475,7 +2475,7 @@
     },
     {
       "asset": "HOPIUM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HONEST",
@@ -2483,19 +2483,19 @@
     },
     {
       "asset": "HOLDX",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "HOLDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDE",
@@ -2503,7 +2503,7 @@
     },
     {
       "asset": "HOLDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HMONEY",
@@ -2511,7 +2511,7 @@
     },
     {
       "asset": "HLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HLLC",
@@ -2519,7 +2519,7 @@
     },
     {
       "asset": "HJKL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HIPO",
@@ -2527,11 +2527,11 @@
     },
     {
       "asset": "HILO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HIJK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HFUND",
@@ -2539,7 +2539,7 @@
     },
     {
       "asset": "HEIDEGGER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HEHE",
@@ -2547,7 +2547,7 @@
     },
     {
       "asset": "HEGEL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HEDG",
@@ -2555,7 +2555,7 @@
     },
     {
       "asset": "HCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCOMPANY",
@@ -2563,7 +2563,7 @@
     },
     {
       "asset": "HCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCOIN",
@@ -2571,7 +2571,7 @@
     },
     {
       "asset": "HCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HAYLOFT",
@@ -2583,7 +2583,7 @@
     },
     {
       "asset": "HASTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HANCOCK",
@@ -2591,7 +2591,7 @@
     },
     {
       "asset": "HAMPTON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HABERMAS",
@@ -2599,7 +2599,7 @@
     },
     {
       "asset": "HAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GUSTO",
@@ -2607,7 +2607,7 @@
     },
     {
       "asset": "GUID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GTRANCHE",
@@ -2615,7 +2615,7 @@
     },
     {
       "asset": "GTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GTOKEN",
@@ -2623,11 +2623,11 @@
     },
     {
       "asset": "GSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GSHARES",
@@ -2635,7 +2635,7 @@
     },
     {
       "asset": "GSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GRAN",
@@ -2643,11 +2643,11 @@
     },
     {
       "asset": "GOTT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GOOP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GOOO",
@@ -2655,7 +2655,7 @@
     },
     {
       "asset": "GOLDY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GNET",
@@ -2663,7 +2663,7 @@
     },
     {
       "asset": "GLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GLLC",
@@ -2671,7 +2671,7 @@
     },
     {
       "asset": "GLAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GIPO",
@@ -2679,7 +2679,7 @@
     },
     {
       "asset": "GINTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GINN",
@@ -2687,7 +2687,7 @@
     },
     {
       "asset": "GIGG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GHOLDINGS",
@@ -2695,7 +2695,7 @@
     },
     {
       "asset": "GHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GFUND",
@@ -2703,7 +2703,7 @@
     },
     {
       "asset": "GETT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEOS",
@@ -2711,11 +2711,11 @@
     },
     {
       "asset": "GENX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEMA",
