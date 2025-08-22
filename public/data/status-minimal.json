@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755820696607,
+  "timestamp": 1755828269942,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2031,7 +2031,7 @@
     },
     {
       "asset": "LLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLCX",
@@ -2043,19 +2043,19 @@
     },
     {
       "asset": "LLCC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLCA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LIANG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LELE",
@@ -2063,7 +2063,7 @@
     },
     {
       "asset": "LCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LCOMPANY",
@@ -2147,7 +2147,7 @@
     },
     {
       "asset": "KCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KCOM",
@@ -2235,7 +2235,7 @@
     },
     {
       "asset": "JCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JCOM",
@@ -2395,7 +2395,7 @@
     },
     {
       "asset": "ICORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICOMPANY",
@@ -2403,7 +2403,7 @@
     },
     {
       "asset": "ICOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICCC",
@@ -2579,7 +2579,7 @@
     },
     {
       "asset": "HAVOC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HASTE",

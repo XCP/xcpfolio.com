@@ -1,9 +1,9 @@
 {
-  "generated": "2025-08-21T23:58:16.605Z",
+  "generated": "2025-08-22T02:04:29.940Z",
   "total": 999,
-  "available": 506,
+  "available": 517,
   "sold": 6,
-  "notListed": 487,
+  "notListed": 476,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4564,8 +4564,8 @@
     },
     {
       "asset": "LLLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLLC",
@@ -4591,8 +4591,8 @@
     },
     {
       "asset": "LLCC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLCC",
@@ -4600,8 +4600,8 @@
     },
     {
       "asset": "LLCA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLCA",
@@ -4609,8 +4609,8 @@
     },
     {
       "asset": "LIANG",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 5,
       "url": "https://xcpfolio.com/LIANG",
@@ -4618,8 +4618,8 @@
     },
     {
       "asset": "LFUND",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/LFUND",
@@ -4636,8 +4636,8 @@
     },
     {
       "asset": "LCORP",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/LCORP",
@@ -4825,8 +4825,8 @@
     },
     {
       "asset": "KCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/KCOMPANY",
@@ -5023,8 +5023,8 @@
     },
     {
       "asset": "JCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/JCOMPANY",
@@ -5383,8 +5383,8 @@
     },
     {
       "asset": "ICORP",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/ICORP",
@@ -5401,8 +5401,8 @@
     },
     {
       "asset": "ICOM",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/ICOM",
@@ -5797,8 +5797,8 @@
     },
     {
       "asset": "HAVOC",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/HAVOC",
