@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755876448937,
+  "timestamp": 1755877420123,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3007,35 +3007,35 @@
     },
     {
       "asset": "EXXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXISTENT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXEXEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVEV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVERETT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVEREST",
@@ -3043,7 +3043,7 @@
     },
     {
       "asset": "EUSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ETRANCHE",
@@ -3051,7 +3051,7 @@
     },
     {
       "asset": "ESTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ESTE",
@@ -3059,7 +3059,7 @@
     },
     {
       "asset": "ESERIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EROUND",
@@ -3067,7 +3067,7 @@
     },
     {
       "asset": "EREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EQTY",
@@ -3075,7 +3075,7 @@
     },
     {
       "asset": "EQQQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENTIDAD",
@@ -3083,7 +3083,7 @@
     },
     {
       "asset": "ENTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENET",
@@ -3091,7 +3091,7 @@
     },
     {
       "asset": "EMSG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMPRESA",
@@ -3099,11 +3099,11 @@
     },
     {
       "asset": "EMCEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ELTD",
@@ -3111,7 +3111,7 @@
     },
     {
       "asset": "ELLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ELEL",
@@ -3119,7 +3119,7 @@
     },
     {
       "asset": "EKKO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EIPO",
@@ -3127,7 +3127,7 @@
     },
     {
       "asset": "EHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EHOLD",
@@ -3135,7 +3135,7 @@
     },
     {
       "asset": "EDITS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ECORP",
@@ -3143,7 +3143,7 @@
     },
     {
       "asset": "ECOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EBLOCK",
@@ -3151,7 +3151,7 @@
     },
     {
       "asset": "EBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EAAA",
@@ -3159,11 +3159,11 @@
     },
     {
       "asset": "DUOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNLAP",
@@ -3171,19 +3171,19 @@
     },
     {
       "asset": "DUNKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUAL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DTRADE",
@@ -3191,7 +3191,7 @@
     },
     {
       "asset": "DSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSTOCK",
@@ -3203,7 +3203,7 @@
     },
     {
       "asset": "DSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOOO",
@@ -3211,15 +3211,15 @@
     },
     {
       "asset": "DONT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOLCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOLARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOIT",
@@ -3227,7 +3227,7 @@
     },
     {
       "asset": "DMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DLTD",
@@ -3235,7 +3235,7 @@
     },
     {
       "asset": "DLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DJINN",
@@ -3243,7 +3243,7 @@
     },
     {
       "asset": "DIVERGENT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIPS",
@@ -3251,7 +3251,7 @@
     },
     {
       "asset": "DIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIOS",
