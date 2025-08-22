@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755869589757,
+  "timestamp": 1755870629390,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2095,11 +2095,11 @@
     },
     {
       "asset": "KSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KSHARE",
@@ -2139,7 +2139,7 @@
     },
     {
       "asset": "KFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KCORP",
@@ -2151,7 +2151,7 @@
     },
     {
       "asset": "KCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KCOIN",
@@ -2159,7 +2159,7 @@
     },
     {
       "asset": "KANT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KAAA",
@@ -2167,7 +2167,7 @@
     },
     {
       "asset": "JTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JSTOCKS",
@@ -2175,7 +2175,7 @@
     },
     {
       "asset": "JSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JSHARES",
@@ -2207,7 +2207,7 @@
     },
     {
       "asset": "JIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JINN",
@@ -2223,7 +2223,7 @@
     },
     {
       "asset": "JETT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JETE",
@@ -2247,7 +2247,7 @@
     },
     {
       "asset": "IXXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IWWW",
@@ -2271,7 +2271,7 @@
     },
     {
       "asset": "ISTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ISTOCK",
@@ -2279,7 +2279,7 @@
     },
     {
       "asset": "ISHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ISERIES",
@@ -2287,11 +2287,11 @@
     },
     {
       "asset": "IROUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IREPORT",
@@ -2299,7 +2299,7 @@
     },
     {
       "asset": "IQQQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IQIQ",
@@ -2307,11 +2307,11 @@
     },
     {
       "asset": "IPOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IPOC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IPOB",
@@ -2319,7 +2319,7 @@
     },
     {
       "asset": "IPOA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IOTA",
@@ -2327,7 +2327,7 @@
     },
     {
       "asset": "INVESTORS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "INTERNETS",
@@ -2335,7 +2335,7 @@
     },
     {
       "asset": "INDI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "INCREMENTAL",
@@ -2343,7 +2343,7 @@
     },
     {
       "asset": "IMSG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IMONEY",
@@ -2351,11 +2351,11 @@
     },
     {
       "asset": "ILTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ILLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IIPO",
@@ -2363,7 +2363,7 @@
     },
     {
       "asset": "IHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IHOLD",
@@ -2371,7 +2371,7 @@
     },
     {
       "asset": "IGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IGLU",
@@ -2379,7 +2379,7 @@
     },
     {
       "asset": "IGLOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IFIF",
@@ -2387,7 +2387,7 @@
     },
     {
       "asset": "IDID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IDEO",
@@ -2399,7 +2399,7 @@
     },
     {
       "asset": "ICOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICOM",
