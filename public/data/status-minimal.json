@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755832528872,
+  "timestamp": 1755834580313,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2071,7 +2071,7 @@
     },
     {
       "asset": "LCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LCOIN",
@@ -2079,7 +2079,7 @@
     },
     {
       "asset": "LAPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LALA",
