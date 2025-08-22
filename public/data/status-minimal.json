@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755877420123,
+  "timestamp": 1755878284265,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3259,47 +3259,47 @@
     },
     {
       "asset": "DIEZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIBS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEXOMATIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEXO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEUCES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEUCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DESCARTES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DERRIDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DENALI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DELPHI",
@@ -3307,7 +3307,7 @@
     },
     {
       "asset": "DECKER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEALFLOW",
@@ -3315,7 +3315,7 @@
     },
     {
       "asset": "DDOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCORP",
@@ -3323,7 +3323,7 @@
     },
     {
       "asset": "DCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCOM",
