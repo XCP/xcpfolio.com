@@ -412,13 +412,15 @@ export default function Home() {
                       Age
                     </th>
                     <th className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      View
+                      Status
                     </th>
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
                   {filteredAssets.map((asset) => {
                     const name = parseAssetName(asset.asset_longname || asset.asset);
+                    const status = getStatus(name);
+                    
                     return (
                       <tr key={asset.asset} className="hover:bg-gray-50">
                         <td className="px-6 py-4 whitespace-nowrap">
@@ -440,13 +442,32 @@ export default function Home() {
                           {asset.metadata?.first_issued ? formatAge(asset.metadata.first_issued) : '-'}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-center">
-                          <Link 
-                            href={`/${name}`}
-                            className="inline-flex items-center px-3 py-1.5 text-xs font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors cursor-pointer"
-                            aria-label={`View status for ${name}`}
-                          >
-                            View Status
-                          </Link>
+                          {status === 'sold' ? (
+                            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-50 text-red-700 border border-red-200">
+                              <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                              </svg>
+                              Sold
+                            </span>
+                          ) : status === 'not_listed' ? (
+                            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-50 text-gray-600 border border-gray-200">
+                              <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8 7a1 1 0 000 2h1v1a1 1 0 102 0V9h1a1 1 0 100-2h-1V6a1 1 0 10-2 0v1H8z" clipRule="evenodd" />
+                              </svg>
+                              Not Listed
+                            </span>
+                          ) : (
+                            <Link 
+                              href={`/${name}`}
+                              className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-50 text-green-700 border border-green-200 hover:bg-green-100 transition-colors cursor-pointer"
+                              aria-label={`View ${name} - Available`}
+                            >
+                              <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                              </svg>
+                              Available
+                            </Link>
+                          )}
                         </td>
                       </tr>
                     );

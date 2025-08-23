@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
 
 interface Order {
   orderHash: string;
@@ -100,33 +102,62 @@ export default function StatusPage() {
   };
 
   const getStatusBadge = (order: Order) => {
-    const baseClasses = "px-2 py-1 text-xs font-medium rounded-full";
+    const baseClasses = "inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium";
     
     switch (order.status) {
       case 'confirmed':
-        return <span className={`${baseClasses} bg-green-100 text-green-800`}>Delivered ✓</span>;
+        return (
+          <span className={`${baseClasses} bg-green-50 text-green-800 border border-green-200`}>
+            <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+            </svg>
+            Delivered
+          </span>
+        );
       case 'confirming':
         return (
-          <span className={`${baseClasses} bg-blue-100 text-blue-800`}>
-            Confirming<span className="inline-block animate-pulse">...</span>
+          <span className={`${baseClasses} bg-blue-50 text-blue-800 border border-blue-200`}>
+            <div className="animate-spin rounded-full h-3 w-3 border-b-2 border-blue-800 mr-1"></div>
+            Confirming
           </span>
         );
       case 'broadcasting':
-        return <span className={`${baseClasses} bg-blue-100 text-blue-800`}>Broadcasting...</span>;
+        return (
+          <span className={`${baseClasses} bg-blue-50 text-blue-800 border border-blue-200`}>
+            <div className="animate-pulse w-2 h-2 bg-blue-600 rounded-full mr-1.5"></div>
+            Broadcasting
+          </span>
+        );
       case 'processing':
         return (
-          <span className={`${baseClasses} bg-yellow-100 text-yellow-800`}>
+          <span className={`${baseClasses} bg-yellow-50 text-yellow-800 border border-yellow-200`}>
             Processing{order.retryCount ? ` (${order.retryCount})` : ''}
           </span>
         );
       case 'pending':
-        return <span className={`${baseClasses} bg-gray-100 text-gray-800`}>Pending</span>;
+        return (
+          <span className={`${baseClasses} bg-gray-50 text-gray-700 border border-gray-200`}>
+            Pending
+          </span>
+        );
       case 'permanently_failed':
-        return <span className={`${baseClasses} bg-red-100 text-red-800`}>Failed (Permanent)</span>;
+        return (
+          <span className={`${baseClasses} bg-red-50 text-red-800 border border-red-200`}>
+            Failed (Permanent)
+          </span>
+        );
       case 'failed':
-        return <span className={`${baseClasses} bg-red-100 text-red-800`}>Failed</span>;
+        return (
+          <span className={`${baseClasses} bg-red-50 text-red-800 border border-red-200`}>
+            Failed
+          </span>
+        );
       default:
-        return <span className={`${baseClasses} bg-gray-100 text-gray-800`}>{order.status}</span>;
+        return (
+          <span className={`${baseClasses} bg-gray-50 text-gray-700 border border-gray-200`}>
+            {order.status}
+          </span>
+        );
     }
   };
 
@@ -137,7 +168,7 @@ export default function StatusPage() {
         <div>
           {order.confirmedBlock ? (
             <>
-              <div className="text-sm font-medium text-gray-900">
+              <div className="text-sm font-semibold text-green-600">
                 Block {order.confirmedBlock.toLocaleString()}
               </div>
               <div className="text-xs text-gray-500">
@@ -162,7 +193,7 @@ export default function StatusPage() {
       // Show a subtle spinner for in-progress orders
       return (
         <div className="flex justify-start">
-          <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-gray-400"></div>
+          <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-500"></div>
         </div>
       );
     }
@@ -188,99 +219,113 @@ export default function StatusPage() {
 
   if (loading) {
     return (
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex items-center justify-center min-h-[400px]">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-green-500 mx-auto"></div>
-            <p className="mt-4 text-gray-600">Loading orders...</p>
+      <main className="min-h-screen bg-gray-50">
+        <Header />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="flex items-center justify-center min-h-[400px]">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto"></div>
+              <p className="mt-4 text-gray-600">Loading orders...</p>
+            </div>
           </div>
         </div>
-      </div>
+        <Footer />
+      </main>
     );
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <main className="min-h-screen bg-gray-50">
+      <Header />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* Page Header */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">Order Status</h1>
-        <p className="text-gray-600">
-          Track your XCPFOLIO asset purchases and delivery status
-        </p>
-        
-        <div className="mt-4 flex items-center gap-4">
-          <label className="flex items-center gap-2">
-            <input
-              type="checkbox"
-              checked={autoRefresh}
-              onChange={(e) => setAutoRefresh(e.target.checked)}
-              className="rounded border-gray-300"
-            />
-            <span className="text-sm text-gray-600">Auto-refresh every 10s</span>
-          </label>
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+          <h1 className="text-2xl font-bold text-gray-900 mb-2">Order Status</h1>
+          <p className="text-gray-600 mb-4">
+            Track your XCPFOLIO asset purchases and delivery status
+          </p>
           
-          <button
-            onClick={fetchOrders}
-            className="px-3 py-1 text-sm bg-gray-100 hover:bg-gray-200 rounded-md transition-colors"
-          >
-            Refresh Now
-          </button>
+          <div className="flex flex-wrap items-center gap-4">
+            <label className="flex items-center gap-2 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={autoRefresh}
+                onChange={(e) => setAutoRefresh(e.target.checked)}
+                className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+              />
+              <span className="text-sm text-gray-600">Auto-refresh every 10s</span>
+            </label>
+            
+            <button
+              onClick={fetchOrders}
+              className="px-4 py-2 text-sm font-medium bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+            >
+              Refresh Now
+            </button>
+          </div>
         </div>
       </div>
 
       {error && (
-        <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
-          <p className="text-red-800">{error}</p>
+        <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl">
+          <p className="text-red-800 font-medium">{error}</p>
         </div>
       )}
 
       {orders.length === 0 ? (
-        <div className="text-center py-12 bg-gray-50 rounded-lg">
-          <p className="text-gray-600">No orders found</p>
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100">
+          <div className="text-center py-12">
+            <p className="text-gray-600">No orders found</p>
+          </div>
         </div>
       ) : (
-        <div className="overflow-x-auto">
-          <table className="min-w-full divide-y divide-gray-200">
-            <thead className="bg-gray-50">
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+          <div className="overflow-x-auto">
+            <table className="min-w-full divide-y divide-gray-200">
+              <thead className="bg-gray-50">
               <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Asset
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Price (XCP)
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Price
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Buyer
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Status
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Purchased
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Delivered
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
                   TTD
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Transaction
+                <th scope="col" className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Action
                 </th>
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               {orders.map((order) => (
-                <tr key={order.orderHash} className="hover:bg-gray-50">
+                <tr key={order.orderHash} className="hover:bg-gray-50 transition-colors">
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-sm font-medium text-gray-900">
+                    <div className="text-sm font-semibold text-blue-600 hover:text-blue-800">
                       {order.asset}
                     </div>
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                    {typeof order.price === 'string' ? order.price : order.price.toFixed(8)}
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div className="text-sm font-medium text-gray-900">
+                      {typeof order.price === 'string' ? order.price : order.price.toFixed(8)} XCP
+                    </div>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <span className="text-sm text-gray-900">
+                    <span className="text-sm font-mono text-gray-600">
                       {formatAddress(order.buyer)}
                     </span>
                   </td>
@@ -313,22 +358,25 @@ export default function StatusPage() {
                   <td className="px-6 py-4 whitespace-nowrap">
                     {getDeliveryInfo(order)}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
+                  <td className="px-6 py-4 whitespace-nowrap text-center">
                     {getTTD(order)}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm">
+                  <td className="px-6 py-4 whitespace-nowrap text-center">
                     {order.txid ? (
                       <a
                         href={`https://mempool.space/tx/${order.txid}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800"
+                        className="inline-flex items-center px-3 py-1.5 text-xs font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
                       >
-                        View TX →
+                        View TX
+                        <svg className="ml-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
                       </a>
                     ) : order.error ? (
-                      <span className="text-red-600 text-xs" title={order.error}>
-                        ⚠️ Error
+                      <span className="inline-flex items-center px-2 py-1 text-xs font-medium text-red-700 bg-red-50 rounded" title={order.error}>
+                        Error
                       </span>
                     ) : (
                       <span className="text-gray-400">—</span>
@@ -338,39 +386,72 @@ export default function StatusPage() {
               ))}
             </tbody>
           </table>
+          </div>
         </div>
       )}
 
-      <div className="mt-8 p-4 bg-gray-50 rounded-lg">
-        <h3 className="font-semibold mb-2">Understanding Order Status</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
-          <div>
-            <span className="font-medium">Pending:</span> Order detected, waiting to process
+      {/* Status Guide */}
+      <div className="mt-8 bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Understanding Order Status</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="flex items-start gap-2">
+            <div className="w-2 h-2 rounded-full bg-gray-400 mt-1.5 flex-shrink-0"></div>
+            <div>
+              <span className="font-medium text-gray-900">Pending:</span>
+              <span className="text-sm text-gray-600 ml-1">Order detected, waiting to process</span>
+            </div>
           </div>
-          <div>
-            <span className="font-medium">Processing:</span> Creating transfer transaction
+          <div className="flex items-start gap-2">
+            <div className="w-2 h-2 rounded-full bg-yellow-400 mt-1.5 flex-shrink-0"></div>
+            <div>
+              <span className="font-medium text-gray-900">Processing:</span>
+              <span className="text-sm text-gray-600 ml-1">Creating transfer transaction</span>
+            </div>
           </div>
-          <div>
-            <span className="font-medium">Broadcasting:</span> Transaction sent to Bitcoin network
+          <div className="flex items-start gap-2">
+            <div className="w-2 h-2 rounded-full bg-blue-400 mt-1.5 flex-shrink-0"></div>
+            <div>
+              <span className="font-medium text-gray-900">Broadcasting:</span>
+              <span className="text-sm text-gray-600 ml-1">Transaction sent to Bitcoin network</span>
+            </div>
           </div>
-          <div>
-            <span className="font-medium">Confirming:</span> In mempool, waiting for confirmation
+          <div className="flex items-start gap-2">
+            <div className="w-2 h-2 rounded-full bg-blue-500 mt-1.5 flex-shrink-0"></div>
+            <div>
+              <span className="font-medium text-gray-900">Confirming:</span>
+              <span className="text-sm text-gray-600 ml-1">In mempool, waiting for confirmation</span>
+            </div>
           </div>
-          <div>
-            <span className="font-medium">Delivered:</span> Asset successfully transferred
+          <div className="flex items-start gap-2">
+            <div className="w-2 h-2 rounded-full bg-green-500 mt-1.5 flex-shrink-0"></div>
+            <div>
+              <span className="font-medium text-gray-900">Delivered:</span>
+              <span className="text-sm text-gray-600 ml-1">Asset successfully transferred</span>
+            </div>
           </div>
-          <div>
-            <span className="font-medium">TTD:</span> Time To Delivery in blocks
+          <div className="flex items-start gap-2">
+            <div className="w-2 h-2 rounded-full bg-purple-400 mt-1.5 flex-shrink-0"></div>
+            <div>
+              <span className="font-medium text-gray-900">TTD:</span>
+              <span className="text-sm text-gray-600 ml-1">Time To Delivery in blocks</span>
+            </div>
           </div>
         </div>
         {averageTTD !== null && (
-          <div className="mt-4 pt-3 border-t border-gray-200 text-center">
-            <p className="text-xs text-gray-500">
-              Average TTD: <span className="font-medium">{averageTTD.toFixed(1)}</span> blocks after confirmation
-            </p>
+          <div className="mt-6 pt-4 border-t border-gray-200">
+            <div className="flex items-center justify-center gap-2">
+              <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <p className="text-sm text-gray-600">
+                Average TTD: <span className="font-semibold text-gray-900">{averageTTD.toFixed(1)}</span> blocks after confirmation
+              </p>
+            </div>
           </div>
         )}
       </div>
-    </div>
+      </div>
+      <Footer />
+    </main>
   );
 }
