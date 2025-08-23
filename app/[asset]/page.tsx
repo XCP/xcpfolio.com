@@ -412,29 +412,47 @@ export default function AssetPage() {
                       </div>
                     )}
                     
-                    {orders[0]?.tx_hash && (
-                      <div className="mt-6 pt-6 border-t border-gray-300">
-                        <div className="flex justify-between items-center text-sm">
-                          <span className="text-gray-600">Order</span>
-                          <a 
-                            href={`https://xcp.io/tx/${orders[0].tx_hash}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="font-mono text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1"
-                            aria-label={`View order transaction ${orders[0].tx_hash.slice(0, 8)} on XCP.io (opens in new tab)`}
-                          >
-                            {orders[0].tx_hash.slice(0, 8)}...
-                            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                            </svg>
-                          </a>
+                    {orders[0] && (
+                      <div className="mt-6 pt-6 border-t border-gray-200">
+                        <div className="space-y-3">
+                          {/* Order TX */}
+                          <div className="flex justify-between items-center">
+                            <span className="text-sm text-gray-600">Order</span>
+                            <a 
+                              href={`https://xcp.io/tx/${orders[0].tx_hash}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm font-medium text-gray-900 hover:text-blue-600 flex items-center gap-1 transition-colors"
+                              aria-label={`View order transaction on XCP.io (opens in new tab)`}
+                            >
+                              TX {(orders[0] as any).tx_index ? (orders[0] as any).tx_index.toLocaleString() : orders[0].tx_hash.slice(0, 8) + '...'}
+                              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                              </svg>
+                            </a>
+                          </div>
+                          
+                          {/* Expiration */}
+                          {orders[0].expire_index && (
+                            <div className="flex justify-between items-center">
+                              <span className="text-sm text-gray-600">Expiration</span>
+                              <span className="text-sm font-medium text-gray-900">
+                                {((orders[0] as any).block_index && orders[0].expire_index > (orders[0] as any).block_index) 
+                                  ? `${(orders[0].expire_index - (orders[0] as any).block_index).toLocaleString()} blocks`
+                                  : orders[0].expire_index ? `Block ${orders[0].expire_index.toLocaleString()}` : 'Never'}
+                              </span>
+                            </div>
+                          )}
+                        </div>
+                        
+                        {/* Delivery ETA */}
+                        <div className="mt-4 pt-3 border-t border-gray-200">
+                          <p className="text-xs text-gray-600 text-center">
+                            Delivery ETA: 2-3 blocks after your order confirms
+                          </p>
                         </div>
                       </div>
                     )}
-                    
-                    <p className="text-xs text-yellow-600 mt-4 bg-yellow-50 p-2 rounded text-center">
-                      Estimated Delivery: 2-3 blocks after order confirms
-                    </p>
                   </>
                 ) : isSold ? (
                   <div className="text-center py-12">
