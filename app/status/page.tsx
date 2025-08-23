@@ -168,7 +168,7 @@ export default function StatusPage() {
         <div>
           {order.confirmedBlock ? (
             <>
-              <div className="text-sm font-semibold text-green-600">
+              <div className="text-sm font-medium text-gray-900">
                 Block {order.confirmedBlock.toLocaleString()}
               </div>
               <div className="text-xs text-gray-500">
