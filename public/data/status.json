@@ -1,9 +1,9 @@
 {
-  "generated": "2025-08-23T14:21:24.967Z",
+  "generated": "2025-08-23T14:41:51.371Z",
   "total": 999,
-  "available": 982,
+  "available": 992,
   "sold": 7,
-  "notListed": 10,
+  "notListed": 0,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -5437,8 +5437,8 @@
     },
     {
       "asset": "IBBB",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/IBBB",
@@ -5751,8 +5751,8 @@
     },
     {
       "asset": "HCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/HCOMPANY",
@@ -5832,8 +5832,8 @@
     },
     {
       "asset": "HABERMAS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Philosophy",
       "length": 8,
       "url": "https://xcpfolio.com/HABERMAS",
@@ -6147,8 +6147,8 @@
     },
     {
       "asset": "GCOM",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/GCOM",
@@ -6426,8 +6426,8 @@
     },
     {
       "asset": "FSTOCK",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/FSTOCK",
@@ -6597,8 +6597,8 @@
     },
     {
       "asset": "FLLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/FLLC",
@@ -7299,8 +7299,8 @@
     },
     {
       "asset": "DIPS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DIPS",
@@ -7731,8 +7731,8 @@
     },
     {
       "asset": "CRIT",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/CRIT",
@@ -8676,8 +8676,8 @@
     },
     {
       "asset": "BKYLN",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Geographic",
       "length": 5,
       "url": "https://xcpfolio.com/BKYLN",
@@ -8883,8 +8883,8 @@
     },
     {
       "asset": "BBBI",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/BBBI",

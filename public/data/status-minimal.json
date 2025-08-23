@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755958884969,
+  "timestamp": 1755960111373,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2419,7 +2419,7 @@
     },
     {
       "asset": "IBBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IAAA",
@@ -2559,7 +2559,7 @@
     },
     {
       "asset": "HCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCOM",
@@ -2595,7 +2595,7 @@
     },
     {
       "asset": "HABERMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HAAA",
@@ -2735,7 +2735,7 @@
     },
     {
       "asset": "GCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GBIT",
@@ -2859,7 +2859,7 @@
     },
     {
       "asset": "FSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FSHARES",
@@ -2935,7 +2935,7 @@
     },
     {
       "asset": "FLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FITT",
@@ -3247,7 +3247,7 @@
     },
     {
       "asset": "DIPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIPO",
@@ -3439,7 +3439,7 @@
     },
     {
       "asset": "CRIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CREO",
@@ -3859,7 +3859,7 @@
     },
     {
       "asset": "BKYLN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BKON",
@@ -3951,7 +3951,7 @@
     },
     {
       "asset": "BBBI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BBAA",
