@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -251,7 +252,16 @@ export default function StatusPage() {
       {/* Page Header */}
       <div className="mb-8">
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">Order Status</h1>
+          <div className="flex items-center justify-between mb-2">
+            <h1 className="text-2xl font-bold text-gray-900">Order Status</h1>
+            <Image 
+              src="/XCP.png" 
+              alt="XCP" 
+              width={24} 
+              height={24}
+              className="w-6 h-6"
+            />
+          </div>
           <p className="text-gray-600 mb-4">
             Track your XCPFOLIO asset purchases and delivery status
           </p>

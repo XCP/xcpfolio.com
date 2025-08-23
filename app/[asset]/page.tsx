@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useParams } from 'next/navigation';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { getAssetOrders, getDetailedAsset, getAssetOrderHistory, getAssetIssuances, getAssetOrderMatches, formatPrice, formatAge, formatRegistrationDate, getAssetMetadata, type Order, type DetailedAsset, type Issuance } from '@/lib/api';
 import { Header } from '@/components/Header';
@@ -18,6 +18,7 @@ export default function AssetPage() {
   const [isCreatingOrder, setIsCreatingOrder] = useState(false);
   const [orderError, setOrderError] = useState<string | null>(null);
   const [orderSuccess, setOrderSuccess] = useState<string | null>(null);
+  const [currentBlockHeight, setCurrentBlockHeight] = useState<number | null>(null);
 
   // Use React Query for caching orders
   const { data: orders = [], isLoading } = useQuery({
@@ -61,6 +62,27 @@ export default function AssetPage() {
 
   const isSold = orderMatches.length > 0;
   const isNumeric = metadata?.category === 'Numeric' || /^\d+$/.test(asset);
+
+  // Fetch current block height
+  useEffect(() => {
+    const fetchBlockHeight = async () => {
+      try {
+        const response = await fetch('/api/block-height');
+        const data = await response.json();
+        if (data.success) {
+          setCurrentBlockHeight(data.blockHeight);
+        }
+      } catch (error) {
+        console.error('Failed to fetch block height:', error);
+      }
+    };
+
+    fetchBlockHeight();
+    // Refresh block height every 5 minutes
+    const interval = setInterval(fetchBlockHeight, 5 * 60 * 1000);
+    
+    return () => clearInterval(interval);
+  }, []);
 
   // Get order history (all orders, not just open)
   const { data: orderHistory = [] } = useQuery({
@@ -422,10 +444,10 @@ export default function AssetPage() {
                               href={`https://xcp.io/tx/${orders[0].tx_hash}`}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-sm font-medium text-gray-900 hover:text-blue-600 flex items-center gap-1 transition-colors"
+                              className="text-sm font-medium font-mono text-gray-900 hover:text-blue-600 flex items-center gap-1 transition-colors"
                               aria-label={`View order transaction on XCP.io (opens in new tab)`}
                             >
-                              TX {(orders[0] as any).tx_index ? (orders[0] as any).tx_index.toLocaleString() : orders[0].tx_hash.slice(0, 8) + '...'}
+                              TX {(orders[0] as any).tx_index ? (orders[0] as any).tx_index : orders[0].tx_hash.slice(0, 8) + '...'}
                               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                               </svg>
@@ -436,18 +458,20 @@ export default function AssetPage() {
                           {orders[0].expire_index && (
                             <div className="flex justify-between items-center">
                               <span className="text-sm text-gray-600">Expiration</span>
-                              <span className="text-sm font-medium text-gray-900">
-                                {((orders[0] as any).block_index && orders[0].expire_index > (orders[0] as any).block_index) 
-                                  ? `${(orders[0].expire_index - (orders[0] as any).block_index).toLocaleString()} blocks`
-                                  : orders[0].expire_index ? `Block ${orders[0].expire_index.toLocaleString()}` : 'Never'}
+                              <span className="text-sm font-medium font-mono text-gray-900">
+                                {currentBlockHeight && orders[0].expire_index > currentBlockHeight
+                                  ? `${(orders[0].expire_index - currentBlockHeight).toLocaleString()} blocks`
+                                  : (orders[0] as any).expiration 
+                                    ? `${((orders[0] as any).expiration).toLocaleString()} blocks`
+                                    : 'Never'}
                               </span>
                             </div>
                           )}
                         </div>
                         
                         {/* Delivery ETA */}
-                        <div className="mt-4 pt-3 border-t border-gray-200">
-                          <p className="text-xs text-gray-600 text-center">
+                        <div className="mt-4">
+                          <p className="text-xs text-yellow-600 bg-yellow-50 p-2 rounded text-center">
                             Delivery ETA: 2-3 blocks after your order confirms
                           </p>
                         </div>
