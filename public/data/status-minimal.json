@@ -1,5 +1,5 @@
 {
-  "timestamp": 1755918564495,
+  "timestamp": 1755920681066,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3335,7 +3335,7 @@
     },
     {
       "asset": "DCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DBIT",
@@ -3343,7 +3343,7 @@
     },
     {
       "asset": "DATOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DATO",
@@ -3367,7 +3367,7 @@
     },
     {
       "asset": "DANN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DADD",
@@ -3383,7 +3383,7 @@
     },
     {
       "asset": "CUBOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUBO",
@@ -3391,7 +3391,7 @@
     },
     {
       "asset": "CUBED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CTRANCHE",
@@ -3399,7 +3399,7 @@
     },
     {
       "asset": "CTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSTOCKS",
@@ -3407,7 +3407,7 @@
     },
     {
       "asset": "CSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSHARES",
@@ -3415,7 +3415,7 @@
     },
     {
       "asset": "CSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSERIES",
@@ -3423,7 +3423,7 @@
     },
     {
       "asset": "CROWDSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CROWDSHARE",
@@ -3431,7 +3431,7 @@
     },
     {
       "asset": "CRITS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CRITICAL",
@@ -3451,7 +3451,7 @@
     },
     {
       "asset": "COVE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COSA",
@@ -3459,7 +3459,7 @@
     },
     {
       "asset": "CORPZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPY",
@@ -3467,7 +3467,7 @@
     },
     {
       "asset": "CORPX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPE",
@@ -3483,7 +3483,7 @@
     },
     {
       "asset": "CORPB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPA",
@@ -3491,7 +3491,7 @@
     },
     {
       "asset": "CORNSILO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORDOVA",
@@ -3499,7 +3499,7 @@
     },
     {
       "asset": "COPIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CONWAY",
@@ -3519,7 +3519,7 @@
     },
     {
       "asset": "COMPANYX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYC",
@@ -3527,7 +3527,7 @@
     },
     {
       "asset": "COMPANYB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYA",
@@ -3543,7 +3543,7 @@
     },
     {
       "asset": "COINR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINO",
@@ -3551,7 +3551,7 @@
     },
     {
       "asset": "COINDEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COIND",
@@ -3567,7 +3567,7 @@
     },
     {
       "asset": "CMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CLTD",
@@ -3595,7 +3595,7 @@
     },
     {
       "asset": "CIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CION",
@@ -3603,7 +3603,7 @@
     },
     {
       "asset": "CIEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CHOP",
@@ -3615,7 +3615,7 @@
     },
     {
       "asset": "CHANG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CHAI",
@@ -3623,7 +3623,7 @@
     },
     {
       "asset": "CFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CERO",
@@ -3639,7 +3639,7 @@
     },
     {
       "asset": "CDEF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CCORP",
@@ -3647,7 +3647,7 @@
     },
     {
       "asset": "CCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CCOM",
@@ -3655,7 +3655,7 @@
     },
     {
       "asset": "CBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CASTOR",
@@ -3663,7 +3663,7 @@
     },
     {
       "asset": "CASK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CASHY",
@@ -3679,7 +3679,7 @@
     },
     {
       "asset": "CALYPSO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CALDWELL",
@@ -3691,7 +3691,7 @@
     },
     {
       "asset": "CAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BZZZ",
@@ -3707,7 +3707,7 @@
     },
     {
       "asset": "BWWW",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BUEN",
@@ -3715,7 +3715,7 @@
     },
     {
       "asset": "BUDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BTRANCHE",
@@ -3723,7 +3723,7 @@
     },
     {
       "asset": "BTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BTOKEN",
@@ -3731,7 +3731,7 @@
     },
     {
       "asset": "BTCO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BTCI",
@@ -3739,7 +3739,7 @@
     },
     {
       "asset": "BSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BSTOCK",
@@ -3747,7 +3747,7 @@
     },
     {
       "asset": "BSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BSHARE",
@@ -3755,7 +3755,7 @@
     },
     {
       "asset": "BSERIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BRAG",
@@ -3763,7 +3763,7 @@
     },
     {
       "asset": "BRADFORD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOXXY",
@@ -3771,7 +3771,7 @@
     },
     {
       "asset": "BOXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOXES",
@@ -3787,7 +3787,7 @@
     },
     {
       "asset": "BOOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BNET",
@@ -3803,7 +3803,7 @@
     },
     {
       "asset": "BLOKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOK",
@@ -3815,7 +3815,7 @@
     },
     {
       "asset": "BLOCKZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKX",
@@ -3823,7 +3823,7 @@
     },
     {
       "asset": "BLOCKR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKC",
@@ -3831,7 +3831,7 @@
     },
     {
       "asset": "BLOCKB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKA",
@@ -3839,7 +3839,7 @@
     },
     {
       "asset": "BLOC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLLC",
@@ -3847,7 +3847,7 @@
     },
     {
       "asset": "BLDR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLAM",
@@ -3871,7 +3871,7 @@
     },
     {
       "asset": "BKLYN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BITY",
@@ -3879,7 +3879,7 @@
     },
     {
       "asset": "BITI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BIRCH",
@@ -3887,7 +3887,7 @@
     },
     {
       "asset": "BIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BHOLDINGS",
