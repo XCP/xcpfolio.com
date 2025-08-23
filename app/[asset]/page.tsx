@@ -482,7 +482,8 @@ export default function AssetPage() {
         </div>
       </section>
 
-      {/* How It Works - Streamlined */}
+      {/* How It Works - Streamlined - Only show for available assets */}
+      {hasOrders && !isSold && (
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
@@ -518,6 +519,7 @@ export default function AssetPage() {
           </div>
         </div>
       </section>
+      )}
 
       {/* Asset Information Section */}
       <section className="py-8">
@@ -708,7 +710,8 @@ export default function AssetPage() {
         </div>
       </section>
 
-      {/* Your Asset Comes Ready To Build */}
+      {/* Your Asset Comes Ready To Build - Only show for available assets */}
+      {hasOrders && !isSold && (
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-8 border border-indigo-100">
@@ -771,8 +774,10 @@ export default function AssetPage() {
           </div>
         </div>
       </section>
+      )}
 
-      {/* What You Can Build Section */}
+      {/* What You Can Build Section - Only show for available assets */}
+      {hasOrders && !isSold && (
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
@@ -893,8 +898,10 @@ export default function AssetPage() {
           </div>
         </div>
       </section>
+      )}
 
-      {/* Frequently Asked Questions */}
+      {/* Frequently Asked Questions - Only show for available assets */}
+      {hasOrders && !isSold && (
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
@@ -972,8 +979,10 @@ export default function AssetPage() {
           </div>
         </div>
       </section>
+      )}
 
-      {/* You Might Also Like - Enhanced */}
+      {/* You Might Also Like - Enhanced - Only show for available assets */}
+      {hasOrders && !isSold && (
       <section className="pt-8 pb-18 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Explore Similar Assets</h2>
@@ -1032,6 +1041,7 @@ export default function AssetPage() {
           </div>
         </div>
       </section>
+      )}
 
       {/* CTA Section */}
       <section className="py-16 bg-white">

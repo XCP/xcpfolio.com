@@ -449,7 +449,7 @@ export default function Home() {
                               </svg>
                               Sold
                             </span>
-                          ) : status === 'not_listed' ? (
+                          ) : status === 'not-listed' ? (
                             <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-50 text-gray-600 border border-gray-200">
                               <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
                                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8 7a1 1 0 000 2h1v1a1 1 0 102 0V9h1a1 1 0 100-2h-1V6a1 1 0 10-2 0v1H8z" clipRule="evenodd" />
