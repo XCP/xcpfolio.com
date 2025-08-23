@@ -1,7 +1,8 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 
@@ -29,6 +30,15 @@ export default function StatusPage() {
   const [error, setError] = useState<string | null>(null);
   const [autoRefresh, setAutoRefresh] = useState(true);
   const [averageTTD, setAverageTTD] = useState<number | null>(null);
+  const router = useRouter();
+  
+  const handleGoBack = () => {
+    if (typeof window !== 'undefined' && window.history.length > 1) {
+      router.back();
+    } else {
+      router.push('/');
+    }
+  };
 
   const fetchOrders = async () => {
     try {
@@ -220,7 +230,7 @@ export default function StatusPage() {
   if (loading) {
     return (
       <main className="min-h-screen bg-gray-50">
-        <Header showOrderStatus={false} />
+        <Header showOrderStatus={false} showBackButton={true} onBack={handleGoBack} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex items-center justify-center min-h-[400px]">
             <div className="text-center">
@@ -236,7 +246,7 @@ export default function StatusPage() {
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <Header showOrderStatus={false} />
+      <Header showOrderStatus={false} showBackButton={true} onBack={handleGoBack} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Page Header */}
       <div className="mb-8">

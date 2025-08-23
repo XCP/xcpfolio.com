@@ -7,9 +7,11 @@ import { WalletButton } from './WalletButton';
 interface HeaderProps {
   totalAssets?: number;
   showOrderStatus?: boolean;
+  showBackButton?: boolean;
+  onBack?: () => void;
 }
 
-export function Header({ totalAssets, showOrderStatus = true }: HeaderProps) {
+export function Header({ totalAssets, showOrderStatus = true, showBackButton = false, onBack }: HeaderProps) {
   return (
     <header className="bg-white border-b border-gray-100" role="banner">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,6 +33,17 @@ export function Header({ totalAssets, showOrderStatus = true }: HeaderProps) {
 
           {/* Right side - Stats and wallet */}
           <div className="flex items-center gap-4">
+            {showBackButton && onBack && (
+              <button
+                onClick={onBack}
+                className="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                Go Back
+              </button>
+            )}
             {totalAssets && totalAssets > 0 && (
               <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 bg-gray-50 rounded-lg">
                 <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

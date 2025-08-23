@@ -129,7 +129,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <Header totalAssets={!isLoading && subassets.length > 0 ? subassets.length : undefined} />
+      <Header totalAssets={!isLoading && subassets.length > 0 ? subassets.length : undefined} showOrderStatus={false} />
 
       {/* Quick Info Banner */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
