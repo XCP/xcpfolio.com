@@ -220,7 +220,7 @@ export default function StatusPage() {
   if (loading) {
     return (
       <main className="min-h-screen bg-gray-50">
-        <Header />
+        <Header showOrderStatus={false} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex items-center justify-center min-h-[400px]">
             <div className="text-center">
@@ -236,7 +236,7 @@ export default function StatusPage() {
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <Header />
+      <Header showOrderStatus={false} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Page Header */}
       <div className="mb-8">
@@ -315,9 +315,12 @@ export default function StatusPage() {
               {orders.map((order) => (
                 <tr key={order.orderHash} className="hover:bg-gray-50 transition-colors">
                   <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="text-sm font-semibold text-blue-600 hover:text-blue-800">
+                    <Link 
+                      href={`/${order.asset}`}
+                      className="text-sm font-semibold text-blue-600 hover:text-blue-800"
+                    >
                       {order.asset}
-                    </div>
+                    </Link>
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap">
                     <div className="text-sm font-medium text-gray-900">
