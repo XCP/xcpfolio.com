@@ -61,7 +61,7 @@ export default function Home() {
   const categories = metadataInfo?.categories || [];
 
   // Fetch asset statuses in the background (non-blocking)
-  const { getStatus, isLoading: statusesLoading } = useAssetStatuses();
+  const { getStatus, soldCount, totalCount, isLoading: statusesLoading } = useAssetStatuses();
 
   // Filter and sort assets based on all criteria
   const filteredAssets = useMemo(() => {
@@ -129,7 +129,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <Header totalAssets={!isLoading && subassets.length > 0 ? subassets.length : undefined} showOrderStatus={false} />
+      <Header totalAssets={totalCount || subassets?.length} soldAssets={soldCount} showOrderStatus={false} />
 
       {/* Quick Info Banner */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">

@@ -250,6 +250,9 @@ async function generateStaticFiles() {
   console.log('Generating status-minimal.json...');
   const minimalStatus = {
     timestamp: Date.now(),
+    total: assetStatuses.length,
+    sold: assetStatuses.filter(a => a.status === 'sold').length,
+    available: assetStatuses.filter(a => a.status === 'available').length,
     statuses: assetStatuses.map(asset => ({
       asset: asset.asset,
       status: asset.status as 'available' | 'sold' | 'not-listed',

@@ -7,6 +7,9 @@ interface AssetStatus {
 
 interface StatusResponse {
   timestamp: number;
+  total: number;
+  sold: number;
+  available: number;
   statuses: AssetStatus[];
 }
 
@@ -36,6 +39,9 @@ export function useAssetStatuses() {
     getStatus: (assetName: string): 'available' | 'sold' | 'not-listed' => {
       return statusMap.get(assetName) || 'not-listed';
     },
+    soldCount: data?.sold || 0,
+    totalCount: data?.total || 0,
+    availableCount: data?.available || 0,
     isLoading,
     error,
     hasData: !!data,
