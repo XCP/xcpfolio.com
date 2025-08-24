@@ -1,5 +1,5 @@
 {
-  "timestamp": 1756075443959,
+  "timestamp": 1756076301280,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3615,7 +3615,7 @@
     },
     {
       "asset": "CHANG",
-      "status": "available"
+      "status": "sold"
     },
     {
       "asset": "CHAI",
