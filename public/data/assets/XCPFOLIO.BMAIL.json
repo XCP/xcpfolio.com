@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.BMAIL",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.BMAIL for 5 XCP to claim ownership of BMAIL",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "🔴 SOLD: BMAIL ownership has been transferred. This token is no longer redeemable.",
+  "image": "https://xcpfolio.com/status/sold.svg",
   "website": "https://xcpfolio.com/BMAIL"
 }

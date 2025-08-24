@@ -1,8 +1,8 @@
 {
-  "generated": "2025-08-24T21:28:07.876Z",
+  "generated": "2025-08-24T21:41:53.123Z",
   "total": 999,
-  "available": 992,
-  "sold": 7,
+  "available": 991,
+  "sold": 8,
   "notListed": 0,
   "assets": [
     {
@@ -8532,8 +8532,7 @@
     },
     {
       "asset": "BMAIL",
-      "status": "available",
-      "price": 5,
+      "status": "sold",
       "category": "Bitcoin",
       "length": 5,
       "url": "https://xcpfolio.com/BMAIL",

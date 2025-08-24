@@ -1,5 +1,5 @@
 {
-  "timestamp": 1756070887877,
+  "timestamp": 1756071713124,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3795,7 +3795,7 @@
     },
     {
       "asset": "BMAIL",
-      "status": "available"
+      "status": "sold"
     },
     {
       "asset": "BLTD",
