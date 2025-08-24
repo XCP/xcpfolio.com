@@ -1,5 +1,8 @@
 {
-  "timestamp": 1756078888399,
+  "timestamp": 1756079515009,
+  "total": 999,
+  "sold": 9,
+  "available": 990,
   "statuses": [
     {
       "asset": "ZTRADE",
