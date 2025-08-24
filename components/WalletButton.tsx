@@ -36,7 +36,7 @@ export function WalletButton() {
         aria-label="Connect XCP wallet"
         aria-busy={connecting}
       >
-        {connecting ? 'Connecting...' : 'Connect Wallet'}
+        {connecting ? 'Connecting...' : <><span className="sm:hidden">Connect</span><span className="hidden sm:inline">Connect Wallet</span></>}
       </button>
     </div>
   );
