@@ -1,8 +1,8 @@
 {
-  "timestamp": 1756618289036,
+  "timestamp": 1756619298784,
   "total": 999,
-  "sold": 9,
-  "available": 990,
+  "sold": 10,
+  "available": 989,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2330,7 +2330,7 @@
     },
     {
       "asset": "INVESTORS",
-      "status": "available"
+      "status": "sold"
     },
     {
       "asset": "INTERNETS",
