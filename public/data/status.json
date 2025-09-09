@@ -1,8 +1,8 @@
 {
-  "generated": "2025-09-09T17:53:28.620Z",
+  "generated": "2025-09-09T18:31:57.599Z",
   "total": 999,
-  "available": 989,
-  "sold": 10,
+  "available": 988,
+  "sold": 11,
   "notListed": 0,
   "assets": [
     {
@@ -680,8 +680,7 @@
     },
     {
       "asset": "WWIII",
-      "status": "available",
-      "price": 10,
+      "status": "sold",
       "category": "Acronym",
       "length": 5,
       "url": "https://xcpfolio.com/WWIII",

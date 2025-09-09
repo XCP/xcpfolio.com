@@ -1,8 +1,8 @@
 {
-  "timestamp": 1757440408622,
+  "timestamp": 1757442717601,
   "total": 999,
-  "sold": 10,
-  "available": 989,
+  "sold": 11,
+  "available": 988,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -306,7 +306,7 @@
     },
     {
       "asset": "WWIII",
-      "status": "available"
+      "status": "sold"
     },
     {
       "asset": "WTRADE",
