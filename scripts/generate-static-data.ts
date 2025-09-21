@@ -160,7 +160,6 @@ function generateAssetJSON(
 
 async function generateStaticFiles() {
   console.log('Starting static file generation...');
-  const startTime = Date.now();
   
   // Load assets from CSV
   const assets = await loadAssets();
@@ -235,7 +234,6 @@ async function generateStaticFiles() {
   // Generate main status file with full data (for OG images, layouts, etc)
   console.log('Generating status.json...');
   const statusData = {
-    generated: new Date().toISOString(),
     total: assets.size,
     available,
     sold,
@@ -249,7 +247,6 @@ async function generateStaticFiles() {
   // Generate minimal status file for homepage (just asset name and status)
   console.log('Generating status-minimal.json...');
   const minimalStatus = {
-    timestamp: Date.now(),
     total: assetStatuses.length,
     sold: assetStatuses.filter(a => a.status === 'sold').length,
     available: assetStatuses.filter(a => a.status === 'available').length,
@@ -261,14 +258,11 @@ async function generateStaticFiles() {
   
   const minimalPath = path.join(DATA_DIR, 'status-minimal.json');
   fs.writeFileSync(minimalPath, JSON.stringify(minimalStatus, null, 2));
-  
-  const elapsed = Date.now() - startTime;
-  console.log(`Generated ${assets.size} asset JSON files and status files in ${elapsed}ms`);
-  
+
+  console.log(`Generated ${assets.size} asset JSON files and status files`);
+
   // Write generation log
   const logData = {
-    timestamp: new Date().toISOString(),
-    duration: elapsed,
     assets: assets.size,
     available,
     sold,
