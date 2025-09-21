@@ -14,7 +14,7 @@ import { trackEvent } from 'fathom-client';
 export default function AssetPage() {
   const params = useParams();
   const asset = params.asset as string;
-  const { isConnected, account, connect, composeOrder, signAndBroadcast } = useWeb3();
+  const { isConnected, account, connect, composeOrder } = useWeb3();
   const [isCreatingOrder, setIsCreatingOrder] = useState(false);
   const [orderError, setOrderError] = useState<string | null>(null);
   const [orderSuccess, setOrderSuccess] = useState<string | null>(null);
@@ -142,17 +142,14 @@ export default function AssetPage() {
       
       console.log('Creating buy order with params:', orderParams);
       
-      // Compose the order transaction
-      const composedTx = await composeOrder(orderParams);
-      console.log('Composed transaction:', composedTx);
-      
-      // Sign and broadcast the transaction
-      // The compose result might be the raw transaction directly or wrapped in an object
-      const rawTx = typeof composedTx === 'string' ? composedTx : (composedTx.rawtransaction || composedTx.raw_transaction || composedTx);
-      const result = await signAndBroadcast(rawTx);
-      console.log('Transaction broadcast result:', result);
-      
-      setOrderSuccess(`Order created successfully! Transaction: ${result.txid}`);
+      // Compose and broadcast the order transaction through the extension UI
+      // The new API handles everything in one call - compose, sign, and broadcast
+      const result = await composeOrder(orderParams);
+      console.log('Order transaction result:', result);
+
+      // The result should contain the transaction hash
+      const txid = result.txid || result.tx_hash || result;
+      setOrderSuccess(`Order created successfully! Transaction: ${txid}`);
       
       // Show success message for a few seconds
       setTimeout(() => {
@@ -163,8 +160,10 @@ export default function AssetPage() {
       console.error('Purchase error:', error);
       
       // Handle specific error cases
-      if (error.message?.includes('User denied') || error.message?.includes('rejected')) {
-        setOrderError('Transaction was rejected');
+      if (error.message?.includes('User cancelled') || error.message?.includes('User denied') || error.message?.includes('rejected')) {
+        setOrderError('Transaction was cancelled');
+      } else if (error.message?.includes('Popup required')) {
+        setOrderError('Please approve the transaction in the wallet popup');
       } else if (error.message?.includes('WALLET_LOCKED')) {
         setOrderError('Please unlock your wallet and try again');
       } else if (error.message?.includes('insufficient')) {
@@ -202,10 +201,11 @@ export default function AssetPage() {
         fee_required: 0
       };
 
-      const composedTx = await composeOrder(orderParams);
-      const txHash = await signAndBroadcast(composedTx);
-      
-      setOrderSuccess(`Buy order created! Transaction: ${txHash}`);
+      // The new API handles compose, sign, and broadcast in one call
+      const result = await composeOrder(orderParams);
+      const txid = result.txid || result.tx_hash || result;
+
+      setOrderSuccess(`Buy order created! Transaction: ${txid}`);
     } catch (error) {
       setOrderError(`Failed to create order: ${error}`);
     } finally {
