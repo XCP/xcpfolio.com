@@ -1,7 +1,7 @@
 {
   "total": 999,
-  "available": 988,
-  "sold": 11,
+  "available": 987,
+  "sold": 12,
   "notListed": 0,
   "assets": [
     {
@@ -2134,8 +2134,7 @@
     },
     {
       "asset": "SOULS",
-      "status": "available",
-      "price": 25,
+      "status": "sold",
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SOULS",
