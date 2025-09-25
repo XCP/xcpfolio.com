@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.ZCASH",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.ZCASH for 100 XCP to claim ownership of ZCASH",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: ZCASH is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/ZCASH"
 }

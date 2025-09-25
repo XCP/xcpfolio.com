@@ -1,7 +1,7 @@
 {
   "assets": 999,
-  "available": 987,
-  "sold": 12,
-  "notListed": 0,
+  "available": 0,
+  "sold": 0,
+  "notListed": 999,
   "success": true
 }
