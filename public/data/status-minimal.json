@@ -1,4003 +1,4003 @@
 {
   "total": 999,
-  "sold": 0,
-  "available": 0,
+  "sold": 12,
+  "available": 987,
   "statuses": [
     {
       "asset": "ZTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZONA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZINE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZIGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZETA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZEST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZAPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZAGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZABC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YOOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YMMV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XWWW",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XSERIES",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "XROUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XORO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XIAO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XGEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCPX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCPSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCPSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XABC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WYSIWYG",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "WWWX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWIII",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "WTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WRESTLING",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WORDY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WONT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WIZZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WHIZZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSTER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAVY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WARNER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAGR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VYBE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VOLTA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VOILA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIVID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIPP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIDAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIBES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VERGE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VERDE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VABC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UTOKEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "URGE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ULTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ULLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TYVM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TYME",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TUFF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TTOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSSK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRITON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOXIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOWR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORRENTS",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "TORR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORQUE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOKENX",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "TOGA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "THRU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "THEDIP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEXTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TESTNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TESSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TENX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TENN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TANGO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SYSTEMATIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SYLT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SUGA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SUDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STUV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKPHOTOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKPHOTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STANLEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STAFFORD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPOTPRICE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPORES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPORE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOULS",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "SONGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOLS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOLES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SNYDER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLUSH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLOAN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SKYY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIBYLS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIBYL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHHH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHARER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREQUITY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHARDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SEXO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SEEQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SECT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCORSESE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOPE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCION",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SAUL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SATT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SARTRE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SAMPSON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RYFT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RUBE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROTFL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROPA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROOMY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROOMIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RIVA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RISKY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RHODES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REWARDX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REWARDU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REVV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REVSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REPP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RENEWAL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RELOADS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RELO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REDD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RAGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RAFT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QWERTY",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "QUINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QUAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QLIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PURS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PUNTOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PROUD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PROCTOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "POSEIDON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "POPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "POMP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PINZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PICKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PEDO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PEARSON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAYOUTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAYMENTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAGEVIEWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OXIDE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OXID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OWED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OOON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OOOH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ONIONS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OJOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OESTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NRGY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NORTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NONYMOUS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NONY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NOMS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NOISEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NINER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NIETZSCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NICHES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NICHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NERDY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NERDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NENE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NEGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NDEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NATE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NARCOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NARCO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NARCHY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NAAN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MYSQL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MUNI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MUDD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MUCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOXIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOXIE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOTR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MONROE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MONIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOGULS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOGUL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MODS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOBS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOAR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MNOP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MMMK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MMKT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MKAY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MIXT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MIST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MINES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MINED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MINDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MERA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MEDUSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MEAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MCDONALD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MBETS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MBET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAYAN",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "MAXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAXWELL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAXED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAPAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAPA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MANOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MANO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAGMA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MACA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LUVV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOVV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOVER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOTT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOCH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOCA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLCX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLCS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLCC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LLCA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LIANG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LELE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LAPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LALA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KITT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KIERKEGAARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KIDD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KHAT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KANT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JOYAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JOES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JIAO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JETT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JETE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IXXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IWWW",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IVYY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IVVY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IVIV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ITRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ISTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ISTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ISHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ISERIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IROUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IREPORT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IQQQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IQIQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IPOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IPOC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IPOB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IPOA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IOTA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "INVESTORS",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "INTERNETS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "INDI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "INCREMENTAL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IMSG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ILTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ILLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IGLU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IGLOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IFIF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IDID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IDEO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICCC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IBBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HYPERCOMPLEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HURST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HULL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HUGG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HUBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOVER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOUSING",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOPIUM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HONEST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDX",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "HOLDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HJKL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HILO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HIJK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HEIDEGGER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HEHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HEGEL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HEDG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HAYLOFT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HAVOC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HASTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HANCOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HAMPTON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HABERMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GUSTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GUID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GTOKEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GRAN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GOTT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GOOP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GOOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GOLDY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GLAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GINTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GIGG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GETT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GENX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEMA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GELT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GATOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GATO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GATA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GASP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GARRISON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GANO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAMEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAMERCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAMECOINS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAMECOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAMA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GALLOWAY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GALE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAJE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FYEO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FWIW",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUTR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FURS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUNDZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUNDX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUNDR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUNDB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUNDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUFU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUELS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FRIO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FRAG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOXO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOUCAULT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOTOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FORO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FORA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOOTY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FONO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOLIO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOCO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FLYY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FITT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FIFO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FETCH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FENG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FAZE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FAMA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FABB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EZEZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EYED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXISTENT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXEXEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVEV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVERETT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVEREST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EUSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ETRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ESTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ESTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ESERIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EROUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EQTY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EQQQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENTIDAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMSG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMPRESA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMCEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ELTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ELLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ELEL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EKKO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EDITS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ECORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ECOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNLAP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUAL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DONT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOLCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOLARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DJINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIVERGENT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIEZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIBS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEXOMATIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEXO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEUCES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEUCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DESCARTES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DERRIDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DENALI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DELPHI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DECKER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEALFLOW",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DDOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DATOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DATO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DARKMARKET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DAPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DAPPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DANO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DANN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DADD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUTX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUBOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUBO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUBED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSERIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CROWDSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CROWDSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CRITS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CRITICAL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CRIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CREO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CREA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COVE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORNSILO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORDOVA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COPIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CONWAY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CONRAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CONN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANIA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINDEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COIND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COCA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CLICKZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CLIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CIRCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CIRC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CION",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CIEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CHOP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CHIMERA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CHANG",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "CHAI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CERO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CEDAR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CECA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CDEF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CASTOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CASK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CASHY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CAPECOD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CANOPY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CALYPSO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CALDWELL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CADA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BZZZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BYOB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BXXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BWWW",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BUEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BUDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BTOKEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BTCO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BTCI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BSERIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BRAG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BRADFORD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOXXY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOXES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOUTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOUT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BMAIL",
-      "status": "not-listed"
+      "status": "sold"
     },
     {
       "asset": "BLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLDR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLAM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLAB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BKYLN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BKON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BKNY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BKLYN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BITY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BITI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BIRCH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BERK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BENTLEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BEEM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BEAUX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BEAU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BCNU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BBBI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BBAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BAZA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BARNS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BARKER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BAJA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BACH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BABC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "A987654321123456789",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "A123581321345589144",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "A12345678910987654321",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "A112358132134558914",
-      "status": "not-listed"
+      "status": "available"
     }
   ]
 }
