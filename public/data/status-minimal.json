@@ -1,6 +1,6 @@
 {
   "total": 999,
-  "sold": 12,
+  "sold": 0,
   "available": 987,
   "statuses": [
     {
@@ -189,7 +189,7 @@
     },
     {
       "asset": "XSERIES",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "XROUND",
@@ -273,7 +273,7 @@
     },
     {
       "asset": "WYSIWYG",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "WWWX",
@@ -305,7 +305,7 @@
     },
     {
       "asset": "WWIII",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "WTRADE",
@@ -761,7 +761,7 @@
     },
     {
       "asset": "TORRENTS",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "TORR",
@@ -777,7 +777,7 @@
     },
     {
       "asset": "TOKENX",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "TOGA",
@@ -953,7 +953,7 @@
     },
     {
       "asset": "SOULS",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "SONGS",
@@ -1313,7 +1313,7 @@
     },
     {
       "asset": "QWERTY",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "QUINN",
@@ -1909,7 +1909,7 @@
     },
     {
       "asset": "MAYAN",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "MAXX",
@@ -2329,7 +2329,7 @@
     },
     {
       "asset": "INVESTORS",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "INTERNETS",
@@ -2485,7 +2485,7 @@
     },
     {
       "asset": "HOLDX",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "HOLDS",
@@ -3617,7 +3617,7 @@
     },
     {
       "asset": "CHANG",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "CHAI",
@@ -3797,7 +3797,7 @@
     },
     {
       "asset": "BMAIL",
-      "status": "sold"
+      "status": "not-listed"
     },
     {
       "asset": "BLTD",
