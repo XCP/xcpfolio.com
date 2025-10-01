@@ -198,38 +198,24 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
         throw new Error('XCP Wallet provider does not support connection methods');
       }
       
-      // Try both methods to see which one works
-      console.log('Trying provider.request first...');
-      
+      // Request accounts using the standard provider.request method
+      console.log('Requesting accounts from XCP Wallet...');
+      console.log('Current origin:', window.location.origin);
+
       let accounts = null;
-      try {
-        console.log('Current origin:', window.location.origin);
-        console.log('Making request with timeout...');
-        
-        // Add timeout to the request
-        const requestPromise = provider.request?.({ method: 'xcp_requestAccounts', params: [] });
-        if (!requestPromise) {
-          throw new Error('Provider request method not available');
-        }
-        const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('Request timeout after 10 seconds')), 10000)
-        );
-        
-        accounts = await Promise.race([requestPromise, timeoutPromise]);
-        console.log('provider.request result:', accounts);
-      } catch (requestErr) {
-        console.log('provider.request failed:', requestErr);
-        
-        if (provider.enable) {
-          console.log('Trying provider.enable as fallback...');
-          try {
-            accounts = await provider.enable();
-            console.log('provider.enable result:', accounts);
-          } catch (enableErr) {
-            console.log('provider.enable failed:', enableErr);
-          }
-        }
+
+      if (!provider.request) {
+        throw new Error('Provider does not support request method');
       }
+
+      // Add timeout to the request
+      const requestPromise = provider.request({ method: 'xcp_requestAccounts', params: [] });
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error('Request timeout after 10 seconds')), 10000)
+      );
+
+      accounts = await Promise.race([requestPromise, timeoutPromise]);
+      console.log('provider.request result:', accounts);
       
       console.log('Final result - accounts:', accounts);
       console.log('Type of accounts:', typeof accounts);
