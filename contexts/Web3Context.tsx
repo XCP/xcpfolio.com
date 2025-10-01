@@ -304,7 +304,7 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
           get_asset: params.get_asset,
           get_quantity: params.get_quantity.toString(),
           expiration: params.expiration || 1000,
-          fee_rate: params.fee_rate || 10
+          sat_per_vbyte: params.fee_rate || 10
         }]
       });
 
