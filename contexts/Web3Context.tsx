@@ -272,12 +272,24 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
     }
   }, [getProvider]);
 
-  // Disconnect (note: actual disconnection should be done from wallet)
-  const disconnect = useCallback(() => {
+  // Disconnect from wallet
+  const disconnect = useCallback(async () => {
+    const provider = getProvider();
+
+    // Call the wallet's disconnect method
+    if (provider?.request) {
+      try {
+        await provider.request({ method: 'xcp_disconnect', params: [] });
+      } catch (err) {
+        console.error('Failed to disconnect from wallet:', err);
+      }
+    }
+
+    // Clear local state
     setAccount(null);
     setIsConnected(false);
     setError(null);
-  }, []);
+  }, [getProvider]);
 
   // Compose an order transaction using official XCP Wallet API
   // With the new provider API, this handles the entire flow including signing and broadcasting
