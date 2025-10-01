@@ -28,7 +28,7 @@ interface Web3ContextType {
     get_asset: string;
     get_quantity: number;
     expiration?: number;
-    fee_rate?: number;
+    sat_per_vbyte?: number;
   }) => Promise<any>;
   signAndBroadcast: (rawTransaction: string) => Promise<{ txid: string }>;
 }
@@ -285,7 +285,7 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
     get_asset: string;
     get_quantity: number;
     expiration?: number;
-    fee_rate?: number;
+    sat_per_vbyte?: number;
   }) => {
     const provider = getProvider();
     if (!provider || !provider.request) {
@@ -303,8 +303,8 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
           give_quantity: params.give_quantity.toString(),
           get_asset: params.get_asset,
           get_quantity: params.get_quantity.toString(),
-          expiration: params.expiration || 1000,
-          sat_per_vbyte: params.fee_rate || 10
+          expiration: params.expiration || 8064,
+          sat_per_vbyte: params.sat_per_vbyte || 1
         }]
       });
 
