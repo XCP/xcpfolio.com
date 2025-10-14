@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 631,
+  "available": 622,
   "sold": 12,
-  "notListed": 356,
+  "notListed": 365,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -3257,8 +3257,8 @@
     },
     {
       "asset": "PFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/PFUND",
@@ -3266,8 +3266,8 @@
     },
     {
       "asset": "PEDO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/PEDO",
@@ -3275,8 +3275,8 @@
     },
     {
       "asset": "PEARSON",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 7,
       "url": "https://xcpfolio.com/PEARSON",
@@ -3284,8 +3284,8 @@
     },
     {
       "asset": "PCORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/PCORP",
@@ -3293,8 +3293,8 @@
     },
     {
       "asset": "PCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/PCOMPANY",
@@ -3302,8 +3302,8 @@
     },
     {
       "asset": "PCOM",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/PCOM",
@@ -3311,8 +3311,8 @@
     },
     {
       "asset": "PCOIN",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/PCOIN",
@@ -3320,8 +3320,8 @@
     },
     {
       "asset": "PAYOUTS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/PAYOUTS",
@@ -3329,8 +3329,8 @@
     },
     {
       "asset": "PAYMENTS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/PAYMENTS",

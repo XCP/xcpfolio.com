@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 631,
+  "available": 622,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1453,39 +1453,39 @@
     },
     {
       "asset": "PFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PEDO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PEARSON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PAYOUTS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PAYMENTS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PAWS",
