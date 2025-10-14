@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 654,
+  "available": 631,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1361,95 +1361,95 @@
     },
     {
       "asset": "QIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PURS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PUNTOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PROUD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PROCTOR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "POSEIDON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "POPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "POMP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PINZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PICKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PFUND",
