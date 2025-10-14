@@ -1,13 +1,13 @@
 {
   "total": 999,
-  "available": 987,
+  "available": 986,
   "sold": 12,
-  "notListed": 0,
+  "notListed": 1,
   "assets": [
     {
       "asset": "ZTRADE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/ZTRADE",
