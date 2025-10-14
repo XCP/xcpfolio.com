@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 966,
+  "available": 952,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -89,55 +89,55 @@
     },
     {
       "asset": "ZAGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZABC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YOOO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YMMV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YIPO",
@@ -3997,7 +3997,7 @@
     },
     {
       "asset": "A112358132134558914",
-      "status": "available"
+      "status": "not-listed"
     }
   ]
 }
