@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 621,
+  "available": 598,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1493,95 +1493,95 @@
     },
     {
       "asset": "PAGEVIEWS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OXIDE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OXID",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OWED",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OOON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OOOH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ONIONS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OJOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OESTE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OCASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NTRADE",
