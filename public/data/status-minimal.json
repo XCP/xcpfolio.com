@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 796,
+  "available": 745,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -785,171 +785,171 @@
     },
     {
       "asset": "TNET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "THRU",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "THEDIP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TEXTS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TESTNET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TESSA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TENX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TENN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TEES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TEEE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TANGO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SYSTEMATIC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SYLT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SUGA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SUDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STUV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKPHOTOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKPHOTO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STANLEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STAFFORD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SPOTPRICE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SPORES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SPORE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SOULS",
@@ -957,39 +957,39 @@
     },
     {
       "asset": "SONGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SOLS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SOLES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SNYDER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SLUSH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SLOAN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SKYY",
