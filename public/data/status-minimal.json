@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 986,
+  "available": 966,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -9,83 +9,83 @@
     },
     {
       "asset": "ZSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZONA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZNET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZINE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZIGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZETA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZEST",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZCASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZBIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZAPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZAGS",
