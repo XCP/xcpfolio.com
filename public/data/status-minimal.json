@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 715,
+  "available": 669,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1113,187 +1113,187 @@
     },
     {
       "asset": "SCOPE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCION",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SAUL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SATT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SARTRE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SAMPSON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RYFT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RUBE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROUNDZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROUNDX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROUNDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROUNDC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROUNDB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROUNDA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROTFL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROPA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROOMY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROOMIES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RIVA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RISKY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RHODES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REWARDX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REWARDU",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REVV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REVSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REPP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RENEWAL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RELOADS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RELO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REDD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RCOIN",
