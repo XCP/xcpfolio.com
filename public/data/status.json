@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 622,
+  "available": 621,
   "sold": 12,
-  "notListed": 365,
+  "notListed": 366,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -3338,8 +3338,8 @@
     },
     {
       "asset": "PAWS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/PAWS",
