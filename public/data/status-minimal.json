@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 669,
+  "available": 654,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1297,19 +1297,19 @@
     },
     {
       "asset": "RCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RAGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RAFT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QWERTY",
@@ -1317,47 +1317,47 @@
     },
     {
       "asset": "QUINN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QUAD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QLIC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QIPO",
