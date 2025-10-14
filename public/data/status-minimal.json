@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 598,
+  "available": 575,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1585,95 +1585,95 @@
     },
     {
       "asset": "NTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NRGY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NORTE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NONYMOUS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NONY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NOMS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NOISEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NINER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NIETZSCHE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NICHES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NICHE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NERDY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NERDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NENE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NEGS",
