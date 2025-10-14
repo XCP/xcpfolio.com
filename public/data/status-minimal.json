@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 745,
+  "available": 715,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -993,123 +993,123 @@
     },
     {
       "asset": "SKYY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SIXX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SINN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SIBYLS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SIBYL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHHH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHEN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHAREZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHAREY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHAREX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHARER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHAREQUITY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHAREC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHAREB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHAREA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHARDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHARD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SEXO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SERIESX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SERIESC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SERIESBB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SERIESB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SERIESAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SERIESA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SEEQ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SECT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCORSESE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCOPE",
