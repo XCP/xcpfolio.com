@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 470,
+  "available": 445,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2061,7 +2061,7 @@
     },
     {
       "asset": "LELE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LCORP",
@@ -2089,7 +2089,7 @@
     },
     {
       "asset": "LAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KTRADE",
@@ -2097,11 +2097,11 @@
     },
     {
       "asset": "KSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KSHARE",
@@ -2109,7 +2109,7 @@
     },
     {
       "asset": "KMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KLTD",
@@ -2117,7 +2117,7 @@
     },
     {
       "asset": "KLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KITT",
@@ -2125,7 +2125,7 @@
     },
     {
       "asset": "KIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KIERKEGAARD",
@@ -2133,7 +2133,7 @@
     },
     {
       "asset": "KIDD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KHAT",
@@ -2141,7 +2141,7 @@
     },
     {
       "asset": "KFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KCORP",
@@ -2153,7 +2153,7 @@
     },
     {
       "asset": "KCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KCOIN",
@@ -2161,7 +2161,7 @@
     },
     {
       "asset": "KANT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KAAA",
@@ -2169,7 +2169,7 @@
     },
     {
       "asset": "JTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JSTOCKS",
@@ -2177,7 +2177,7 @@
     },
     {
       "asset": "JSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JSHARES",
@@ -2185,7 +2185,7 @@
     },
     {
       "asset": "JSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JOYAS",
@@ -2193,7 +2193,7 @@
     },
     {
       "asset": "JOES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JMONEY",
@@ -2201,7 +2201,7 @@
     },
     {
       "asset": "JLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JLLC",
@@ -2209,7 +2209,7 @@
     },
     {
       "asset": "JIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JINN",
@@ -2217,7 +2217,7 @@
     },
     {
       "asset": "JIAO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JFUND",
@@ -2225,11 +2225,11 @@
     },
     {
       "asset": "JETT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JETE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JCORP",
@@ -2241,7 +2241,7 @@
     },
     {
       "asset": "JCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JAAA",
@@ -2249,7 +2249,7 @@
     },
     {
       "asset": "IXXX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IWWW",
@@ -2257,7 +2257,7 @@
     },
     {
       "asset": "IVYY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IVVY",
@@ -2265,7 +2265,7 @@
     },
     {
       "asset": "IVIV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ITRANCHE",
@@ -2273,7 +2273,7 @@
     },
     {
       "asset": "ISTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ISTOCK",
