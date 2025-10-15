@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 575,
+  "available": 493,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1677,131 +1677,131 @@
     },
     {
       "asset": "NEGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NDEX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NATE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NARCOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NARCO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NARCHY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NAAN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MYSQL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MUNI",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MUDD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MUCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOXIES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOXIE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOTR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MONROE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MONIES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOGULS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOGUL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MODS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOBS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOBB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MOAR",
@@ -1809,103 +1809,103 @@
     },
     {
       "asset": "MNOP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MMMK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MMKT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MKAY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MIXT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MIST",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MINES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MINED",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MINDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MGOLD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MERA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MEDUSA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MEAD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MCDONALD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MBLOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MBETS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MBET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MAYAN",
@@ -1913,103 +1913,103 @@
     },
     {
       "asset": "MAXX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MAXWELL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MAXED",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MAPAS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MAPA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MANOR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MANO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MAGMA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MACA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LUVV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LTDX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LTDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LTDE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LTDD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LTDC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LTDB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LOVV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LOVER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LOTT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LOTO",
