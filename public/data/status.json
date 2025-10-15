@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 472,
+  "available": 470,
   "sold": 12,
-  "notListed": 515,
+  "notListed": 517,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4651,8 +4651,8 @@
     },
     {
       "asset": "LCOM",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/LCOM",
@@ -4669,8 +4669,8 @@
     },
     {
       "asset": "LAPS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/LAPS",

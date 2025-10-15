@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 472,
+  "available": 470,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2073,7 +2073,7 @@
     },
     {
       "asset": "LCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LCOIN",
@@ -2081,7 +2081,7 @@
     },
     {
       "asset": "LAPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LALA",
