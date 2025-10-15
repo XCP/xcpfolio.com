@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 488,
+  "available": 483,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2021,11 +2021,11 @@
     },
     {
       "asset": "LOCA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLTD",
@@ -2041,7 +2041,7 @@
     },
     {
       "asset": "LLCS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLCC",
@@ -2069,7 +2069,7 @@
     },
     {
       "asset": "LCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LCOM",
@@ -2085,7 +2085,7 @@
     },
     {
       "asset": "LALA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LAAA",
