@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 492,
+  "available": 488,
   "sold": 12,
-  "notListed": 495,
+  "notListed": 499,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4516,8 +4516,8 @@
     },
     {
       "asset": "LOTO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/LOTO",
@@ -4525,8 +4525,8 @@
     },
     {
       "asset": "LOCH",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/LOCH",
@@ -4552,8 +4552,8 @@
     },
     {
       "asset": "LLTD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLTD",
@@ -4570,8 +4570,8 @@
     },
     {
       "asset": "LLCX",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLCX",
