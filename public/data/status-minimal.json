@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 483,
+  "available": 481,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2033,7 +2033,7 @@
     },
     {
       "asset": "LLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLCX",
@@ -2045,7 +2045,7 @@
     },
     {
       "asset": "LLCC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLCA",

@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 483,
+  "available": 481,
   "sold": 12,
-  "notListed": 504,
+  "notListed": 506,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4561,8 +4561,8 @@
     },
     {
       "asset": "LLLC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLLC",
@@ -4588,8 +4588,8 @@
     },
     {
       "asset": "LLCC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/LLCC",
