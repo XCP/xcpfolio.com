@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 480,
+  "available": 472,
   "sold": 12,
-  "notListed": 507,
+  "notListed": 515,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4606,8 +4606,8 @@
     },
     {
       "asset": "LIANG",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 5,
       "url": "https://xcpfolio.com/LIANG",
@@ -4615,8 +4615,8 @@
     },
     {
       "asset": "LFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/LFUND",
@@ -4633,8 +4633,8 @@
     },
     {
       "asset": "LCORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/LCORP",
@@ -4822,8 +4822,8 @@
     },
     {
       "asset": "KCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/KCOMPANY",
@@ -5020,8 +5020,8 @@
     },
     {
       "asset": "JCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/JCOMPANY",
@@ -5379,8 +5379,8 @@
     },
     {
       "asset": "ICORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/ICORP",
@@ -5397,8 +5397,8 @@
     },
     {
       "asset": "ICOM",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/ICOM",
@@ -5792,8 +5792,8 @@
     },
     {
       "asset": "HAVOC",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/HAVOC",

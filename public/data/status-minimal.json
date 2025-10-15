@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 480,
+  "available": 472,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2053,11 +2053,11 @@
     },
     {
       "asset": "LIANG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LELE",
@@ -2065,7 +2065,7 @@
     },
     {
       "asset": "LCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LCOMPANY",
@@ -2149,7 +2149,7 @@
     },
     {
       "asset": "KCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KCOM",
@@ -2237,7 +2237,7 @@
     },
     {
       "asset": "JCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JCOM",
@@ -2397,7 +2397,7 @@
     },
     {
       "asset": "ICORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ICOMPANY",
@@ -2405,7 +2405,7 @@
     },
     {
       "asset": "ICOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ICCC",
@@ -2581,7 +2581,7 @@
     },
     {
       "asset": "HAVOC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HASTE",
