@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 493,
+  "available": 492,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1805,7 +1805,7 @@
     },
     {
       "asset": "MOAR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MNOP",
