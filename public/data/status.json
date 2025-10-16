@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 202,
+  "available": 193,
   "sold": 12,
-  "notListed": 785,
+  "notListed": 794,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -4660,8 +4660,8 @@
     },
     {
       "asset": "LCOIN",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/LCOIN",
@@ -4723,8 +4723,8 @@
     },
     {
       "asset": "KSHARE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/KSHARE",
@@ -4741,8 +4741,8 @@
     },
     {
       "asset": "KLTD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/KLTD",
@@ -4759,8 +4759,8 @@
     },
     {
       "asset": "KITT",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/KITT",
@@ -4777,8 +4777,8 @@
     },
     {
       "asset": "KIERKEGAARD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Philosophy",
       "length": 11,
       "url": "https://xcpfolio.com/KIERKEGAARD",
@@ -4813,8 +4813,8 @@
     },
     {
       "asset": "KCORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/KCORP",
@@ -4858,8 +4858,8 @@
     },
     {
       "asset": "KAAA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/KAAA",
@@ -4876,8 +4876,8 @@
     },
     {
       "asset": "JSTOCKS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/JSTOCKS",
@@ -4894,8 +4894,8 @@
     },
     {
       "asset": "JSHARES",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/JSHARES",

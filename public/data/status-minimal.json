@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 202,
+  "available": 193,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2077,7 +2077,7 @@
     },
     {
       "asset": "LCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LAPS",
@@ -2105,7 +2105,7 @@
     },
     {
       "asset": "KSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KMONEY",
@@ -2113,7 +2113,7 @@
     },
     {
       "asset": "KLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KLLC",
@@ -2121,7 +2121,7 @@
     },
     {
       "asset": "KITT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KIPO",
@@ -2129,7 +2129,7 @@
     },
     {
       "asset": "KIERKEGAARD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KIDD",
@@ -2145,7 +2145,7 @@
     },
     {
       "asset": "KCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KCOMPANY",
@@ -2165,7 +2165,7 @@
     },
     {
       "asset": "KAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JTRADE",
@@ -2173,7 +2173,7 @@
     },
     {
       "asset": "JSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JSTOCK",
@@ -2181,7 +2181,7 @@
     },
     {
       "asset": "JSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JSHARE",
