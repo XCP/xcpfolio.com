@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 156,
+  "available": 115,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2653,7 +2653,7 @@
     },
     {
       "asset": "GOOO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GOLDY",
@@ -2661,7 +2661,7 @@
     },
     {
       "asset": "GNET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GLTD",
@@ -2669,7 +2669,7 @@
     },
     {
       "asset": "GLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GLAS",
@@ -2685,7 +2685,7 @@
     },
     {
       "asset": "GINN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GIGG",
@@ -2693,7 +2693,7 @@
     },
     {
       "asset": "GHOLDINGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GHOLD",
@@ -2701,7 +2701,7 @@
     },
     {
       "asset": "GFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GETT",
@@ -2709,7 +2709,7 @@
     },
     {
       "asset": "GEOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GENX",
@@ -2721,7 +2721,7 @@
     },
     {
       "asset": "GEMA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GELT",
@@ -2729,7 +2729,7 @@
     },
     {
       "asset": "GCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GCOMPANY",
@@ -2745,7 +2745,7 @@
     },
     {
       "asset": "GATOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GATO",
@@ -2753,7 +2753,7 @@
     },
     {
       "asset": "GATA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GASP",
@@ -2761,7 +2761,7 @@
     },
     {
       "asset": "GASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GARRISON",
@@ -2769,7 +2769,7 @@
     },
     {
       "asset": "GANO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GAMEX",
@@ -2785,7 +2785,7 @@
     },
     {
       "asset": "GAMECOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GAMA",
@@ -2797,7 +2797,7 @@
     },
     {
       "asset": "GALE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GAJE",
@@ -2805,7 +2805,7 @@
     },
     {
       "asset": "GAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FYEO",
@@ -2813,7 +2813,7 @@
     },
     {
       "asset": "FWIW",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FUTR",
@@ -2821,7 +2821,7 @@
     },
     {
       "asset": "FURS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FUNDZ",
@@ -2841,7 +2841,7 @@
     },
     {
       "asset": "FUNDA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FUFU",
@@ -2849,7 +2849,7 @@
     },
     {
       "asset": "FUELS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FTRADE",
@@ -2869,7 +2869,7 @@
     },
     {
       "asset": "FSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FRIO",
@@ -2877,7 +2877,7 @@
     },
     {
       "asset": "FRAG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FOXX",
@@ -2885,7 +2885,7 @@
     },
     {
       "asset": "FOXO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FOUCAULT",
@@ -2893,7 +2893,7 @@
     },
     {
       "asset": "FOTOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FOTO",
@@ -2913,7 +2913,7 @@
     },
     {
       "asset": "FONO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FOLIO",
@@ -2921,7 +2921,7 @@
     },
     {
       "asset": "FOCO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FMONEY",
@@ -2929,7 +2929,7 @@
     },
     {
       "asset": "FLYY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FLTD",
@@ -2945,7 +2945,7 @@
     },
     {
       "asset": "FIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FIFO",
@@ -2953,7 +2953,7 @@
     },
     {
       "asset": "FFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FETCH",
@@ -2969,7 +2969,7 @@
     },
     {
       "asset": "FCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FCOM",
@@ -2977,7 +2977,7 @@
     },
     {
       "asset": "FCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FBIT",
@@ -2985,7 +2985,7 @@
     },
     {
       "asset": "FAZE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FAMA",
@@ -3041,7 +3041,7 @@
     },
     {
       "asset": "EVEREST",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EUSA",
@@ -3049,7 +3049,7 @@
     },
     {
       "asset": "ETRANCHE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ESTOCKS",
@@ -3057,7 +3057,7 @@
     },
     {
       "asset": "ESTE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ESERIES",
@@ -3065,7 +3065,7 @@
     },
     {
       "asset": "EROUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EREWARD",
@@ -3073,7 +3073,7 @@
     },
     {
       "asset": "EQTY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EQQQ",
@@ -3089,7 +3089,7 @@
     },
     {
       "asset": "ENET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EMSG",
@@ -3097,7 +3097,7 @@
     },
     {
       "asset": "EMPRESA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EMCEE",
@@ -3109,7 +3109,7 @@
     },
     {
       "asset": "ELTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ELLC",
@@ -3117,7 +3117,7 @@
     },
     {
       "asset": "ELEL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EKKO",
