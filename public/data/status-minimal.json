@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 226,
+  "available": 202,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3829,7 +3829,7 @@
     },
     {
       "asset": "BLOCKC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BLOCKB",
@@ -3837,7 +3837,7 @@
     },
     {
       "asset": "BLOCKA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BLOC",
@@ -3845,7 +3845,7 @@
     },
     {
       "asset": "BLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BLDR",
@@ -3853,11 +3853,11 @@
     },
     {
       "asset": "BLAM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BLAB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BKYLN",
@@ -3865,11 +3865,11 @@
     },
     {
       "asset": "BKON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BKNY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BKLYN",
@@ -3877,7 +3877,7 @@
     },
     {
       "asset": "BITY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BITI",
@@ -3885,7 +3885,7 @@
     },
     {
       "asset": "BIRCH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BIPO",
@@ -3893,7 +3893,7 @@
     },
     {
       "asset": "BHOLDINGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BHOLD",
@@ -3901,7 +3901,7 @@
     },
     {
       "asset": "BGOLD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BFUND",
@@ -3909,7 +3909,7 @@
     },
     {
       "asset": "BERK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BENTLEY",
@@ -3917,7 +3917,7 @@
     },
     {
       "asset": "BEEM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BEAUX",
@@ -3925,15 +3925,15 @@
     },
     {
       "asset": "BEAU",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BCOM",
@@ -3941,7 +3941,7 @@
     },
     {
       "asset": "BCNU",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BBLOCK",
@@ -3949,7 +3949,7 @@
     },
     {
       "asset": "BBIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BBBI",
@@ -3957,7 +3957,7 @@
     },
     {
       "asset": "BBAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BAZA",
@@ -3965,11 +3965,11 @@
     },
     {
       "asset": "BARNS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BARKER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BAJA",
@@ -3977,11 +3977,11 @@
     },
     {
       "asset": "BACH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BABC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "A987654321123456789",
@@ -3989,7 +3989,7 @@
     },
     {
       "asset": "A123581321345589144",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "A12345678910987654321",
