@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 115,
+  "available": 107,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3133,7 +3133,7 @@
     },
     {
       "asset": "EHOLD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EDITS",
@@ -3141,7 +3141,7 @@
     },
     {
       "asset": "ECORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ECOMPANY",
@@ -3149,7 +3149,7 @@
     },
     {
       "asset": "EBLOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EBIT",
@@ -3157,7 +3157,7 @@
     },
     {
       "asset": "EAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DUOS",
@@ -3189,7 +3189,7 @@
     },
     {
       "asset": "DTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DSTOCKS",
@@ -3197,11 +3197,11 @@
     },
     {
       "asset": "DSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DSHARE",
@@ -3209,7 +3209,7 @@
     },
     {
       "asset": "DOOO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DONT",

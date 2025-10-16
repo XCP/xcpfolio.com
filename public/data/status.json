@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 115,
+  "available": 107,
   "sold": 12,
-  "notListed": 872,
+  "notListed": 880,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7034,8 +7034,8 @@
     },
     {
       "asset": "EHOLD",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/EHOLD",
@@ -7052,8 +7052,8 @@
     },
     {
       "asset": "ECORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/ECORP",
@@ -7070,8 +7070,8 @@
     },
     {
       "asset": "EBLOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Bitcoin",
       "length": 6,
       "url": "https://xcpfolio.com/EBLOCK",
@@ -7088,8 +7088,8 @@
     },
     {
       "asset": "EAAA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/EAAA",
@@ -7160,8 +7160,8 @@
     },
     {
       "asset": "DTRADE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/DTRADE",
@@ -7178,8 +7178,8 @@
     },
     {
       "asset": "DSTOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/DSTOCK",
@@ -7187,8 +7187,8 @@
     },
     {
       "asset": "DSHARES",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/DSHARES",
@@ -7205,8 +7205,8 @@
     },
     {
       "asset": "DOOO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/DOOO",
