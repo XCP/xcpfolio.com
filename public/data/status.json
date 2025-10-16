@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 107,
+  "available": 99,
   "sold": 12,
-  "notListed": 880,
+  "notListed": 888,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7241,8 +7241,8 @@
     },
     {
       "asset": "DOIT",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/DOIT",
@@ -7259,8 +7259,8 @@
     },
     {
       "asset": "DLTD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/DLTD",
@@ -7277,8 +7277,8 @@
     },
     {
       "asset": "DJINN",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Mythology",
       "length": 5,
       "url": "https://xcpfolio.com/DJINN",
@@ -7313,8 +7313,8 @@
     },
     {
       "asset": "DIOS",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/DIOS",
@@ -7421,8 +7421,8 @@
     },
     {
       "asset": "DELPHI",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Mythology",
       "length": 6,
       "url": "https://xcpfolio.com/DELPHI",
@@ -7439,8 +7439,8 @@
     },
     {
       "asset": "DEALFLOW",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/DEALFLOW",
@@ -7457,8 +7457,8 @@
     },
     {
       "asset": "DCORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/DCORP",
@@ -7475,8 +7475,8 @@
     },
     {
       "asset": "DCOM",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/DCOM",

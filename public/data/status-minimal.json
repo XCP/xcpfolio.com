@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 107,
+  "available": 99,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3225,7 +3225,7 @@
     },
     {
       "asset": "DOIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DMONEY",
@@ -3233,7 +3233,7 @@
     },
     {
       "asset": "DLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DLLC",
@@ -3241,7 +3241,7 @@
     },
     {
       "asset": "DJINN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIVERGENT",
@@ -3257,7 +3257,7 @@
     },
     {
       "asset": "DIOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIEZ",
@@ -3305,7 +3305,7 @@
     },
     {
       "asset": "DELPHI",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DECKER",
@@ -3313,7 +3313,7 @@
     },
     {
       "asset": "DEALFLOW",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DDOS",
@@ -3321,7 +3321,7 @@
     },
     {
       "asset": "DCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCOMPANY",
@@ -3329,7 +3329,7 @@
     },
     {
       "asset": "DCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCOIN",
