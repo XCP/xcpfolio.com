@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 3,
+  "available": 0,
   "sold": 12,
-  "notListed": 984,
+  "notListed": 987,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -5828,8 +5828,8 @@
     },
     {
       "asset": "HABERMAS",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Philosophy",
       "length": 8,
       "url": "https://xcpfolio.com/HABERMAS",
@@ -6593,8 +6593,8 @@
     },
     {
       "asset": "FLLC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/FLLC",
@@ -8877,8 +8877,8 @@
     },
     {
       "asset": "BBBI",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/BBBI",
