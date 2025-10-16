@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 10,
+  "available": 3,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2421,7 +2421,7 @@
     },
     {
       "asset": "IBBB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IAAA",
@@ -2561,7 +2561,7 @@
     },
     {
       "asset": "HCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HCOM",
@@ -2737,7 +2737,7 @@
     },
     {
       "asset": "GCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GBIT",
@@ -2861,7 +2861,7 @@
     },
     {
       "asset": "FSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FSHARES",
@@ -3249,7 +3249,7 @@
     },
     {
       "asset": "DIPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIPO",
@@ -3441,7 +3441,7 @@
     },
     {
       "asset": "CRIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CREO",
@@ -3861,7 +3861,7 @@
     },
     {
       "asset": "BKYLN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BKON",

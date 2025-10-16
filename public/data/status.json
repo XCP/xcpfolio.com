@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 10,
+  "available": 3,
   "sold": 12,
-  "notListed": 977,
+  "notListed": 984,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -5433,8 +5433,8 @@
     },
     {
       "asset": "IBBB",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/IBBB",
@@ -5747,8 +5747,8 @@
     },
     {
       "asset": "HCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/HCOMPANY",
@@ -6143,8 +6143,8 @@
     },
     {
       "asset": "GCOM",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/GCOM",
@@ -6422,8 +6422,8 @@
     },
     {
       "asset": "FSTOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/FSTOCK",
@@ -7295,8 +7295,8 @@
     },
     {
       "asset": "DIPS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DIPS",
@@ -7727,8 +7727,8 @@
     },
     {
       "asset": "CRIT",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/CRIT",
@@ -8670,8 +8670,8 @@
     },
     {
       "asset": "BKYLN",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Geographic",
       "length": 5,
       "url": "https://xcpfolio.com/BKYLN",
