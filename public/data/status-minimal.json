@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 193,
+  "available": 176,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2197,7 +2197,7 @@
     },
     {
       "asset": "JMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JLTD",
@@ -2221,7 +2221,7 @@
     },
     {
       "asset": "JFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JETT",
@@ -2233,7 +2233,7 @@
     },
     {
       "asset": "JCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JCOMPANY",
@@ -2245,7 +2245,7 @@
     },
     {
       "asset": "JAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IXXX",
@@ -2253,7 +2253,7 @@
     },
     {
       "asset": "IWWW",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IVYY",
@@ -2261,7 +2261,7 @@
     },
     {
       "asset": "IVVY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IVIV",
@@ -2285,7 +2285,7 @@
     },
     {
       "asset": "ISERIES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IROUND",
@@ -2317,7 +2317,7 @@
     },
     {
       "asset": "IPOB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IPOA",
@@ -2325,7 +2325,7 @@
     },
     {
       "asset": "IOTA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "INVESTORS",
@@ -2341,7 +2341,7 @@
     },
     {
       "asset": "INCREMENTAL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IMSG",
@@ -2349,7 +2349,7 @@
     },
     {
       "asset": "IMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ILTD",
@@ -2385,7 +2385,7 @@
     },
     {
       "asset": "IFIF",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IDID",
@@ -2393,7 +2393,7 @@
     },
     {
       "asset": "IDEO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ICORP",
@@ -2413,7 +2413,7 @@
     },
     {
       "asset": "ICASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IBLOCK",
@@ -2437,7 +2437,7 @@
     },
     {
       "asset": "HULL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HUGG",
@@ -2445,7 +2445,7 @@
     },
     {
       "asset": "HUBB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HTRADE",
@@ -2457,7 +2457,7 @@
     },
     {
       "asset": "HSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HSHARES",
