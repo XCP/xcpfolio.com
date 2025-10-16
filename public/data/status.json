@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 17,
+  "available": 10,
   "sold": 12,
-  "notListed": 970,
+  "notListed": 977,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -8060,8 +8060,8 @@
     },
     {
       "asset": "CIRCE",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Mythology",
       "length": 5,
       "url": "https://xcpfolio.com/CIRCE",
@@ -8158,8 +8158,8 @@
     },
     {
       "asset": "CEDAR",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/CEDAR",
@@ -8248,8 +8248,8 @@
     },
     {
       "asset": "CAPECOD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Geographic",
       "length": 7,
       "url": "https://xcpfolio.com/CAPECOD",
@@ -8311,8 +8311,8 @@
     },
     {
       "asset": "BYOB",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/BYOB",
@@ -8491,8 +8491,8 @@
     },
     {
       "asset": "BOUTS",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Gambling",
       "length": 5,
       "url": "https://xcpfolio.com/BOUTS",
@@ -8787,8 +8787,8 @@
     },
     {
       "asset": "BENTLEY",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 7,
       "url": "https://xcpfolio.com/BENTLEY",
@@ -8967,8 +8967,8 @@
     },
     {
       "asset": "A12345678910987654321",
-      "status": "available",
-      "price": 50,
+      "status": "not-listed",
+      "suggestedPrice": 50,
       "category": "Numeric",
       "length": 21,
       "url": "https://xcpfolio.com/A12345678910987654321",

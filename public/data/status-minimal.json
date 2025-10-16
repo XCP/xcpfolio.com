@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 17,
+  "available": 10,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3589,7 +3589,7 @@
     },
     {
       "asset": "CIRCE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CIRC",
@@ -3633,7 +3633,7 @@
     },
     {
       "asset": "CEDAR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CECA",
@@ -3673,7 +3673,7 @@
     },
     {
       "asset": "CAPECOD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CANOPY",
@@ -3701,7 +3701,7 @@
     },
     {
       "asset": "BYOB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BXXX",
@@ -3781,7 +3781,7 @@
     },
     {
       "asset": "BOUTS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BOUT",
@@ -3913,7 +3913,7 @@
     },
     {
       "asset": "BENTLEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BEEM",
@@ -3993,7 +3993,7 @@
     },
     {
       "asset": "A12345678910987654321",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "A112358132134558914",
