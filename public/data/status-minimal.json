@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 176,
+  "available": 156,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2189,7 +2189,7 @@
     },
     {
       "asset": "JOYAS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JOES",
@@ -2205,7 +2205,7 @@
     },
     {
       "asset": "JLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JIPO",
@@ -2277,7 +2277,7 @@
     },
     {
       "asset": "ISTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ISHARE",
@@ -2297,7 +2297,7 @@
     },
     {
       "asset": "IREPORT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IQQQ",
@@ -2361,7 +2361,7 @@
     },
     {
       "asset": "IIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IHOLDINGS",
@@ -2377,7 +2377,7 @@
     },
     {
       "asset": "IGLU",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IGLOO",
@@ -2429,7 +2429,7 @@
     },
     {
       "asset": "HYPERCOMPLEX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HURST",
@@ -2473,7 +2473,7 @@
     },
     {
       "asset": "HOUSING",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HOPIUM",
@@ -2501,7 +2501,7 @@
     },
     {
       "asset": "HOLDE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HOLDA",
@@ -2509,7 +2509,7 @@
     },
     {
       "asset": "HMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HLTD",
@@ -2517,7 +2517,7 @@
     },
     {
       "asset": "HLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HJKL",
@@ -2537,7 +2537,7 @@
     },
     {
       "asset": "HFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HEIDEGGER",
@@ -2545,7 +2545,7 @@
     },
     {
       "asset": "HEHE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HEGEL",
@@ -2553,7 +2553,7 @@
     },
     {
       "asset": "HEDG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HCORP",
@@ -2577,7 +2577,7 @@
     },
     {
       "asset": "HAYLOFT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HAVOC",
@@ -2589,7 +2589,7 @@
     },
     {
       "asset": "HANCOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HAMPTON",
@@ -2605,7 +2605,7 @@
     },
     {
       "asset": "GUSTO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GUID",
@@ -2613,7 +2613,7 @@
     },
     {
       "asset": "GTRANCHE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GTRADE",
@@ -2621,7 +2621,7 @@
     },
     {
       "asset": "GTOKEN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GSTOCKS",
@@ -2633,7 +2633,7 @@
     },
     {
       "asset": "GSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GSHARE",
