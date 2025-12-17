@@ -1,8 +1,8 @@
 {
   "total": 999,
   "available": 0,
-  "sold": 12,
-  "notListed": 987,
+  "sold": 0,
+  "notListed": 999,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -420,7 +420,8 @@
     },
     {
       "asset": "XSERIES",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/XSERIES",
@@ -608,7 +609,8 @@
     },
     {
       "asset": "WYSIWYG",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 7,
       "url": "https://xcpfolio.com/WYSIWYG",
@@ -679,7 +681,8 @@
     },
     {
       "asset": "WWIII",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 5,
       "url": "https://xcpfolio.com/WWIII",
@@ -1704,7 +1707,8 @@
     },
     {
       "asset": "TORRENTS",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 8,
       "url": "https://xcpfolio.com/TORRENTS",
@@ -1739,7 +1743,8 @@
     },
     {
       "asset": "TOKENX",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/TOKENX",
@@ -2134,7 +2139,8 @@
     },
     {
       "asset": "SOULS",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SOULS",
@@ -2943,7 +2949,8 @@
     },
     {
       "asset": "QWERTY",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 6,
       "url": "https://xcpfolio.com/QWERTY",
@@ -4283,7 +4290,8 @@
     },
     {
       "asset": "MAYAN",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Mythology",
       "length": 5,
       "url": "https://xcpfolio.com/MAYAN",
@@ -5227,7 +5235,8 @@
     },
     {
       "asset": "INVESTORS",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 9,
       "url": "https://xcpfolio.com/INVESTORS",
@@ -5577,7 +5586,8 @@
     },
     {
       "asset": "HOLDX",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/HOLDX",
@@ -8123,7 +8133,8 @@
     },
     {
       "asset": "CHANG",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 5,
       "url": "https://xcpfolio.com/CHANG",
@@ -8527,7 +8538,8 @@
     },
     {
       "asset": "BMAIL",
-      "status": "sold",
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Bitcoin",
       "length": 5,
       "url": "https://xcpfolio.com/BMAIL",
