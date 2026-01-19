@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 49,
+  "available": 60,
   "sold": 12,
-  "notListed": 938,
+  "notListed": 927,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -8437,8 +8437,8 @@
     },
     {
       "asset": "BSERIES",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/BSERIES",
@@ -8455,8 +8455,8 @@
     },
     {
       "asset": "BRADFORD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 8,
       "url": "https://xcpfolio.com/BRADFORD",
@@ -8544,8 +8544,8 @@
     },
     {
       "asset": "BLOKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Bitcoin",
       "length": 5,
       "url": "https://xcpfolio.com/BLOKS",
@@ -8589,8 +8589,8 @@
     },
     {
       "asset": "BLOCKR",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Bitcoin",
       "length": 6,
       "url": "https://xcpfolio.com/BLOCKR",
@@ -8607,8 +8607,8 @@
     },
     {
       "asset": "BLOCKB",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Bitcoin",
       "length": 6,
       "url": "https://xcpfolio.com/BLOCKB",
@@ -8643,8 +8643,8 @@
     },
     {
       "asset": "BLDR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/BLDR",
@@ -8697,8 +8697,8 @@
     },
     {
       "asset": "BKLYN",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Geographic",
       "length": 5,
       "url": "https://xcpfolio.com/BKLYN",
@@ -8715,8 +8715,8 @@
     },
     {
       "asset": "BITI",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Bitcoin",
       "length": 4,
       "url": "https://xcpfolio.com/BITI",
@@ -8733,8 +8733,8 @@
     },
     {
       "asset": "BIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/BIPO",
@@ -8751,8 +8751,8 @@
     },
     {
       "asset": "BHOLD",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/BHOLD",
@@ -8841,8 +8841,8 @@
     },
     {
       "asset": "BCOM",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/BCOM",
