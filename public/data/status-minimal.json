@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 302,
+  "available": 312,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3177,7 +3177,7 @@
     },
     {
       "asset": "DUNK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUAL",
@@ -3205,7 +3205,7 @@
     },
     {
       "asset": "DSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOOO",
@@ -3245,7 +3245,7 @@
     },
     {
       "asset": "DIVERGENT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIPS",
@@ -3253,7 +3253,7 @@
     },
     {
       "asset": "DIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIOS",
@@ -3265,7 +3265,7 @@
     },
     {
       "asset": "DIBS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DGOLD",
@@ -3285,11 +3285,11 @@
     },
     {
       "asset": "DEUCES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEUCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DESCARTES",
@@ -3297,7 +3297,7 @@
     },
     {
       "asset": "DERRIDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DENALI",
@@ -3317,7 +3317,7 @@
     },
     {
       "asset": "DDOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCORP",
@@ -3325,7 +3325,7 @@
     },
     {
       "asset": "DCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCOM",

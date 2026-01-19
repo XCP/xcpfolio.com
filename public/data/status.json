@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 302,
+  "available": 312,
   "sold": 12,
-  "notListed": 685,
+  "notListed": 675,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7133,8 +7133,8 @@
     },
     {
       "asset": "DUNK",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DUNK",
@@ -7196,8 +7196,8 @@
     },
     {
       "asset": "DSHARE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/DSHARE",
@@ -7286,8 +7286,8 @@
     },
     {
       "asset": "DIVERGENT",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 9,
       "url": "https://xcpfolio.com/DIVERGENT",
@@ -7304,8 +7304,8 @@
     },
     {
       "asset": "DIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/DIPO",
@@ -7331,8 +7331,8 @@
     },
     {
       "asset": "DIBS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DIBS",
@@ -7376,8 +7376,8 @@
     },
     {
       "asset": "DEUCES",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 6,
       "url": "https://xcpfolio.com/DEUCES",
@@ -7385,8 +7385,8 @@
     },
     {
       "asset": "DEUCE",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/DEUCE",
@@ -7403,8 +7403,8 @@
     },
     {
       "asset": "DERRIDA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Philosophy",
       "length": 7,
       "url": "https://xcpfolio.com/DERRIDA",
@@ -7448,8 +7448,8 @@
     },
     {
       "asset": "DDOS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/DDOS",
@@ -7466,8 +7466,8 @@
     },
     {
       "asset": "DCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/DCOMPANY",
