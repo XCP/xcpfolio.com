@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 130,
+  "available": 145,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2761,7 +2761,7 @@
     },
     {
       "asset": "GASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GARRISON",
@@ -2785,7 +2785,7 @@
     },
     {
       "asset": "GAMECOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAMA",
@@ -2813,7 +2813,7 @@
     },
     {
       "asset": "FWIW",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUTR",
@@ -2849,7 +2849,7 @@
     },
     {
       "asset": "FUELS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FTRADE",
@@ -2877,7 +2877,7 @@
     },
     {
       "asset": "FRAG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOXX",
@@ -2885,7 +2885,7 @@
     },
     {
       "asset": "FOXO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOUCAULT",
@@ -2913,7 +2913,7 @@
     },
     {
       "asset": "FONO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOLIO",
@@ -2921,7 +2921,7 @@
     },
     {
       "asset": "FOCO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FMONEY",
@@ -2945,7 +2945,7 @@
     },
     {
       "asset": "FIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FIFO",
@@ -2953,7 +2953,7 @@
     },
     {
       "asset": "FFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FETCH",
@@ -2969,7 +2969,7 @@
     },
     {
       "asset": "FCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FCOM",
@@ -2977,7 +2977,7 @@
     },
     {
       "asset": "FCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FBIT",
@@ -3065,7 +3065,7 @@
     },
     {
       "asset": "EROUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EREWARD",
@@ -3089,7 +3089,7 @@
     },
     {
       "asset": "ENET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMSG",
@@ -3117,7 +3117,7 @@
     },
     {
       "asset": "ELEL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EKKO",
