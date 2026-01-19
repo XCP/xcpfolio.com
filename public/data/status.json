@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 0,
+  "available": 9,
   "sold": 12,
-  "notListed": 987,
+  "notListed": 978,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -5433,8 +5433,8 @@
     },
     {
       "asset": "IBBB",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/IBBB",
@@ -5828,8 +5828,8 @@
     },
     {
       "asset": "HABERMAS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Philosophy",
       "length": 8,
       "url": "https://xcpfolio.com/HABERMAS",
@@ -6422,8 +6422,8 @@
     },
     {
       "asset": "FSTOCK",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/FSTOCK",
@@ -6593,8 +6593,8 @@
     },
     {
       "asset": "FLLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/FLLC",
@@ -7295,8 +7295,8 @@
     },
     {
       "asset": "DIPS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DIPS",
@@ -8248,8 +8248,8 @@
     },
     {
       "asset": "CAPECOD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Geographic",
       "length": 7,
       "url": "https://xcpfolio.com/CAPECOD",
@@ -8491,8 +8491,8 @@
     },
     {
       "asset": "BOUTS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Gambling",
       "length": 5,
       "url": "https://xcpfolio.com/BOUTS",
@@ -8670,8 +8670,8 @@
     },
     {
       "asset": "BKYLN",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Geographic",
       "length": 5,
       "url": "https://xcpfolio.com/BKYLN",
@@ -8877,8 +8877,8 @@
     },
     {
       "asset": "BBBI",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/BBBI",

@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 0,
+  "available": 9,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2421,7 +2421,7 @@
     },
     {
       "asset": "IBBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IAAA",
@@ -2597,7 +2597,7 @@
     },
     {
       "asset": "HABERMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HAAA",
@@ -2861,7 +2861,7 @@
     },
     {
       "asset": "FSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FSHARES",
@@ -2937,7 +2937,7 @@
     },
     {
       "asset": "FLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FITT",
@@ -3249,7 +3249,7 @@
     },
     {
       "asset": "DIPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIPO",
@@ -3673,7 +3673,7 @@
     },
     {
       "asset": "CAPECOD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CANOPY",
@@ -3781,7 +3781,7 @@
     },
     {
       "asset": "BOUTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BOUT",
@@ -3861,7 +3861,7 @@
     },
     {
       "asset": "BKYLN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BKON",
@@ -3953,7 +3953,7 @@
     },
     {
       "asset": "BBBI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BBAA",
