@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 258,
+  "available": 288,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3341,7 +3341,7 @@
     },
     {
       "asset": "DBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DATOS",
@@ -3349,7 +3349,7 @@
     },
     {
       "asset": "DATO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DARKMARKET",
@@ -3357,11 +3357,11 @@
     },
     {
       "asset": "DAPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DAPPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DANO",
@@ -3373,7 +3373,7 @@
     },
     {
       "asset": "DADD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DAAA",
@@ -3381,7 +3381,7 @@
     },
     {
       "asset": "CUTX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUBOS",
@@ -3397,7 +3397,7 @@
     },
     {
       "asset": "CTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CTRADE",
@@ -3413,7 +3413,7 @@
     },
     {
       "asset": "CSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSHARE",
@@ -3421,7 +3421,7 @@
     },
     {
       "asset": "CSERIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CROWDSHARES",
@@ -3429,7 +3429,7 @@
     },
     {
       "asset": "CROWDSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CRITS",
@@ -3445,7 +3445,7 @@
     },
     {
       "asset": "CREO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CREA",
@@ -3457,7 +3457,7 @@
     },
     {
       "asset": "COSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPZ",
@@ -3465,7 +3465,7 @@
     },
     {
       "asset": "CORPY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPX",
@@ -3473,7 +3473,7 @@
     },
     {
       "asset": "CORPE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPD",
@@ -3481,7 +3481,7 @@
     },
     {
       "asset": "CORPC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPB",
@@ -3489,7 +3489,7 @@
     },
     {
       "asset": "CORPA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORNSILO",
@@ -3497,7 +3497,7 @@
     },
     {
       "asset": "CORDOVA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COPIES",
@@ -3505,7 +3505,7 @@
     },
     {
       "asset": "CONWAY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CONRAD",
@@ -3513,11 +3513,11 @@
     },
     {
       "asset": "CONN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYX",
@@ -3525,7 +3525,7 @@
     },
     {
       "asset": "COMPANYC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYB",
@@ -3533,15 +3533,15 @@
     },
     {
       "asset": "COMPANYA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANIA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINR",
@@ -3549,7 +3549,7 @@
     },
     {
       "asset": "COINO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINDEX",
@@ -3557,7 +3557,7 @@
     },
     {
       "asset": "COIND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COGS",
@@ -3573,7 +3573,7 @@
     },
     {
       "asset": "CLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CLLC",
@@ -3581,11 +3581,11 @@
     },
     {
       "asset": "CLICKZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CLIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CIRCE",
@@ -3661,7 +3661,7 @@
     },
     {
       "asset": "CASTOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CASK",
