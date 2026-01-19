@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 319,
+  "available": 322,
   "sold": 12,
-  "notListed": 668,
+  "notListed": 665,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7079,8 +7079,8 @@
     },
     {
       "asset": "EBIT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Bitcoin",
       "length": 4,
       "url": "https://xcpfolio.com/EBIT",
@@ -7124,8 +7124,8 @@
     },
     {
       "asset": "DUNKS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/DUNKS",
@@ -7142,8 +7142,8 @@
     },
     {
       "asset": "DUAL",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DUAL",

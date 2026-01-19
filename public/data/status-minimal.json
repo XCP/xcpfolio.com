@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 319,
+  "available": 322,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3153,7 +3153,7 @@
     },
     {
       "asset": "EBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EAAA",
@@ -3173,7 +3173,7 @@
     },
     {
       "asset": "DUNKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNK",
@@ -3181,7 +3181,7 @@
     },
     {
       "asset": "DUAL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DTRANCHE",
