@@ -2,6 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
 import { InstallWalletModal } from '@/components/InstallWalletModal';
+import { composeOrderTransaction } from '@/lib/api';
 
 // Define the XCP Wallet provider interface
 interface XCPWalletProvider {
@@ -277,8 +278,8 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
     setError(null);
   }, [getProvider]);
 
-  // Compose an order transaction using official XCP Wallet API
-  // With the new provider API, this handles the entire flow including signing and broadcasting
+  // Compose an order transaction
+  // Flow: 1) Compose via Counterparty API, 2) Sign via wallet extension, 3) Broadcast via wallet extension
   const composeOrder = useCallback(async (params: {
     give_asset: string;
     give_quantity: number;
@@ -286,31 +287,60 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
     get_quantity: number;
     expiration?: number;
     sat_per_vbyte?: number;
+    fee_rate?: number; // Alias for sat_per_vbyte
   }) => {
     const provider = getProvider();
     if (!provider || !provider.request) {
       throw new Error('XCP Wallet not connected');
     }
 
+    if (!account) {
+      throw new Error('No account connected');
+    }
+
+    // Support both sat_per_vbyte and fee_rate (alias)
+    const feeRate = params.sat_per_vbyte || params.fee_rate || 10;
+
     try {
-      // The new API handles the entire flow through the extension UI
-      // The user will see a familiar compose form with the parameters pre-filled
-      // They can review, modify if needed, and approve the transaction
-      const result = await provider.request({
-        method: 'xcp_composeOrder',
-        params: [{
-          give_asset: params.give_asset,
-          give_quantity: params.give_quantity.toString(),
-          get_asset: params.get_asset,
-          get_quantity: params.get_quantity.toString(),
-          expiration: params.expiration || 8064,
-          sat_per_vbyte: params.sat_per_vbyte || 1
-        }]
+      console.log('Composing order transaction via Counterparty API…');
+
+      // Step 1: Compose the transaction via Counterparty API
+      const composeResult = await composeOrderTransaction({
+        sourceAddress: account,
+        give_asset: params.give_asset,
+        give_quantity: params.give_quantity,
+        get_asset: params.get_asset,
+        get_quantity: params.get_quantity,
+        expiration: params.expiration || 8064,
+        sat_per_vbyte: feeRate,
       });
 
-      // The result will include the transaction hash after successful broadcast
-      console.log('Order composed and broadcast:', result);
-      return result;
+      console.log('Transaction composed:', {
+        btc_fee: composeResult.btc_fee,
+        params: composeResult.params,
+      });
+
+      // Step 2: Sign the transaction via wallet extension
+      console.log('Requesting signature from wallet…');
+      const signResult = await provider.request({
+        method: 'xcp_signTransaction',
+        params: [{ hex: composeResult.rawtransaction }]
+      }) as { hex: string };
+
+      if (!signResult?.hex) {
+        throw new Error('Failed to sign transaction');
+      }
+
+      console.log('Transaction signed, broadcasting…');
+
+      // Step 3: Broadcast the signed transaction via wallet extension
+      const broadcastResult = await provider.request({
+        method: 'xcp_broadcastTransaction',
+        params: [signResult.hex]
+      }) as { txid: string };
+
+      console.log('Order broadcast successfully:', broadcastResult);
+      return { txid: broadcastResult.txid };
     } catch (err: any) {
       console.error('Compose order error:', err);
 
@@ -319,25 +349,49 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
         throw new Error('Order was cancelled by user');
       } else if (err.message?.includes('Popup required')) {
         throw new Error('Please approve the transaction in the wallet popup');
+      } else if (err.message?.includes('Unauthorized')) {
+        throw new Error('Wallet not connected. Please connect first.');
+      }
+
+      throw err;
+    }
+  }, [getProvider, account]);
+
+  // Sign and broadcast a raw transaction via the wallet extension
+  const signAndBroadcast = useCallback(async (rawTransaction: string): Promise<{ txid: string }> => {
+    const provider = getProvider();
+    if (!provider || !provider.request) {
+      throw new Error('XCP Wallet not connected');
+    }
+
+    try {
+      // Sign the transaction
+      const signResult = await provider.request({
+        method: 'xcp_signTransaction',
+        params: [{ hex: rawTransaction }]
+      }) as { hex: string };
+
+      if (!signResult?.hex) {
+        throw new Error('Failed to sign transaction');
+      }
+
+      // Broadcast the signed transaction
+      const broadcastResult = await provider.request({
+        method: 'xcp_broadcastTransaction',
+        params: [signResult.hex]
+      }) as { txid: string };
+
+      return { txid: broadcastResult.txid };
+    } catch (err: any) {
+      console.error('Sign and broadcast error:', err);
+
+      if (err.message?.includes('User cancelled') || err.message?.includes('User rejected')) {
+        throw new Error('Transaction was cancelled by user');
       }
 
       throw err;
     }
   }, [getProvider]);
-
-  // Sign and broadcast is no longer needed as compose methods handle everything
-  // Keep it for backward compatibility but have it throw an informative error
-  const signAndBroadcast = useCallback(async (rawTransaction: string) => {
-    // The new provider API doesn't expose raw transaction signing for security
-    // All transactions go through the compose methods which handle signing internally
-    console.warn('signAndBroadcast is deprecated. Compose methods now handle the entire flow.');
-
-    // If we get here, it means the compose method already succeeded
-    // Return a mock success response
-    return {
-      txid: 'Transaction already broadcast through compose method'
-    };
-  }, []);
 
   return (
     <>

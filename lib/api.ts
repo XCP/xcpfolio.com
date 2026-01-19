@@ -2,6 +2,26 @@
 
 const API_BASE = 'https://api.counterparty.io:4000';
 
+// Compose order transaction result
+export interface ComposeOrderResult {
+  rawtransaction: string;
+  psbt: string;
+  btc_in: number;
+  btc_out: number;
+  btc_change: number;
+  btc_fee: number;
+  data: string;
+  params: {
+    source: string;
+    give_asset: string;
+    give_quantity: number;
+    get_asset: string;
+    get_quantity: number;
+    expiration: number;
+    fee_required: number;
+  };
+}
+
 export interface Subasset {
   asset: string;
   asset_longname: string;
@@ -356,4 +376,57 @@ export async function getEnrichedSubassets(): Promise<EnrichedSubasset[]> {
       metadata: metadata[name]
     };
   });
+}
+
+// Compose an order transaction via the Counterparty API
+// Returns the unsigned transaction for signing by the wallet
+export async function composeOrderTransaction(params: {
+  sourceAddress: string;
+  give_asset: string;
+  give_quantity: number;
+  get_asset: string;
+  get_quantity: number;
+  expiration?: number;
+  fee_required?: number;
+  sat_per_vbyte?: number;
+}): Promise<ComposeOrderResult> {
+  const {
+    sourceAddress,
+    give_asset,
+    give_quantity,
+    get_asset,
+    get_quantity,
+    expiration = 8064, // ~8 weeks default
+    fee_required = 0,
+    sat_per_vbyte = 10,
+  } = params;
+
+  const queryParams = new URLSearchParams({
+    give_asset,
+    give_quantity: give_quantity.toString(),
+    get_asset,
+    get_quantity: get_quantity.toString(),
+    expiration: expiration.toString(),
+    fee_required: fee_required.toString(),
+    sat_per_vbyte: sat_per_vbyte.toString(),
+    exclude_utxos_with_balances: 'true',
+    verbose: 'true',
+  });
+
+  const url = `${API_BASE}/v2/addresses/${sourceAddress}/compose/order?${queryParams.toString()}`;
+
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.error || `Failed to compose order: ${response.status}`);
+  }
+
+  const data = await response.json();
+
+  if (data.error) {
+    throw new Error(data.error);
+  }
+
+  return data.result;
 }
