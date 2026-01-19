@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 295,
+  "available": 302,
   "sold": 12,
-  "notListed": 692,
+  "notListed": 685,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7322,8 +7322,8 @@
     },
     {
       "asset": "DIEZ",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 4,
       "url": "https://xcpfolio.com/DIEZ",
@@ -7340,8 +7340,8 @@
     },
     {
       "asset": "DGOLD",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/DGOLD",
@@ -7358,8 +7358,8 @@
     },
     {
       "asset": "DEXOMATIC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 9,
       "url": "https://xcpfolio.com/DEXOMATIC",
@@ -7367,8 +7367,8 @@
     },
     {
       "asset": "DEXO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/DEXO",
@@ -7412,8 +7412,8 @@
     },
     {
       "asset": "DENALI",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Geographic",
       "length": 6,
       "url": "https://xcpfolio.com/DENALI",
@@ -7430,8 +7430,8 @@
     },
     {
       "asset": "DECKER",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 6,
       "url": "https://xcpfolio.com/DECKER",
@@ -7646,8 +7646,8 @@
     },
     {
       "asset": "CSTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/CSTOCKS",

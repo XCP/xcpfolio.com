@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 295,
+  "available": 302,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3261,7 +3261,7 @@
     },
     {
       "asset": "DIEZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIBS",
@@ -3269,7 +3269,7 @@
     },
     {
       "asset": "DGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DFUND",
@@ -3277,11 +3277,11 @@
     },
     {
       "asset": "DEXOMATIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEXO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEUCES",
@@ -3301,7 +3301,7 @@
     },
     {
       "asset": "DENALI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DELPHI",
@@ -3309,7 +3309,7 @@
     },
     {
       "asset": "DECKER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEALFLOW",
@@ -3405,7 +3405,7 @@
     },
     {
       "asset": "CSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSTOCK",
