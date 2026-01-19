@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 288,
+  "available": 295,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3273,7 +3273,7 @@
     },
     {
       "asset": "DFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DEXOMATIC",
@@ -3293,7 +3293,7 @@
     },
     {
       "asset": "DESCARTES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DERRIDA",
@@ -3333,7 +3333,7 @@
     },
     {
       "asset": "DCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCASH",
@@ -3365,7 +3365,7 @@
     },
     {
       "asset": "DANO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DANN",
@@ -3389,7 +3389,7 @@
     },
     {
       "asset": "CUBO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUBED",
@@ -3437,7 +3437,7 @@
     },
     {
       "asset": "CRITICAL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CRIT",
@@ -3449,7 +3449,7 @@
     },
     {
       "asset": "CREA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COVE",

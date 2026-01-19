@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 288,
+  "available": 295,
   "sold": 12,
-  "notListed": 699,
+  "notListed": 692,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7349,8 +7349,8 @@
     },
     {
       "asset": "DFUND",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/DFUND",
@@ -7394,8 +7394,8 @@
     },
     {
       "asset": "DESCARTES",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Philosophy",
       "length": 9,
       "url": "https://xcpfolio.com/DESCARTES",
@@ -7484,8 +7484,8 @@
     },
     {
       "asset": "DCOIN",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/DCOIN",
@@ -7556,8 +7556,8 @@
     },
     {
       "asset": "DANO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 4,
       "url": "https://xcpfolio.com/DANO",
@@ -7610,8 +7610,8 @@
     },
     {
       "asset": "CUBO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/CUBO",
@@ -7718,8 +7718,8 @@
     },
     {
       "asset": "CRITICAL",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 8,
       "url": "https://xcpfolio.com/CRITICAL",
@@ -7745,8 +7745,8 @@
     },
     {
       "asset": "CREA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/CREA",
