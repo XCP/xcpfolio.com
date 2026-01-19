@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 9,
+  "available": 24,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2561,7 +2561,7 @@
     },
     {
       "asset": "HCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCOM",
@@ -2737,7 +2737,7 @@
     },
     {
       "asset": "GCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GBIT",
@@ -2905,7 +2905,7 @@
     },
     {
       "asset": "FORA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOOTY",
@@ -3125,7 +3125,7 @@
     },
     {
       "asset": "EIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EHOLDINGS",
@@ -3353,7 +3353,7 @@
     },
     {
       "asset": "DARKMARKET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DAPS",
@@ -3377,7 +3377,7 @@
     },
     {
       "asset": "DAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUTX",
@@ -3441,7 +3441,7 @@
     },
     {
       "asset": "CRIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CREO",
@@ -3477,7 +3477,7 @@
     },
     {
       "asset": "CORPD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPC",
@@ -3509,7 +3509,7 @@
     },
     {
       "asset": "CONRAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CONN",
@@ -3561,7 +3561,7 @@
     },
     {
       "asset": "COGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COCA",
@@ -3589,7 +3589,7 @@
     },
     {
       "asset": "CIRCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CIRC",
@@ -3633,7 +3633,7 @@
     },
     {
       "asset": "CEDAR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CECA",
@@ -3701,7 +3701,7 @@
     },
     {
       "asset": "BYOB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BXXX",
@@ -3913,7 +3913,7 @@
     },
     {
       "asset": "BENTLEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BEEM",
@@ -3993,7 +3993,7 @@
     },
     {
       "asset": "A12345678910987654321",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "A112358132134558914",
