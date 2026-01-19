@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 332,
+  "available": 345,
   "sold": 12,
-  "notListed": 655,
+  "notListed": 642,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -5855,8 +5855,8 @@
     },
     {
       "asset": "GUID",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/GUID",
@@ -6134,8 +6134,8 @@
     },
     {
       "asset": "GCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/GCOMPANY",
@@ -6170,8 +6170,8 @@
     },
     {
       "asset": "GATO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/GATO",
@@ -6206,8 +6206,8 @@
     },
     {
       "asset": "GARRISON",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 8,
       "url": "https://xcpfolio.com/GARRISON",
@@ -6269,8 +6269,8 @@
     },
     {
       "asset": "GALLOWAY",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 8,
       "url": "https://xcpfolio.com/GALLOWAY",
@@ -6287,8 +6287,8 @@
     },
     {
       "asset": "GAJE",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/GAJE",
@@ -6341,8 +6341,8 @@
     },
     {
       "asset": "FUNDZ",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/FUNDZ",
@@ -6359,8 +6359,8 @@
     },
     {
       "asset": "FUNDR",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/FUNDR",
@@ -6530,8 +6530,8 @@
     },
     {
       "asset": "FOOTY",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Gambling",
       "length": 5,
       "url": "https://xcpfolio.com/FOOTY",
@@ -6584,8 +6584,8 @@
     },
     {
       "asset": "FLTD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/FLTD",
@@ -6602,8 +6602,8 @@
     },
     {
       "asset": "FITT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/FITT",
@@ -6719,8 +6719,8 @@
     },
     {
       "asset": "FABB",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/FABB",
@@ -6746,8 +6746,8 @@
     },
     {
       "asset": "EYED",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/EYED",

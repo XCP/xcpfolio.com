@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 332,
+  "available": 345,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2609,7 +2609,7 @@
     },
     {
       "asset": "GUID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GTRANCHE",
@@ -2733,7 +2733,7 @@
     },
     {
       "asset": "GCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GCOM",
@@ -2749,7 +2749,7 @@
     },
     {
       "asset": "GATO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GATA",
@@ -2765,7 +2765,7 @@
     },
     {
       "asset": "GARRISON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GANO",
@@ -2793,7 +2793,7 @@
     },
     {
       "asset": "GALLOWAY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GALE",
@@ -2801,7 +2801,7 @@
     },
     {
       "asset": "GAJE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAAA",
@@ -2825,7 +2825,7 @@
     },
     {
       "asset": "FUNDZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUNDX",
@@ -2833,7 +2833,7 @@
     },
     {
       "asset": "FUNDR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUNDB",
@@ -2909,7 +2909,7 @@
     },
     {
       "asset": "FOOTY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FONO",
@@ -2933,7 +2933,7 @@
     },
     {
       "asset": "FLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FLLC",
@@ -2941,7 +2941,7 @@
     },
     {
       "asset": "FITT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FIPO",
@@ -2993,7 +2993,7 @@
     },
     {
       "asset": "FABB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FAAA",
@@ -3005,7 +3005,7 @@
     },
     {
       "asset": "EYED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXXX",
