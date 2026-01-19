@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 312,
+  "available": 319,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3185,7 +3185,7 @@
     },
     {
       "asset": "DTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DTRADE",
@@ -3193,7 +3193,7 @@
     },
     {
       "asset": "DSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSTOCK",
@@ -3213,15 +3213,15 @@
     },
     {
       "asset": "DONT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOLCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOLARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOIT",
@@ -3229,7 +3229,7 @@
     },
     {
       "asset": "DMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DLTD",
@@ -3237,7 +3237,7 @@
     },
     {
       "asset": "DLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DJINN",
