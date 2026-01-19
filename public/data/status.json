@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 500,
+  "available": 502,
   "sold": 12,
-  "notListed": 487,
+  "notListed": 485,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2664,8 +2664,8 @@
     },
     {
       "asset": "ROUNDC",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/ROUNDC",
@@ -2808,8 +2808,8 @@
     },
     {
       "asset": "REWARDU",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 7,
       "url": "https://xcpfolio.com/REWARDU",

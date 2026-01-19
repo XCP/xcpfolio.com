@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 500,
+  "available": 502,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1189,7 +1189,7 @@
     },
     {
       "asset": "ROUNDC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDB",
@@ -1253,7 +1253,7 @@
     },
     {
       "asset": "REWARDU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REVV",
