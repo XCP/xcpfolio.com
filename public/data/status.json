@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 322,
+  "available": 332,
   "sold": 12,
-  "notListed": 665,
+  "notListed": 655,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -6692,8 +6692,8 @@
     },
     {
       "asset": "FBIT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Bitcoin",
       "length": 4,
       "url": "https://xcpfolio.com/FBIT",
@@ -6728,8 +6728,8 @@
     },
     {
       "asset": "FAAA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/FAAA",
@@ -6809,8 +6809,8 @@
     },
     {
       "asset": "EVEV",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EVEV",
@@ -6872,8 +6872,8 @@
     },
     {
       "asset": "ESERIES",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/ESERIES",
@@ -6890,8 +6890,8 @@
     },
     {
       "asset": "EREWARD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 7,
       "url": "https://xcpfolio.com/EREWARD",
@@ -6926,8 +6926,8 @@
     },
     {
       "asset": "ENTE",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/ENTE",
@@ -6989,8 +6989,8 @@
     },
     {
       "asset": "ELLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/ELLC",
@@ -7025,8 +7025,8 @@
     },
     {
       "asset": "EHOLDINGS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 9,
       "url": "https://xcpfolio.com/EHOLDINGS",
@@ -7043,8 +7043,8 @@
     },
     {
       "asset": "EDITS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/EDITS",
@@ -7061,8 +7061,8 @@
     },
     {
       "asset": "ECOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/ECOMPANY",

@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 322,
+  "available": 332,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2981,7 +2981,7 @@
     },
     {
       "asset": "FBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FAZE",
@@ -2997,7 +2997,7 @@
     },
     {
       "asset": "FAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EZEZ",
@@ -3033,7 +3033,7 @@
     },
     {
       "asset": "EVEV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVERETT",
@@ -3061,7 +3061,7 @@
     },
     {
       "asset": "ESERIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EROUND",
@@ -3069,7 +3069,7 @@
     },
     {
       "asset": "EREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EQTY",
@@ -3085,7 +3085,7 @@
     },
     {
       "asset": "ENTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENET",
@@ -3113,7 +3113,7 @@
     },
     {
       "asset": "ELLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ELEL",
@@ -3129,7 +3129,7 @@
     },
     {
       "asset": "EHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EHOLD",
@@ -3137,7 +3137,7 @@
     },
     {
       "asset": "EDITS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ECORP",
@@ -3145,7 +3145,7 @@
     },
     {
       "asset": "ECOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EBLOCK",
