@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 497,
+  "available": 498,
   "sold": 12,
-  "notListed": 490,
+  "notListed": 489,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -3419,8 +3419,8 @@
     },
     {
       "asset": "OOON",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/OOON",
