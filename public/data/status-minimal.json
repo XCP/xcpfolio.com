@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 498,
+  "available": 500,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1265,7 +1265,7 @@
     },
     {
       "asset": "REPP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RENEWAL",
@@ -1453,7 +1453,7 @@
     },
     {
       "asset": "PFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PEDO",

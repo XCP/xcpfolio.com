@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 498,
+  "available": 500,
   "sold": 12,
-  "notListed": 489,
+  "notListed": 487,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2835,8 +2835,8 @@
     },
     {
       "asset": "REPP",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/REPP",
@@ -3257,8 +3257,8 @@
     },
     {
       "asset": "PFUND",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/PFUND",
