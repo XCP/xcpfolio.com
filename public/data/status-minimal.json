@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 345,
+  "available": 349,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2593,7 +2593,7 @@
     },
     {
       "asset": "HAMPTON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HABERMAS",
@@ -2625,7 +2625,7 @@
     },
     {
       "asset": "GSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GSTOCK",
@@ -2681,7 +2681,7 @@
     },
     {
       "asset": "GINTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GINN",
@@ -2705,7 +2705,7 @@
     },
     {
       "asset": "GETT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEOS",

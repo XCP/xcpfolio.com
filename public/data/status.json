@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 345,
+  "available": 349,
   "sold": 12,
-  "notListed": 642,
+  "notListed": 638,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -5819,8 +5819,8 @@
     },
     {
       "asset": "HAMPTON",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 7,
       "url": "https://xcpfolio.com/HAMPTON",
@@ -5891,8 +5891,8 @@
     },
     {
       "asset": "GSTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/GSTOCKS",
@@ -6017,8 +6017,8 @@
     },
     {
       "asset": "GINTO",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/GINTO",
@@ -6071,8 +6071,8 @@
     },
     {
       "asset": "GETT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/GETT",
