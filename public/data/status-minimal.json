@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 424,
+  "available": 449,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1841,11 +1841,11 @@
     },
     {
       "asset": "MIST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MINES",
@@ -1853,7 +1853,7 @@
     },
     {
       "asset": "MINED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MINDS",
@@ -1861,11 +1861,11 @@
     },
     {
       "asset": "MGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MERA",
@@ -1873,7 +1873,7 @@
     },
     {
       "asset": "MEDUSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MEAD",
@@ -1885,19 +1885,19 @@
     },
     {
       "asset": "MCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MCDONALD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MBETS",
@@ -1905,7 +1905,7 @@
     },
     {
       "asset": "MBET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAYAN",
@@ -1913,11 +1913,11 @@
     },
     {
       "asset": "MAXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAXWELL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAXED",
@@ -1925,19 +1925,19 @@
     },
     {
       "asset": "MAPAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAPA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MANOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MANO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAGMA",
@@ -1945,7 +1945,7 @@
     },
     {
       "asset": "MACA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAAA",
@@ -1953,7 +1953,7 @@
     },
     {
       "asset": "LUVV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTRADE",
@@ -1961,7 +1961,7 @@
     },
     {
       "asset": "LTDX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDS",
@@ -1969,7 +1969,7 @@
     },
     {
       "asset": "LTDE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDD",
@@ -1977,11 +1977,11 @@
     },
     {
       "asset": "LTDC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LTDB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LSTOCKS",
@@ -1989,7 +1989,7 @@
     },
     {
       "asset": "LSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LSHARES",
@@ -1997,7 +1997,7 @@
     },
     {
       "asset": "LSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "LOVV",
