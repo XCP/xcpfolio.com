@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 74,
+  "available": 88,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3369,7 +3369,7 @@
     },
     {
       "asset": "DANN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DADD",
@@ -3385,7 +3385,7 @@
     },
     {
       "asset": "CUBOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CUBO",
@@ -3393,7 +3393,7 @@
     },
     {
       "asset": "CUBED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CTRANCHE",
@@ -3401,7 +3401,7 @@
     },
     {
       "asset": "CTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSTOCKS",
@@ -3433,7 +3433,7 @@
     },
     {
       "asset": "CRITS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CRITICAL",
@@ -3461,7 +3461,7 @@
     },
     {
       "asset": "CORPZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPY",
@@ -3469,7 +3469,7 @@
     },
     {
       "asset": "CORPX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPE",
@@ -3501,7 +3501,7 @@
     },
     {
       "asset": "COPIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CONWAY",
@@ -3521,7 +3521,7 @@
     },
     {
       "asset": "COMPANYX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYC",
@@ -3545,7 +3545,7 @@
     },
     {
       "asset": "COINR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINO",
@@ -3569,7 +3569,7 @@
     },
     {
       "asset": "CMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CLTD",
@@ -3605,7 +3605,7 @@
     },
     {
       "asset": "CIEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CHOP",
@@ -3657,7 +3657,7 @@
     },
     {
       "asset": "CBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CASTOR",
@@ -3693,7 +3693,7 @@
     },
     {
       "asset": "CAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BZZZ",
