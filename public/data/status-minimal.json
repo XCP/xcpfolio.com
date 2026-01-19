@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 24,
+  "available": 49,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2093,7 +2093,7 @@
     },
     {
       "asset": "KTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KSTOCKS",
@@ -2137,7 +2137,7 @@
     },
     {
       "asset": "KHAT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KFUND",
@@ -2157,7 +2157,7 @@
     },
     {
       "asset": "KCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KANT",
@@ -2213,7 +2213,7 @@
     },
     {
       "asset": "JINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JIAO",
@@ -2269,7 +2269,7 @@
     },
     {
       "asset": "ITRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ISTOCKS",
@@ -2305,7 +2305,7 @@
     },
     {
       "asset": "IQIQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IPOO",
@@ -2333,7 +2333,7 @@
     },
     {
       "asset": "INTERNETS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "INDI",
@@ -2369,7 +2369,7 @@
     },
     {
       "asset": "IHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IGOLD",
@@ -2465,7 +2465,7 @@
     },
     {
       "asset": "HSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOVER",
@@ -2481,7 +2481,7 @@
     },
     {
       "asset": "HONEST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOLDX",
@@ -2525,7 +2525,7 @@
     },
     {
       "asset": "HIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HILO",
@@ -2569,7 +2569,7 @@
     },
     {
       "asset": "HCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HCASH",
@@ -2641,7 +2641,7 @@
     },
     {
       "asset": "GRAN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GOTT",
@@ -2677,7 +2677,7 @@
     },
     {
       "asset": "GIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GINTO",
@@ -2777,7 +2777,7 @@
     },
     {
       "asset": "GAMERCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAMECOINS",
@@ -2961,7 +2961,7 @@
     },
     {
       "asset": "FENG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FCORP",
@@ -3081,7 +3081,7 @@
     },
     {
       "asset": "ENTIDAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENTE",
@@ -3169,7 +3169,7 @@
     },
     {
       "asset": "DUNLAP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNKS",
@@ -3817,7 +3817,7 @@
     },
     {
       "asset": "BLOCKZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BLOCKX",
@@ -3905,7 +3905,7 @@
     },
     {
       "asset": "BFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BERK",
@@ -3921,7 +3921,7 @@
     },
     {
       "asset": "BEAUX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BEAU",
@@ -3945,7 +3945,7 @@
     },
     {
       "asset": "BBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BBIT",
@@ -3961,7 +3961,7 @@
     },
     {
       "asset": "BAZA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BARNS",
@@ -3973,7 +3973,7 @@
     },
     {
       "asset": "BAJA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BACH",
@@ -3985,7 +3985,7 @@
     },
     {
       "asset": "A987654321123456789",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "A123581321345589144",
