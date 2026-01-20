@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 505,
+  "available": 528,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -249,27 +249,27 @@
     },
     {
       "asset": "XCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XABC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WYSIWYG",
@@ -277,31 +277,31 @@
     },
     {
       "asset": "WWWX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWIII",
@@ -309,19 +309,19 @@
     },
     {
       "asset": "WTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSHARE",
@@ -337,7 +337,7 @@
     },
     {
       "asset": "WONT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WMONEY",
@@ -353,7 +353,7 @@
     },
     {
       "asset": "WIZZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WIPO",
@@ -393,7 +393,7 @@
     },
     {
       "asset": "WCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCOM",
@@ -405,7 +405,7 @@
     },
     {
       "asset": "WAXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAVY",
@@ -537,7 +537,7 @@
     },
     {
       "asset": "UTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UTOKEN",
@@ -553,7 +553,7 @@
     },
     {
       "asset": "USHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USHARE",
