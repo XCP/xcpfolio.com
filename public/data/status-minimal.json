@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 502,
+  "available": 505,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -597,7 +597,7 @@
     },
     {
       "asset": "USAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAC",
@@ -1125,7 +1125,7 @@
     },
     {
       "asset": "SCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCION",
@@ -1165,7 +1165,7 @@
     },
     {
       "asset": "RSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RSHARES",
