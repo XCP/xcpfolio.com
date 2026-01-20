@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 595,
+  "available": 607,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2989,7 +2989,7 @@
     },
     {
       "asset": "FAMA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FABB",
@@ -3001,7 +3001,7 @@
     },
     {
       "asset": "EZEZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EYED",
@@ -3009,15 +3009,15 @@
     },
     {
       "asset": "EXXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXISTENT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXEXEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXEX",
@@ -3025,11 +3025,11 @@
     },
     {
       "asset": "EXES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVEV",
@@ -3037,7 +3037,7 @@
     },
     {
       "asset": "EVERETT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EVEREST",
@@ -3053,7 +3053,7 @@
     },
     {
       "asset": "ESTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ESTE",
@@ -3077,7 +3077,7 @@
     },
     {
       "asset": "EQQQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENTIDAD",
@@ -3105,7 +3105,7 @@
     },
     {
       "asset": "EMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ELTD",
@@ -3121,7 +3121,7 @@
     },
     {
       "asset": "EKKO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EIPO",

@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 595,
+  "available": 607,
   "sold": 12,
-  "notListed": 392,
+  "notListed": 380,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -6710,8 +6710,8 @@
     },
     {
       "asset": "FAMA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/FAMA",
@@ -6737,8 +6737,8 @@
     },
     {
       "asset": "EZEZ",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EZEZ",
@@ -6755,8 +6755,8 @@
     },
     {
       "asset": "EXXX",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EXXX",
@@ -6764,8 +6764,8 @@
     },
     {
       "asset": "EXISTENT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Philosophy",
       "length": 8,
       "url": "https://xcpfolio.com/EXISTENT",
@@ -6773,8 +6773,8 @@
     },
     {
       "asset": "EXEXEX",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 6,
       "url": "https://xcpfolio.com/EXEXEX",
@@ -6791,8 +6791,8 @@
     },
     {
       "asset": "EXES",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EXES",
@@ -6800,8 +6800,8 @@
     },
     {
       "asset": "EXED",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EXED",
@@ -6818,8 +6818,8 @@
     },
     {
       "asset": "EVERETT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 7,
       "url": "https://xcpfolio.com/EVERETT",
@@ -6854,8 +6854,8 @@
     },
     {
       "asset": "ESTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/ESTOCKS",
@@ -6908,8 +6908,8 @@
     },
     {
       "asset": "EQQQ",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/EQQQ",
@@ -6971,8 +6971,8 @@
     },
     {
       "asset": "EMAS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/EMAS",
@@ -7007,8 +7007,8 @@
     },
     {
       "asset": "EKKO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EKKO",
