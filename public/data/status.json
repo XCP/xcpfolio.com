@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 589,
+  "available": 595,
   "sold": 12,
-  "notListed": 398,
+  "notListed": 392,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -6782,8 +6782,8 @@
     },
     {
       "asset": "EXEX",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EXEX",
@@ -6836,8 +6836,8 @@
     },
     {
       "asset": "EUSA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/EUSA",
@@ -6944,8 +6944,8 @@
     },
     {
       "asset": "EMSG",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EMSG",
@@ -6962,8 +6962,8 @@
     },
     {
       "asset": "EMCEE",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/EMCEE",
@@ -7097,8 +7097,8 @@
     },
     {
       "asset": "DUOS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DUOS",
@@ -7106,8 +7106,8 @@
     },
     {
       "asset": "DUNN",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 4,
       "url": "https://xcpfolio.com/DUNN",

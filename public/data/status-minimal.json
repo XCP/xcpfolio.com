@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 589,
+  "available": 595,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3021,7 +3021,7 @@
     },
     {
       "asset": "EXEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EXES",
@@ -3045,7 +3045,7 @@
     },
     {
       "asset": "EUSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ETRANCHE",
@@ -3093,7 +3093,7 @@
     },
     {
       "asset": "EMSG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMPRESA",
@@ -3101,7 +3101,7 @@
     },
     {
       "asset": "EMCEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMAS",
@@ -3161,11 +3161,11 @@
     },
     {
       "asset": "DUOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUNLAP",
