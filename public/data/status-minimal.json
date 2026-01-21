@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 854,
+  "available": 876,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -805,91 +805,91 @@
     },
     {
       "asset": "THRU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "THEDIP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEXTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TESTNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TESSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TENX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TENN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TANGO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SYSTEMATIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SYLT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SUGA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SUDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STUV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKY",
