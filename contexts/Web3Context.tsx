@@ -6,13 +6,9 @@ import { composeOrderTransaction } from '@/lib/api';
 
 // Define the XCP Wallet provider interface
 interface XCPWalletProvider {
-  request?: (args: { method: string; params?: any[] }) => Promise<any>;
-  on?: (event: string, handler: (data: any) => void) => void;
-  off?: (event: string, handler: (data: any) => void) => void;
-  removeListener?: (event: string, handler: (data: any) => void) => void;
-  enable?: () => Promise<string[]>; // Legacy support
-  // Add any other methods that might be available
-  [key: string]: any;
+  request: (args: { method: string; params?: any[] }) => Promise<any>;
+  on: (event: string, handler: (data: any) => void) => void;
+  removeListener: (event: string, handler: (data: any) => void) => void;
 }
 
 interface Web3ContextType {
@@ -118,12 +114,8 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
 
       // Return cleanup function
       return () => {
-        // XCP Wallet supports both removeListener and off
-        const removeMethod = provider.removeListener || provider.off;
-        if (typeof removeMethod === 'function') {
-          removeMethod.call(provider, 'accountsChanged', handleAccountsChanged);
-          removeMethod.call(provider, 'disconnect', handleDisconnect);
-        }
+        provider.removeListener('accountsChanged', handleAccountsChanged);
+        provider.removeListener('disconnect', handleDisconnect);
       };
     };
 
@@ -190,20 +182,7 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
 
     try {
       console.log('Attempting to connect to XCP Wallet...');
-      
-      if (!provider.request && !provider.enable) {
-        throw new Error('XCP Wallet provider does not support connection methods');
-      }
-      
-      // Request accounts using the standard provider.request method
-      console.log('Requesting accounts from XCP Wallet...');
       console.log('Current origin:', window.location.origin);
-
-      let accounts = null;
-
-      if (!provider.request) {
-        throw new Error('Provider does not support request method');
-      }
 
       // Add timeout to the request
       const requestPromise = provider.request({ method: 'xcp_requestAccounts', params: [] });
@@ -211,7 +190,7 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
         setTimeout(() => reject(new Error('Request timeout after 10 seconds')), 10000)
       );
 
-      accounts = await Promise.race([requestPromise, timeoutPromise]);
+      const accounts = await Promise.race([requestPromise, timeoutPromise]);
       console.log('provider.request result:', accounts);
       
       console.log('Final result - accounts:', accounts);
