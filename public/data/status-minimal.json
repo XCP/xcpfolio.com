@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 718,
+  "available": 735,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1397,59 +1397,59 @@
     },
     {
       "asset": "PSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PROUD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PROCTOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "POSEIDON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "POPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "POMP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PINZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PICKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PFUND",
@@ -1457,15 +1457,15 @@
     },
     {
       "asset": "PEDO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PEARSON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCOMPANY",
