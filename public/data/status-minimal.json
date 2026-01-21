@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 888,
+  "available": 912,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -653,99 +653,99 @@
     },
     {
       "asset": "UCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TYVM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TYME",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TUFF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TTOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSSK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRITON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOXIC",
