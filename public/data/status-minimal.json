@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 912,
+  "available": 929,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -581,19 +581,19 @@
     },
     {
       "asset": "USAI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAG",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAD",
@@ -601,55 +601,55 @@
     },
     {
       "asset": "USAC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "URGE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ULTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ULLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCOM",
