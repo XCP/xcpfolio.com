@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 929,
+  "available": 948,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -497,43 +497,43 @@
     },
     {
       "asset": "VERGE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VERDE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VABC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UTRADE",
@@ -541,15 +541,15 @@
     },
     {
       "asset": "UTOKEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USHARES",
@@ -557,27 +557,27 @@
     },
     {
       "asset": "USHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAI",
