@@ -106,61 +106,60 @@ export default function AssetPage() {
     trackEvent('purchase_clicked', {
       _value: order ? order.get_quantity : 0
     });
-    
+
     // If not connected, trigger wallet connection
     if (!isConnected) {
       await connect();
       return;
     }
-    
+
     // If we don't have an account after connection, bail out
     if (!account) {
       setOrderError('Please connect your wallet to continue');
       return;
     }
-    
+
     // If no order is available, show error
     if (!order) {
       setOrderError('No order available for this asset');
       return;
     }
-    
+
     setIsCreatingOrder(true);
     setOrderError(null);
     setOrderSuccess(null);
-    
+
     try {
-      // Create a buy order that matches the sell order
-      // To buy 1 XCPFOLIO.{asset}, we need to give the amount the seller is asking
       const feeRate = await getOrderFeeRate();
+
+      // Match existing sell order
       const orderParams = {
         give_asset: order.get_asset, // What seller wants (e.g., XCP)
         give_quantity: order.get_quantity, // Amount seller wants
         get_asset: order.give_asset, // What we want (XCPFOLIO.{asset})
         get_quantity: order.give_quantity, // Amount we want (1)
         expiration: 100, // blocks until expiration
-        sat_per_vbyte: feeRate // Dynamic fee rate from mempool.space
+        sat_per_vbyte: feeRate
       };
-      
+
       console.log('Creating buy order with params:', orderParams);
-      
+
       // Compose and broadcast the order transaction through the extension UI
-      // The new API handles everything in one call - compose, sign, and broadcast
       const result = await composeOrder(orderParams);
       console.log('Order transaction result:', result);
 
       // The result should contain the transaction hash
       const txid = result.txid || result.tx_hash || result;
       setOrderSuccess(`Order created successfully! Transaction: ${txid}`);
-      
+
       // Show success message for a few seconds
       setTimeout(() => {
         setOrderSuccess(null);
       }, 10000);
-      
+
     } catch (error: any) {
       console.error('Purchase error:', error);
-      
+
       // Handle specific error cases
       if (error.message?.includes('User cancelled') || error.message?.includes('User denied') || error.message?.includes('rejected')) {
         setOrderError('Transaction was cancelled');
@@ -182,43 +181,11 @@ export default function AssetPage() {
     }
   };
 
-  const handleCreateBuyOrder = async () => {
-    if (!isConnected || !account) {
-      setOrderError('Please connect your wallet first');
-      return;
-    }
-
-    setIsCreatingOrder(true);
-    setOrderError(null);
-    setOrderSuccess(null);
-
-    try {
-      // Create an order to buy 1 XCPFOLIO.{asset} for 10 XCP
-      const orderParams = {
-        give_asset: 'XCP',
-        give_quantity: 1000000000, // 10 XCP in satoshis
-        get_asset: `XCPFOLIO.${asset}`,
-        get_quantity: 1, // 1 unit of the subasset
-        expiration: 1000, // blocks until expiration
-        fee_required: 0
-      };
-
-      // The new API handles compose, sign, and broadcast in one call
-      const result = await composeOrder(orderParams);
-      const txid = result.txid || result.tx_hash || result;
-
-      setOrderSuccess(`Buy order created! Transaction: ${txid}`);
-    } catch (error) {
-      setOrderError(`Failed to create order: ${error}`);
-    } finally {
-      setIsCreatingOrder(false);
-    }
-  };
-
   const hasOrders = orders.length > 0;
   
   // Use first order if available
-  const displayOrder = orders[0] || { get_quantity: 1000000000, get_asset: 'XCP', source: 'XCPFOLIO' };
+  // Only use when hasOrders is true
+  const displayOrder = orders[0];
 
   return (
     <>
@@ -403,7 +370,7 @@ export default function AssetPage() {
                     </div>
                     
                     <button
-                      onClick={() => handleBuy(orders[0] || undefined)}
+                      onClick={() => handleBuy(orders[0])}
                       disabled={isCreatingOrder}
                       className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-200 text-lg shadow-md cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                       aria-label={`Purchase ${asset} for ${formatPrice(displayOrder.get_quantity)} ${displayOrder.get_asset}`}
@@ -588,14 +555,17 @@ export default function AssetPage() {
                             </dd>
                           </div>
                         </dl>
-                        <div className="mt-4 flex justify-end">
-                          <button
-                            onClick={() => handleBuy(orders[0] || undefined)}
-                            className="px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors cursor-pointer"
-                          >
-                            Buy {formatPrice(displayOrder.get_quantity)} {displayOrder.get_asset}
-                          </button>
-                        </div>
+                        {hasOrders && (
+                          <div className="mt-4 flex justify-end">
+                            <button
+                              onClick={() => handleBuy(orders[0])}
+                              disabled={isCreatingOrder}
+                              className="px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                              Buy {formatPrice(displayOrder.get_quantity)} {displayOrder.get_asset}
+                            </button>
+                          </div>
+                        )}
                       </div>
                     )}
 
