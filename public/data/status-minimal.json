@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 668,
+  "available": 718,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1469,59 +1469,59 @@
     },
     {
       "asset": "PCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAYOUTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAYMENTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAGEVIEWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OXIDE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OXID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OWED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OOON",
@@ -1529,19 +1529,19 @@
     },
     {
       "asset": "OOOH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ONIONS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OLLC",
@@ -1549,11 +1549,11 @@
     },
     {
       "asset": "OJOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OFUND",
@@ -1565,7 +1565,7 @@
     },
     {
       "asset": "OCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCOMPANY",
@@ -1573,7 +1573,7 @@
     },
     {
       "asset": "OCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCASH",
@@ -1581,7 +1581,7 @@
     },
     {
       "asset": "OAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NTRADE",
@@ -1589,7 +1589,7 @@
     },
     {
       "asset": "NSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NSTOCK",
@@ -1605,7 +1605,7 @@
     },
     {
       "asset": "NRGY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NORTE",
@@ -1621,7 +1621,7 @@
     },
     {
       "asset": "NOMS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NOISEY",
@@ -1637,7 +1637,7 @@
     },
     {
       "asset": "NLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NIPO",
@@ -1653,7 +1653,7 @@
     },
     {
       "asset": "NICHES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NICHE",
@@ -1661,7 +1661,7 @@
     },
     {
       "asset": "NFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NERDY",
@@ -1669,7 +1669,7 @@
     },
     {
       "asset": "NERDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NENE",
@@ -1689,7 +1689,7 @@
     },
     {
       "asset": "NCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NCOM",
@@ -1697,7 +1697,7 @@
     },
     {
       "asset": "NCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NATE",
@@ -1705,7 +1705,7 @@
     },
     {
       "asset": "NARCOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NARCO",
@@ -1713,7 +1713,7 @@
     },
     {
       "asset": "NARCHY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NAAN",
@@ -1721,7 +1721,7 @@
     },
     {
       "asset": "NAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MYSQL",
@@ -1741,7 +1741,7 @@
     },
     {
       "asset": "MTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MSTOCKS",
@@ -1753,7 +1753,7 @@
     },
     {
       "asset": "MSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MSHARE",
@@ -1769,7 +1769,7 @@
     },
     {
       "asset": "MOTR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOOS",
@@ -1777,7 +1777,7 @@
     },
     {
       "asset": "MONROE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MONIES",
@@ -1785,7 +1785,7 @@
     },
     {
       "asset": "MOGULS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOGUL",
@@ -1797,7 +1797,7 @@
     },
     {
       "asset": "MOBS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MOBB",
@@ -1817,7 +1817,7 @@
     },
     {
       "asset": "MMMK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MMKT",
@@ -1825,7 +1825,7 @@
     },
     {
       "asset": "MLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MLLC",
@@ -1849,7 +1849,7 @@
     },
     {
       "asset": "MINES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MINED",
@@ -1857,7 +1857,7 @@
     },
     {
       "asset": "MINDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MGOLD",
@@ -1869,7 +1869,7 @@
     },
     {
       "asset": "MERA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MEDUSA",
@@ -1877,11 +1877,11 @@
     },
     {
       "asset": "MEAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MCOMPANY",
@@ -1901,7 +1901,7 @@
     },
     {
       "asset": "MBETS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MBET",
@@ -1921,7 +1921,7 @@
     },
     {
       "asset": "MAXED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "MAPAS",
