@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 832,
+  "available": 854,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -893,63 +893,63 @@
     },
     {
       "asset": "STOCKY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKPHOTOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKPHOTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STANLEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STAFFORD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPOTPRICE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPORES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPORE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOULS",
@@ -957,19 +957,19 @@
     },
     {
       "asset": "SONGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOLS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOLES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SNYDER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SMONEY",
@@ -1261,7 +1261,7 @@
     },
     {
       "asset": "REVSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REPP",
@@ -1273,11 +1273,11 @@
     },
     {
       "asset": "RELOADS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RELO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REDD",
