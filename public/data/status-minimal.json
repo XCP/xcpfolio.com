@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 972,
+  "available": 987,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -325,15 +325,15 @@
     },
     {
       "asset": "WSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WRESTLING",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WORDY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WONT",
@@ -341,15 +341,15 @@
     },
     {
       "asset": "WMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WIZZ",
@@ -357,39 +357,39 @@
     },
     {
       "asset": "WIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WHIZZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSTER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCOMPANY",
