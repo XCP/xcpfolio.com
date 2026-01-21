@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 960,
+  "available": 972,
   "sold": 12,
-  "notListed": 27,
+  "notListed": 15,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -885,8 +885,8 @@
     },
     {
       "asset": "WCOM",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/WCOM",
@@ -894,8 +894,8 @@
     },
     {
       "asset": "WCOIN",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/WCOIN",
@@ -912,8 +912,8 @@
     },
     {
       "asset": "WAVY",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/WAVY",
@@ -921,8 +921,8 @@
     },
     {
       "asset": "WARNER",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 6,
       "url": "https://xcpfolio.com/WARNER",
@@ -930,8 +930,8 @@
     },
     {
       "asset": "WAGR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Gambling",
       "length": 4,
       "url": "https://xcpfolio.com/WAGR",
@@ -939,8 +939,8 @@
     },
     {
       "asset": "WAAA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/WAAA",
@@ -948,8 +948,8 @@
     },
     {
       "asset": "VYBE",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/VYBE",
@@ -957,8 +957,8 @@
     },
     {
       "asset": "VTRADE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/VTRADE",
@@ -966,8 +966,8 @@
     },
     {
       "asset": "VSTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/VSTOCKS",
@@ -975,8 +975,8 @@
     },
     {
       "asset": "VSTOCK",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/VSTOCK",
@@ -984,8 +984,8 @@
     },
     {
       "asset": "VSHARES",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/VSHARES",
@@ -993,8 +993,8 @@
     },
     {
       "asset": "VSHARE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/VSHARE",

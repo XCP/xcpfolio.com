@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 960,
+  "available": 972,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -397,11 +397,11 @@
     },
     {
       "asset": "WCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAXX",
@@ -409,43 +409,43 @@
     },
     {
       "asset": "WAVY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WARNER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAGR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VYBE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VOLTA",
