@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 752,
+  "available": 771,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1229,27 +1229,27 @@
     },
     {
       "asset": "RIVA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RISKY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RHODES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REWARDX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REWARDU",
@@ -1257,7 +1257,7 @@
     },
     {
       "asset": "REVV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REVSHARE",
@@ -1269,7 +1269,7 @@
     },
     {
       "asset": "RENEWAL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RELOADS",
@@ -1281,35 +1281,35 @@
     },
     {
       "asset": "REDD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RAGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RAFT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QWERTY",
@@ -1317,15 +1317,15 @@
     },
     {
       "asset": "QUINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QUAD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QSTOCKS",
