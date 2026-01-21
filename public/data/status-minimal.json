@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 735,
+  "available": 752,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1329,71 +1329,71 @@
     },
     {
       "asset": "QSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QLIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "QAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PURS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PUNTOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PSTOCKS",
