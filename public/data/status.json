@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 948,
+  "available": 960,
   "sold": 12,
-  "notListed": 39,
+  "notListed": 27,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1002,8 +1002,8 @@
     },
     {
       "asset": "VOLTA",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/VOLTA",
@@ -1011,8 +1011,8 @@
     },
     {
       "asset": "VOILA",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/VOILA",
@@ -1020,8 +1020,8 @@
     },
     {
       "asset": "VMONEY",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/VMONEY",
@@ -1029,8 +1029,8 @@
     },
     {
       "asset": "VLTD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/VLTD",
@@ -1038,8 +1038,8 @@
     },
     {
       "asset": "VLLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/VLLC",
@@ -1047,8 +1047,8 @@
     },
     {
       "asset": "VIVID",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/VIVID",
@@ -1056,8 +1056,8 @@
     },
     {
       "asset": "VIPP",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/VIPP",
@@ -1065,8 +1065,8 @@
     },
     {
       "asset": "VIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/VIPO",
@@ -1074,8 +1074,8 @@
     },
     {
       "asset": "VIDAS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 5,
       "url": "https://xcpfolio.com/VIDAS",
@@ -1083,8 +1083,8 @@
     },
     {
       "asset": "VIDA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/VIDA",
@@ -1092,8 +1092,8 @@
     },
     {
       "asset": "VIBES",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/VIBES",
@@ -1101,8 +1101,8 @@
     },
     {
       "asset": "VFUND",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/VFUND",

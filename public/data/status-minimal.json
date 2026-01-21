@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 948,
+  "available": 960,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -449,51 +449,51 @@
     },
     {
       "asset": "VOLTA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VOILA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIVID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIPP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIDAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIBES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VERGE",
