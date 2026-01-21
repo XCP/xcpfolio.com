@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 876,
+  "available": 888,
   "sold": 12,
-  "notListed": 111,
+  "notListed": 99,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1677,8 +1677,8 @@
     },
     {
       "asset": "TOXIC",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/TOXIC",
@@ -1686,8 +1686,8 @@
     },
     {
       "asset": "TOWR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/TOWR",
@@ -1695,8 +1695,8 @@
     },
     {
       "asset": "TORX",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TORX",
@@ -1712,8 +1712,8 @@
     },
     {
       "asset": "TORR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TORR",
@@ -1721,8 +1721,8 @@
     },
     {
       "asset": "TORQUE",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 6,
       "url": "https://xcpfolio.com/TORQUE",
@@ -1730,8 +1730,8 @@
     },
     {
       "asset": "TORC",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/TORC",
@@ -1747,8 +1747,8 @@
     },
     {
       "asset": "TOGA",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/TOGA",
@@ -1756,8 +1756,8 @@
     },
     {
       "asset": "TNET",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TNET",
@@ -1765,8 +1765,8 @@
     },
     {
       "asset": "TMONEY",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/TMONEY",
@@ -1774,8 +1774,8 @@
     },
     {
       "asset": "TLTD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/TLTD",
@@ -1783,8 +1783,8 @@
     },
     {
       "asset": "TLLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/TLLC",
@@ -1792,8 +1792,8 @@
     },
     {
       "asset": "TIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/TIPO",

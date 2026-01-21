@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 876,
+  "available": 888,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -749,15 +749,15 @@
     },
     {
       "asset": "TOXIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOWR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORRENTS",
@@ -765,15 +765,15 @@
     },
     {
       "asset": "TORR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORQUE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOKENX",
@@ -781,27 +781,27 @@
     },
     {
       "asset": "TOGA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "THRU",
