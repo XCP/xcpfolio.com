@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 12,
-  "available": 812,
+  "available": 832,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -973,83 +973,83 @@
     },
     {
       "asset": "SMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLUSH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLOAN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SKYY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIBYLS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIBYL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHHH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHARER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREQUITY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREA",
