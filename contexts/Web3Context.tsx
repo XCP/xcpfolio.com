@@ -64,6 +64,7 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
     if (accounts && Array.isArray(accounts) && accounts.length > 0) {
       setAccount(accounts[0]);
       setIsConnected(true);
+      setError(null); // Clear any previous errors on successful connection
     } else {
       setAccount(null);
       setIsConnected(false);
@@ -78,28 +79,35 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
 
   // Check initial connection
   useEffect(() => {
-    const performInitialCheck = (provider: XCPWalletProvider) => {
+    // Track cleanup functions for provider event listeners
+    let providerCleanup: (() => void) | null = null;
+
+    const setupProviderEvents = (provider: XCPWalletProvider) => {
       // Check if already connected using official XCP Wallet API
       const checkConnection = async () => {
         if (!provider.request) {
           console.log('Provider does not support request method');
           return;
         }
-        
+
         try {
           // Check existing connection with xcp_accounts
           const accounts = await provider.request({ method: 'xcp_accounts' });
           console.log('Initial check - xcp_accounts:', accounts);
-          
+
           if (accounts && Array.isArray(accounts) && accounts.length > 0) {
             handleAccountsChanged(accounts);
+          } else {
+            // Provider is available and responding, clear any stale errors
+            setError(null);
           }
         } catch (err) {
-          // Ignore errors on initial check
+          // Ignore errors on initial check - don't set error state
+          // as this is just checking if already connected
           console.log('Initial connection check failed:', err);
         }
       };
-      
+
       checkConnection();
 
       // Set up event listeners using official XCP Wallet API
@@ -108,68 +116,56 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
         provider.on('disconnect', handleDisconnect);
       }
 
+      // Return cleanup function
       return () => {
-        if (typeof provider.removeListener === 'function') {
-          provider.removeListener('accountsChanged', handleAccountsChanged);
-          provider.removeListener('disconnect', handleDisconnect);
+        // XCP Wallet supports both removeListener and off
+        const removeMethod = provider.removeListener || provider.off;
+        if (typeof removeMethod === 'function') {
+          removeMethod.call(provider, 'accountsChanged', handleAccountsChanged);
+          removeMethod.call(provider, 'disconnect', handleDisconnect);
         }
       };
     };
 
-    const checkInitialConnection = () => {
+    const initializeProvider = () => {
       const provider = getProvider();
       if (!provider) {
-        console.log('No provider found after initialization');
+        console.log('No provider found');
         return;
       }
-      
-      console.log('Checking initial connection with provider:', provider);
-      performInitialCheck(provider);
+
+      console.log('Setting up provider events');
+      // Clean up any existing listeners before setting up new ones
+      if (providerCleanup) {
+        providerCleanup();
+      }
+      providerCleanup = setupProviderEvents(provider);
     };
 
     // Listen for wallet initialization
     const handleWalletInit = () => {
       console.log('XCP Wallet initialized event received');
       // Small delay to ensure provider is fully set up
-      setTimeout(checkInitialConnection, 100);
+      setTimeout(initializeProvider, 100);
     };
 
     // Listen for the wallet initialization event
     window.addEventListener('xcp-wallet#initialized', handleWalletInit);
 
-    // Debug: Listen for all window messages to see wallet communication
-    const handleMessage = (event: MessageEvent) => {
-      if (event.data?.target === 'xcp-wallet-injected') {
-        console.log('Received XCP Wallet message:', event.data);
-        
-        // Check for the specific messaging conflict
-        if (event.data.data?.message?.includes('Unknown message format')) {
-          console.error('XCP Wallet extension conflict detected:', event.data.data.message);
-          setError('Multiple XCP Wallet extensions detected. Please go to chrome://extensions/ and disable any other XCP/Counterparty wallet extensions, then refresh this page.');
-        }
-        
-        console.log('Message data details:', {
-          type: event.data.type,
-          id: event.data.id,
-          data: event.data.data,
-          error: event.data.error,
-          dataResult: event.data.data?.result,
-          dataMethod: event.data.data?.method
-        });
-      }
-    };
-    window.addEventListener('message', handleMessage);
-
+    // Initial check
     const provider = getProvider();
     if (provider) {
-      performInitialCheck(provider);
+      providerCleanup = setupProviderEvents(provider);
     } else {
       console.log('Provider not found on initial load, waiting for xcp-wallet#initialized event');
     }
 
     return () => {
       window.removeEventListener('xcp-wallet#initialized', handleWalletInit);
-      window.removeEventListener('message', handleMessage);
+      // Clean up provider event listeners
+      if (providerCleanup) {
+        providerCleanup();
+      }
     };
   }, [getProvider, handleAccountsChanged, handleDisconnect]);
 
@@ -238,9 +234,9 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
       // Parse error message for specific error codes
       const errorMessage = err.message || 'Failed to connect wallet';
       
-      if (errorMessage.includes('WALLET_NOT_SETUP')) {
+      if (errorMessage.includes('WALLET_NOT_SETUP') || errorMessage.includes('wallet setup')) {
         setError('Please complete wallet setup first. Open the XCP Wallet extension to get started.');
-      } else if (errorMessage.includes('WALLET_LOCKED')) {
+      } else if (errorMessage.includes('WALLET_LOCKED') || errorMessage.includes('Wallet is locked')) {
         setError('Wallet is locked. Click the XCP Wallet extension icon to unlock it.');
       } else if (errorMessage.includes('NO_ACTIVE_ADDRESS')) {
         setError('No address selected. Please select an address in your wallet.');
