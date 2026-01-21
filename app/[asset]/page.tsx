@@ -6,6 +6,7 @@ import { useParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { getAssetOrders, getDetailedAsset, getAssetOrderHistory, getAssetIssuances, getAssetOrderMatches, formatPrice, formatAge, formatRegistrationDate, getAssetMetadata, type Order, type DetailedAsset, type Issuance } from '@/lib/api';
+import { getOrderFeeRate } from '@/lib/feeRate';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { useWeb3 } from '@/contexts/Web3Context';
@@ -131,13 +132,14 @@ export default function AssetPage() {
     try {
       // Create a buy order that matches the sell order
       // To buy 1 XCPFOLIO.{asset}, we need to give the amount the seller is asking
+      const feeRate = await getOrderFeeRate();
       const orderParams = {
         give_asset: order.get_asset, // What seller wants (e.g., XCP)
         give_quantity: order.get_quantity, // Amount seller wants
         get_asset: order.give_asset, // What we want (XCPFOLIO.{asset})
         get_quantity: order.give_quantity, // Amount we want (1)
         expiration: 100, // blocks until expiration
-        fee_rate: 20 // Higher fee rate for faster confirmation
+        sat_per_vbyte: feeRate // Dynamic fee rate from mempool.space
       };
       
       console.log('Creating buy order with params:', orderParams);
