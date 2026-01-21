@@ -6,10 +6,10 @@ import { composeOrderTransaction } from '@/lib/api';
 
 // Define the XCP Wallet provider interface
 interface XCPWalletProvider {
-  isConnected?: () => boolean;
   request?: (args: { method: string; params?: any[] }) => Promise<any>;
   on?: (event: string, handler: (data: any) => void) => void;
   off?: (event: string, handler: (data: any) => void) => void;
+  removeListener?: (event: string, handler: (data: any) => void) => void;
   enable?: () => Promise<string[]>; // Legacy support
   // Add any other methods that might be available
   [key: string]: any;
