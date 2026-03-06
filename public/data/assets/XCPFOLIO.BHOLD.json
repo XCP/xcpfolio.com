@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.BHOLD",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.BHOLD for 5 XCP to claim ownership of BHOLD",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: BHOLD is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/BHOLD"
 }
