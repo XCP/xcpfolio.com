@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 753,
+  "available": 746,
   "sold": 13,
-  "notListed": 233,
+  "notListed": 240,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7150,8 +7150,8 @@
     },
     {
       "asset": "DTRANCHE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/DTRANCHE",
@@ -7168,8 +7168,8 @@
     },
     {
       "asset": "DSTOCKS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/DSTOCKS",
@@ -7213,8 +7213,8 @@
     },
     {
       "asset": "DONT",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DONT",
@@ -7222,8 +7222,8 @@
     },
     {
       "asset": "DOLCE",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/DOLCE",
@@ -7231,8 +7231,8 @@
     },
     {
       "asset": "DOLARES",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 7,
       "url": "https://xcpfolio.com/DOLARES",
@@ -7249,8 +7249,8 @@
     },
     {
       "asset": "DMONEY",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/DMONEY",
@@ -7267,8 +7267,8 @@
     },
     {
       "asset": "DLLC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/DLLC",
