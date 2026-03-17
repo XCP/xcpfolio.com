@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 746,
+  "available": 762,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2769,7 +2769,7 @@
     },
     {
       "asset": "GANO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAMEX",
@@ -2985,7 +2985,7 @@
     },
     {
       "asset": "FAZE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FAMA",
@@ -3073,7 +3073,7 @@
     },
     {
       "asset": "EQTY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EQQQ",
@@ -3141,7 +3141,7 @@
     },
     {
       "asset": "ECORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ECOMPANY",
@@ -3149,7 +3149,7 @@
     },
     {
       "asset": "EBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EBIT",
@@ -3157,7 +3157,7 @@
     },
     {
       "asset": "EAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUOS",
@@ -3201,7 +3201,7 @@
     },
     {
       "asset": "DSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSHARE",
@@ -3213,23 +3213,23 @@
     },
     {
       "asset": "DONT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOLCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOLARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DLTD",
@@ -3237,11 +3237,11 @@
     },
     {
       "asset": "DLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DJINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIVERGENT",
@@ -3321,7 +3321,7 @@
     },
     {
       "asset": "DCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCOMPANY",
@@ -3529,7 +3529,7 @@
     },
     {
       "asset": "COMPANYB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYA",
