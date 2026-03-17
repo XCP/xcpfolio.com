@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 959,
+  "available": 946,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2737,7 +2737,7 @@
     },
     {
       "asset": "GCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GBIT",
@@ -2769,7 +2769,7 @@
     },
     {
       "asset": "GANO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GAMEX",
@@ -2841,7 +2841,7 @@
     },
     {
       "asset": "FUNDA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FUFU",
@@ -2861,7 +2861,7 @@
     },
     {
       "asset": "FSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FSHARES",
@@ -2985,7 +2985,7 @@
     },
     {
       "asset": "FAZE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FAMA",
@@ -3073,7 +3073,7 @@
     },
     {
       "asset": "EQTY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EQQQ",
@@ -3133,7 +3133,7 @@
     },
     {
       "asset": "EHOLD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EDITS",
@@ -3141,7 +3141,7 @@
     },
     {
       "asset": "ECORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ECOMPANY",
@@ -3149,7 +3149,7 @@
     },
     {
       "asset": "EBLOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EBIT",
@@ -3157,7 +3157,7 @@
     },
     {
       "asset": "EAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DUOS",
@@ -3189,7 +3189,7 @@
     },
     {
       "asset": "DTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DSTOCKS",
@@ -3197,11 +3197,11 @@
     },
     {
       "asset": "DSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DSHARE",
@@ -3225,7 +3225,7 @@
     },
     {
       "asset": "DOIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DMONEY",
@@ -3233,7 +3233,7 @@
     },
     {
       "asset": "DLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DLLC",
@@ -3241,7 +3241,7 @@
     },
     {
       "asset": "DJINN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIVERGENT",
@@ -3249,7 +3249,7 @@
     },
     {
       "asset": "DIPS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIPO",
@@ -3257,7 +3257,7 @@
     },
     {
       "asset": "DIOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIEZ",
@@ -3305,7 +3305,7 @@
     },
     {
       "asset": "DELPHI",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DECKER",
@@ -3313,7 +3313,7 @@
     },
     {
       "asset": "DEALFLOW",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DDOS",
@@ -3321,7 +3321,7 @@
     },
     {
       "asset": "DCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCOMPANY",
@@ -3329,7 +3329,7 @@
     },
     {
       "asset": "DCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCOIN",
@@ -3345,7 +3345,7 @@
     },
     {
       "asset": "DATOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DATO",
@@ -3417,7 +3417,7 @@
     },
     {
       "asset": "CSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CSERIES",
@@ -3425,7 +3425,7 @@
     },
     {
       "asset": "CROWDSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CROWDSHARE",
@@ -3453,7 +3453,7 @@
     },
     {
       "asset": "COVE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "COSA",
@@ -3461,7 +3461,7 @@
     },
     {
       "asset": "CORPZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CORPY",
@@ -3521,7 +3521,7 @@
     },
     {
       "asset": "COMPANYX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COMPANYC",
@@ -3529,7 +3529,7 @@
     },
     {
       "asset": "COMPANYB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "COMPANYA",
@@ -3545,7 +3545,7 @@
     },
     {
       "asset": "COINR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COINO",
@@ -3553,7 +3553,7 @@
     },
     {
       "asset": "COINDEX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "COIND",
@@ -3589,7 +3589,7 @@
     },
     {
       "asset": "CIRCE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CIRC",
@@ -3605,7 +3605,7 @@
     },
     {
       "asset": "CIEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CHOP",
@@ -3633,7 +3633,7 @@
     },
     {
       "asset": "CEDAR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CECA",
@@ -3673,7 +3673,7 @@
     },
     {
       "asset": "CAPECOD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CANOPY",
@@ -3913,7 +3913,7 @@
     },
     {
       "asset": "BENTLEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BEEM",
@@ -3953,7 +3953,7 @@
     },
     {
       "asset": "BBBI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "BBAA",
