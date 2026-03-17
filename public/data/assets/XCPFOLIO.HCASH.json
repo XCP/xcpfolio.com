@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.HCASH",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.HCASH for 100 XCP to claim ownership of HCASH",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: HCASH is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/HCASH"
 }
