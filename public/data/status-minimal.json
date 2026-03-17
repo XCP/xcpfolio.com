@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 946,
+  "available": 928,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2753,7 +2753,7 @@
     },
     {
       "asset": "GATA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GASP",
@@ -2761,7 +2761,7 @@
     },
     {
       "asset": "GASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GARRISON",
@@ -2785,7 +2785,7 @@
     },
     {
       "asset": "GAMECOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GAMA",
@@ -2797,7 +2797,7 @@
     },
     {
       "asset": "GALE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GAJE",
@@ -2805,7 +2805,7 @@
     },
     {
       "asset": "GAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FYEO",
@@ -2821,7 +2821,7 @@
     },
     {
       "asset": "FURS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FUNDZ",
@@ -2849,7 +2849,7 @@
     },
     {
       "asset": "FUELS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FTRADE",
@@ -2869,7 +2869,7 @@
     },
     {
       "asset": "FSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FRIO",
@@ -2893,7 +2893,7 @@
     },
     {
       "asset": "FOTOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FOTO",
@@ -2921,7 +2921,7 @@
     },
     {
       "asset": "FOCO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FMONEY",
@@ -2929,7 +2929,7 @@
     },
     {
       "asset": "FLYY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FLTD",
@@ -2969,7 +2969,7 @@
     },
     {
       "asset": "FCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FCOM",
@@ -3041,7 +3041,7 @@
     },
     {
       "asset": "EVEREST",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EUSA",
@@ -3057,7 +3057,7 @@
     },
     {
       "asset": "ESTE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ESERIES",
@@ -3089,7 +3089,7 @@
     },
     {
       "asset": "ENET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EMSG",
@@ -3097,7 +3097,7 @@
     },
     {
       "asset": "EMPRESA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EMCEE",
@@ -3109,7 +3109,7 @@
     },
     {
       "asset": "ELTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ELLC",
@@ -3117,7 +3117,7 @@
     },
     {
       "asset": "ELEL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EKKO",
