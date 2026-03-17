@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 762,
+  "available": 767,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3177,7 +3177,7 @@
     },
     {
       "asset": "DUNK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DUAL",
@@ -3185,7 +3185,7 @@
     },
     {
       "asset": "DTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DTRADE",
@@ -3193,7 +3193,7 @@
     },
     {
       "asset": "DSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSTOCK",
@@ -3205,7 +3205,7 @@
     },
     {
       "asset": "DSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DOOO",
@@ -3245,7 +3245,7 @@
     },
     {
       "asset": "DIVERGENT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIPS",

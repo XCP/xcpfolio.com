@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 762,
+  "available": 767,
   "sold": 13,
-  "notListed": 224,
+  "notListed": 219,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7132,8 +7132,8 @@
     },
     {
       "asset": "DUNK",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DUNK",
@@ -7150,8 +7150,8 @@
     },
     {
       "asset": "DTRANCHE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/DTRANCHE",
@@ -7168,8 +7168,8 @@
     },
     {
       "asset": "DSTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/DSTOCKS",
@@ -7195,8 +7195,8 @@
     },
     {
       "asset": "DSHARE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/DSHARE",
@@ -7285,8 +7285,8 @@
     },
     {
       "asset": "DIVERGENT",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 9,
       "url": "https://xcpfolio.com/DIVERGENT",
