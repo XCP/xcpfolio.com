@@ -1453,7 +1453,7 @@
     },
     {
       "asset": "PFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PEDO",
@@ -1569,7 +1569,7 @@
     },
     {
       "asset": "OCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCOM",

@@ -3257,8 +3257,8 @@
     },
     {
       "asset": "PFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/PFUND",
@@ -3518,8 +3518,8 @@
     },
     {
       "asset": "OCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/OCOMPANY",
