@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 785,
+  "available": 770,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3273,7 +3273,7 @@
     },
     {
       "asset": "DFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEXOMATIC",
@@ -3293,7 +3293,7 @@
     },
     {
       "asset": "DESCARTES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DERRIDA",
@@ -3333,7 +3333,7 @@
     },
     {
       "asset": "DCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCASH",
@@ -3341,7 +3341,7 @@
     },
     {
       "asset": "DBIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DATOS",
@@ -3357,15 +3357,15 @@
     },
     {
       "asset": "DAPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DAPPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DANO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DANN",
@@ -3381,7 +3381,7 @@
     },
     {
       "asset": "CUTX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CUBOS",
@@ -3389,7 +3389,7 @@
     },
     {
       "asset": "CUBO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CUBED",
@@ -3413,7 +3413,7 @@
     },
     {
       "asset": "CSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CSHARE",
@@ -3421,7 +3421,7 @@
     },
     {
       "asset": "CSERIES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CROWDSHARES",
@@ -3429,7 +3429,7 @@
     },
     {
       "asset": "CROWDSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CRITS",
@@ -3437,7 +3437,7 @@
     },
     {
       "asset": "CRITICAL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CRIT",
@@ -3449,7 +3449,7 @@
     },
     {
       "asset": "CREA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "COVE",
@@ -3457,7 +3457,7 @@
     },
     {
       "asset": "COSA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CORPZ",
