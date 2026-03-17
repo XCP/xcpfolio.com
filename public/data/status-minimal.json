@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 770,
+  "available": 753,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3177,7 +3177,7 @@
     },
     {
       "asset": "DUNK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DUAL",
@@ -3205,7 +3205,7 @@
     },
     {
       "asset": "DSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DOOO",
@@ -3245,7 +3245,7 @@
     },
     {
       "asset": "DIVERGENT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIPS",
@@ -3253,7 +3253,7 @@
     },
     {
       "asset": "DIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIOS",
@@ -3261,15 +3261,15 @@
     },
     {
       "asset": "DIEZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIBS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DGOLD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DFUND",
@@ -3277,19 +3277,19 @@
     },
     {
       "asset": "DEXOMATIC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEXO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEUCES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEUCE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DESCARTES",
@@ -3297,11 +3297,11 @@
     },
     {
       "asset": "DERRIDA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DENALI",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DELPHI",
@@ -3309,7 +3309,7 @@
     },
     {
       "asset": "DECKER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEALFLOW",
@@ -3317,7 +3317,7 @@
     },
     {
       "asset": "DDOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCORP",
@@ -3325,7 +3325,7 @@
     },
     {
       "asset": "DCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCOM",
@@ -3405,7 +3405,7 @@
     },
     {
       "asset": "CSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CSTOCK",
