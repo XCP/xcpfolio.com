@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 581,
+  "available": 585,
   "sold": 13,
-  "notListed": 405,
+  "notListed": 401,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -141,8 +141,8 @@
     },
     {
       "asset": "ZEST",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/ZEST",
@@ -177,8 +177,8 @@
     },
     {
       "asset": "ZBIT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Bitcoin",
       "length": 4,
       "url": "https://xcpfolio.com/ZBIT",
@@ -186,8 +186,8 @@
     },
     {
       "asset": "ZAPS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/ZAPS",
@@ -195,8 +195,8 @@
     },
     {
       "asset": "ZAGS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/ZAGS",
