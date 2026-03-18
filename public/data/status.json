@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 638,
+  "available": 639,
   "sold": 13,
-  "notListed": 348,
+  "notListed": 347,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1200,8 +1200,8 @@
     },
     {
       "asset": "UTRADE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/UTRADE",
@@ -1236,8 +1236,8 @@
     },
     {
       "asset": "USHARES",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/USHARES",
@@ -1335,8 +1335,8 @@
     },
     {
       "asset": "USAD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAD",
@@ -2520,8 +2520,8 @@
     },
     {
       "asset": "SCOIN",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/SCOIN",
@@ -3257,8 +3257,8 @@
     },
     {
       "asset": "PFUND",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/PFUND",
@@ -3536,8 +3536,8 @@
     },
     {
       "asset": "OCASH",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/OCASH",
@@ -3554,8 +3554,8 @@
     },
     {
       "asset": "NTRADE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/NTRADE",
@@ -3572,8 +3572,8 @@
     },
     {
       "asset": "NSTOCK",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/NSTOCK",
@@ -3581,8 +3581,8 @@
     },
     {
       "asset": "NSHARES",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/NSHARES",
