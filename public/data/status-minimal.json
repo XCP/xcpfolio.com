@@ -5,19 +5,19 @@
   "statuses": [
     {
       "asset": "ZTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSHARE",
@@ -25,7 +25,7 @@
     },
     {
       "asset": "ZONA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZNET",
@@ -45,15 +45,15 @@
     },
     {
       "asset": "ZIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZINE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZIGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZFUND",
