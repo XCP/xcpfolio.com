@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 592,
+  "available": 596,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -101,7 +101,7 @@
     },
     {
       "asset": "YTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YSTOCKS",
@@ -117,11 +117,11 @@
     },
     {
       "asset": "YSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YOOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YMONEY",
@@ -3997,7 +3997,7 @@
     },
     {
       "asset": "A112358132134558914",
-      "status": "not-listed"
+      "status": "available"
     }
   ]
 }

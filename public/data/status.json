@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 592,
+  "available": 596,
   "sold": 13,
-  "notListed": 394,
+  "notListed": 390,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -222,8 +222,8 @@
     },
     {
       "asset": "YTRADE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/YTRADE",
@@ -258,8 +258,8 @@
     },
     {
       "asset": "YSHARE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/YSHARE",
@@ -267,8 +267,8 @@
     },
     {
       "asset": "YOOO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/YOOO",
@@ -8975,8 +8975,8 @@
     },
     {
       "asset": "A112358132134558914",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Numeric",
       "length": 19,
       "url": "https://xcpfolio.com/A112358132134558914",
