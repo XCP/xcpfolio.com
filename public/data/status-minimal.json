@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 585,
+  "available": 587,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -61,7 +61,7 @@
     },
     {
       "asset": "ZETA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZEST",
@@ -93,7 +93,7 @@
     },
     {
       "asset": "ZABC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZAAA",
