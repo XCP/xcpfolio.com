@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 606,
+  "available": 588,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2989,7 +2989,7 @@
     },
     {
       "asset": "FAMA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FABB",
@@ -3001,7 +3001,7 @@
     },
     {
       "asset": "EZEZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EYED",
@@ -3009,27 +3009,27 @@
     },
     {
       "asset": "EXXX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EXISTENT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EXEXEX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EXEX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EXES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EXED",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EVEV",
@@ -3037,7 +3037,7 @@
     },
     {
       "asset": "EVERETT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EVEREST",
@@ -3045,7 +3045,7 @@
     },
     {
       "asset": "EUSA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ETRANCHE",
@@ -3053,7 +3053,7 @@
     },
     {
       "asset": "ESTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ESTE",
@@ -3077,7 +3077,7 @@
     },
     {
       "asset": "EQQQ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ENTIDAD",
@@ -3093,7 +3093,7 @@
     },
     {
       "asset": "EMSG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EMPRESA",
@@ -3101,11 +3101,11 @@
     },
     {
       "asset": "EMCEE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EMAS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ELTD",
@@ -3121,7 +3121,7 @@
     },
     {
       "asset": "EKKO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EIPO",
@@ -3161,11 +3161,11 @@
     },
     {
       "asset": "DUOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DUNN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DUNLAP",
