@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 576,
+  "available": 581,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -29,19 +29,19 @@
     },
     {
       "asset": "ZNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZIPO",
@@ -57,7 +57,7 @@
     },
     {
       "asset": "ZFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZETA",
