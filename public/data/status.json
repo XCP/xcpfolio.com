@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 596,
+  "available": 603,
   "sold": 13,
-  "notListed": 390,
+  "notListed": 383,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -231,8 +231,8 @@
     },
     {
       "asset": "YSTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/YSTOCKS",
@@ -240,8 +240,8 @@
     },
     {
       "asset": "YSTOCK",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/YSTOCK",
@@ -294,8 +294,8 @@
     },
     {
       "asset": "YLTD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/YLTD",
@@ -303,8 +303,8 @@
     },
     {
       "asset": "YLLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/YLLC",
@@ -321,8 +321,8 @@
     },
     {
       "asset": "YFUND",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/YFUND",
@@ -348,8 +348,8 @@
     },
     {
       "asset": "YCOM",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/YCOM",
@@ -366,8 +366,8 @@
     },
     {
       "asset": "YAAA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/YAAA",
