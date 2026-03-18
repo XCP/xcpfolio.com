@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 591,
+  "available": 592,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3077,7 +3077,7 @@
     },
     {
       "asset": "EQQQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ENTIDAD",
