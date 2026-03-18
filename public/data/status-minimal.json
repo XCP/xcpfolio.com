@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 590,
+  "available": 592,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -73,7 +73,7 @@
     },
     {
       "asset": "ZCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ZCASH",
@@ -125,7 +125,7 @@
     },
     {
       "asset": "YMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YMMV",
