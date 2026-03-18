@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 592,
+  "available": 593,
   "sold": 13,
-  "notListed": 394,
+  "notListed": 393,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -6799,8 +6799,8 @@
     },
     {
       "asset": "EXED",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EXED",
