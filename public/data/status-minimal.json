@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 603,
+  "available": 606,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -149,11 +149,11 @@
     },
     {
       "asset": "YCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "YCOM",
@@ -173,7 +173,7 @@
     },
     {
       "asset": "XTRANCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XSTOCKS",
