@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 368,
+  "available": 357,
   "sold": 13,
-  "notListed": 618,
+  "notListed": 629,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1891,8 +1891,8 @@
     },
     {
       "asset": "TCORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/TCORP",
@@ -1900,8 +1900,8 @@
     },
     {
       "asset": "TCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/TCOMPANY",
@@ -1909,8 +1909,8 @@
     },
     {
       "asset": "TCOM",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TCOM",
@@ -1918,8 +1918,8 @@
     },
     {
       "asset": "TCOIN",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/TCOIN",
@@ -1927,8 +1927,8 @@
     },
     {
       "asset": "TANGO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 5,
       "url": "https://xcpfolio.com/TANGO",
@@ -1936,8 +1936,8 @@
     },
     {
       "asset": "TAAA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/TAAA",
@@ -1945,8 +1945,8 @@
     },
     {
       "asset": "SYSTEMATIC",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 10,
       "url": "https://xcpfolio.com/SYSTEMATIC",
@@ -1954,8 +1954,8 @@
     },
     {
       "asset": "SYLT",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SYLT",
@@ -1963,8 +1963,8 @@
     },
     {
       "asset": "SUGA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SUGA",
@@ -1972,8 +1972,8 @@
     },
     {
       "asset": "SUDS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/SUDS",
@@ -1981,8 +1981,8 @@
     },
     {
       "asset": "STUV",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/STUV",
@@ -1990,8 +1990,8 @@
     },
     {
       "asset": "STOCKZ",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/STOCKZ",
@@ -2044,8 +2044,8 @@
     },
     {
       "asset": "STOCKA",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/STOCKA",

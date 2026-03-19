@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 368,
+  "available": 357,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -845,51 +845,51 @@
     },
     {
       "asset": "TCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TANGO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SYSTEMATIC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SYLT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SUGA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SUDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STUV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKY",
@@ -913,7 +913,7 @@
     },
     {
       "asset": "STOCKA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STANLEY",
