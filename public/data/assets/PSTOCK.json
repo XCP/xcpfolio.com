@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.PSTOCK",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.PSTOCK for 5 XCP to claim ownership of PSTOCK",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: PSTOCK is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/PSTOCK"
 }
