@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 255,
+  "available": 259,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -325,15 +325,15 @@
     },
     {
       "asset": "WSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WRESTLING",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WORDY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WONT",
@@ -349,7 +349,7 @@
     },
     {
       "asset": "WLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WIZZ",
