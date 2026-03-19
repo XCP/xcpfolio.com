@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 283,
+  "available": 285,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -505,7 +505,7 @@
     },
     {
       "asset": "VCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCOMPANY",
@@ -513,7 +513,7 @@
     },
     {
       "asset": "VCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VCOIN",
