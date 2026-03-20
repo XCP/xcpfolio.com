@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 272,
+  "available": 279,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -417,11 +417,11 @@
     },
     {
       "asset": "WAGR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VYBE",
@@ -437,15 +437,15 @@
     },
     {
       "asset": "VSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VOLTA",
@@ -469,7 +469,7 @@
     },
     {
       "asset": "VIVID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIPP",
@@ -481,7 +481,7 @@
     },
     {
       "asset": "VIDAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VIDA",

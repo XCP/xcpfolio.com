@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 272,
+  "available": 279,
   "sold": 13,
-  "notListed": 714,
+  "notListed": 707,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -930,8 +930,8 @@
     },
     {
       "asset": "WAGR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Gambling",
       "length": 4,
       "url": "https://xcpfolio.com/WAGR",
@@ -939,8 +939,8 @@
     },
     {
       "asset": "WAAA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/WAAA",
@@ -975,8 +975,8 @@
     },
     {
       "asset": "VSTOCK",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/VSTOCK",
@@ -984,8 +984,8 @@
     },
     {
       "asset": "VSHARES",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/VSHARES",
@@ -993,8 +993,8 @@
     },
     {
       "asset": "VSHARE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/VSHARE",
@@ -1047,8 +1047,8 @@
     },
     {
       "asset": "VIVID",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/VIVID",
@@ -1074,8 +1074,8 @@
     },
     {
       "asset": "VIDAS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 5,
       "url": "https://xcpfolio.com/VIDAS",
