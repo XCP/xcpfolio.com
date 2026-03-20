@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 314,
+  "available": 317,
   "sold": 13,
-  "notListed": 672,
+  "notListed": 669,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1515,8 +1515,8 @@
     },
     {
       "asset": "TYVM",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/TYVM",
@@ -1524,8 +1524,8 @@
     },
     {
       "asset": "TYME",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/TYME",
@@ -1551,8 +1551,8 @@
     },
     {
       "asset": "TSTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/TSTOCKS",
