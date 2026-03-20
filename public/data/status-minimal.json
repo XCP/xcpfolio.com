@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 285,
+  "available": 290,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -457,7 +457,7 @@
     },
     {
       "asset": "VMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VLTD",
@@ -521,7 +521,7 @@
     },
     {
       "asset": "VCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VBIT",
@@ -533,7 +533,7 @@
     },
     {
       "asset": "VAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UTRADE",
@@ -545,7 +545,7 @@
     },
     {
       "asset": "USTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USTOCK",
@@ -565,7 +565,7 @@
     },
     {
       "asset": "USAX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAV",
