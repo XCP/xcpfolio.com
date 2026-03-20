@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 312,
+  "available": 314,
   "sold": 13,
-  "notListed": 674,
+  "notListed": 672,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1479,8 +1479,8 @@
     },
     {
       "asset": "UCASH",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/UCASH",
@@ -1533,8 +1533,8 @@
     },
     {
       "asset": "TUFF",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/TUFF",

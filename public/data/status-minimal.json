@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 312,
+  "available": 314,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -661,7 +661,7 @@
     },
     {
       "asset": "UCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UBLOCK",
@@ -685,7 +685,7 @@
     },
     {
       "asset": "TUFF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TTOR",
