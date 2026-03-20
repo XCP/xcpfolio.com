@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 293,
+  "available": 299,
   "sold": 13,
-  "notListed": 693,
+  "notListed": 687,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1182,8 +1182,8 @@
     },
     {
       "asset": "VABC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/VABC",
@@ -1209,8 +1209,8 @@
     },
     {
       "asset": "UTOKEN",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/UTOKEN",
@@ -1245,8 +1245,8 @@
     },
     {
       "asset": "USHARE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/USHARE",
@@ -1272,8 +1272,8 @@
     },
     {
       "asset": "USAV",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAV",
@@ -1308,8 +1308,8 @@
     },
     {
       "asset": "USAG",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAG",
@@ -1317,8 +1317,8 @@
     },
     {
       "asset": "USAF",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAF",
