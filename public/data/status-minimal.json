@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 320,
+  "available": 321,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -665,7 +665,7 @@
     },
     {
       "asset": "UBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UBIT",
