@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 259,
+  "available": 265,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -345,7 +345,7 @@
     },
     {
       "asset": "WLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WLLC",
@@ -361,7 +361,7 @@
     },
     {
       "asset": "WHIZZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WFUND",
@@ -369,15 +369,15 @@
     },
     {
       "asset": "WEBSTER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBS",
@@ -385,7 +385,7 @@
     },
     {
       "asset": "WEBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WCORP",
