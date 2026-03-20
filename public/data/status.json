@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 305,
+  "available": 311,
   "sold": 13,
-  "notListed": 681,
+  "notListed": 675,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1353,8 +1353,8 @@
     },
     {
       "asset": "USAB",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAB",
@@ -1362,8 +1362,8 @@
     },
     {
       "asset": "URGE",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/URGE",
@@ -1389,8 +1389,8 @@
     },
     {
       "asset": "ULTD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/ULTD",
@@ -1407,8 +1407,8 @@
     },
     {
       "asset": "UIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/UIPO",
@@ -1416,8 +1416,8 @@
     },
     {
       "asset": "UHOLD",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/UHOLD",
@@ -1425,8 +1425,8 @@
     },
     {
       "asset": "UGOLD",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/UGOLD",

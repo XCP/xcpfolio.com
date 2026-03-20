@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 305,
+  "available": 311,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -605,11 +605,11 @@
     },
     {
       "asset": "USAB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "URGE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UREWARD",
@@ -621,7 +621,7 @@
     },
     {
       "asset": "ULTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ULLC",
@@ -629,15 +629,15 @@
     },
     {
       "asset": "UIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UFUND",
