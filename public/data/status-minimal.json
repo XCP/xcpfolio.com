@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 292,
+  "available": 293,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -577,7 +577,7 @@
     },
     {
       "asset": "USAO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USAI",

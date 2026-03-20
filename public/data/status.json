@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 292,
+  "available": 293,
   "sold": 13,
-  "notListed": 694,
+  "notListed": 693,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1290,8 +1290,8 @@
     },
     {
       "asset": "USAO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAO",
