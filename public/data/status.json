@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 299,
+  "available": 301,
   "sold": 13,
-  "notListed": 687,
+  "notListed": 685,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1299,8 +1299,8 @@
     },
     {
       "asset": "USAI",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAI",
@@ -1344,8 +1344,8 @@
     },
     {
       "asset": "USAC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAC",
