@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 290,
+  "available": 292,
   "sold": 13,
-  "notListed": 696,
+  "notListed": 694,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1227,8 +1227,8 @@
     },
     {
       "asset": "USTOCK",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/USTOCK",
@@ -1254,8 +1254,8 @@
     },
     {
       "asset": "USAY",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAY",
