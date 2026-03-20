@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 265,
+  "available": 272,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -341,7 +341,7 @@
     },
     {
       "asset": "WMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WLTD",
@@ -357,7 +357,7 @@
     },
     {
       "asset": "WIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WHIZZ",
@@ -365,7 +365,7 @@
     },
     {
       "asset": "WFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBSTER",
@@ -381,7 +381,7 @@
     },
     {
       "asset": "WEBS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WEBB",
@@ -401,7 +401,7 @@
     },
     {
       "asset": "WCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAXX",
@@ -413,7 +413,7 @@
     },
     {
       "asset": "WARNER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAGR",
@@ -429,7 +429,7 @@
     },
     {
       "asset": "VTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "VSTOCKS",
