@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 317,
+  "available": 319,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -657,7 +657,7 @@
     },
     {
       "asset": "UCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCASH",
@@ -669,7 +669,7 @@
     },
     {
       "asset": "UBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UAAA",

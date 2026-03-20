@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 317,
+  "available": 319,
   "sold": 13,
-  "notListed": 669,
+  "notListed": 667,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1470,8 +1470,8 @@
     },
     {
       "asset": "UCOIN",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/UCOIN",
@@ -1497,8 +1497,8 @@
     },
     {
       "asset": "UBIT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Bitcoin",
       "length": 4,
       "url": "https://xcpfolio.com/UBIT",
