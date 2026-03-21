@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 349,
+  "available": 351,
   "sold": 13,
-  "notListed": 637,
+  "notListed": 635,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1828,8 +1828,8 @@
     },
     {
       "asset": "TEXTS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/TEXTS",
@@ -1837,8 +1837,8 @@
     },
     {
       "asset": "TESTNET",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Bitcoin",
       "length": 7,
       "url": "https://xcpfolio.com/TESTNET",
