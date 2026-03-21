@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 346,
+  "available": 347,
   "sold": 13,
-  "notListed": 640,
+  "notListed": 639,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1695,8 +1695,8 @@
     },
     {
       "asset": "TORX",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TORX",

@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 346,
+  "available": 347,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -757,7 +757,7 @@
     },
     {
       "asset": "TORX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORRENTS",
