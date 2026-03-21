@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 340,
+  "available": 346,
   "sold": 13,
-  "notListed": 646,
+  "notListed": 640,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1677,8 +1677,8 @@
     },
     {
       "asset": "TOXIC",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/TOXIC",
@@ -1712,8 +1712,8 @@
     },
     {
       "asset": "TORR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TORR",
@@ -1730,8 +1730,8 @@
     },
     {
       "asset": "TORC",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/TORC",
@@ -1747,8 +1747,8 @@
     },
     {
       "asset": "TOGA",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/TOGA",
@@ -1774,8 +1774,8 @@
     },
     {
       "asset": "TLTD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/TLTD",
@@ -1792,8 +1792,8 @@
     },
     {
       "asset": "TIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/TIPO",
