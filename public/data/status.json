@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 348,
+  "available": 349,
   "sold": 13,
-  "notListed": 638,
+  "notListed": 637,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1873,8 +1873,8 @@
     },
     {
       "asset": "TEES",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Gambling",
       "length": 4,
       "url": "https://xcpfolio.com/TEES",
