@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 367,
+  "available": 368,
   "sold": 13,
-  "notListed": 619,
+  "notListed": 618,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1972,8 +1972,8 @@
     },
     {
       "asset": "SUDS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/SUDS",
