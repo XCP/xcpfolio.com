@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 366,
+  "available": 367,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -877,7 +877,7 @@
     },
     {
       "asset": "SUGA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SUDS",

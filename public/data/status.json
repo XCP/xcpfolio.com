@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 366,
+  "available": 367,
   "sold": 13,
-  "notListed": 620,
+  "notListed": 619,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1963,8 +1963,8 @@
     },
     {
       "asset": "SUGA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SUGA",
