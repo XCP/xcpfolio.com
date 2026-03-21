@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 332,
+  "available": 335,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -705,7 +705,7 @@
     },
     {
       "asset": "TSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSHARE",
@@ -729,7 +729,7 @@
     },
     {
       "asset": "TRANCHEA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEZ",
@@ -737,7 +737,7 @@
     },
     {
       "asset": "TRADEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEX",
