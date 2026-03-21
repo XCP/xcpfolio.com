@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 321,
+  "available": 326,
   "sold": 13,
-  "notListed": 665,
+  "notListed": 660,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1506,8 +1506,8 @@
     },
     {
       "asset": "UAAA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/UAAA",
@@ -1542,8 +1542,8 @@
     },
     {
       "asset": "TTOR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/TTOR",
@@ -1560,8 +1560,8 @@
     },
     {
       "asset": "TSTOCK",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/TSTOCK",
@@ -1587,8 +1587,8 @@
     },
     {
       "asset": "TSHARE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/TSHARE",
@@ -1614,8 +1614,8 @@
     },
     {
       "asset": "TRANCHEC",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/TRANCHEC",

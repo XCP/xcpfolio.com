@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 321,
+  "available": 326,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -673,7 +673,7 @@
     },
     {
       "asset": "UAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TYVM",
@@ -689,7 +689,7 @@
     },
     {
       "asset": "TTOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSTOCKS",
@@ -697,7 +697,7 @@
     },
     {
       "asset": "TSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSSK",
@@ -709,7 +709,7 @@
     },
     {
       "asset": "TSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRITON",
@@ -721,7 +721,7 @@
     },
     {
       "asset": "TRANCHEC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEB",
