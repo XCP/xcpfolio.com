@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 347,
+  "available": 348,
   "sold": 13,
-  "notListed": 639,
+  "notListed": 638,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1686,8 +1686,8 @@
     },
     {
       "asset": "TOWR",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/TOWR",
