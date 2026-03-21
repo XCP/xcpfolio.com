@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 353,
+  "available": 357,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -805,11 +805,11 @@
     },
     {
       "asset": "THRU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "THEDIP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TFUND",
@@ -825,7 +825,7 @@
     },
     {
       "asset": "TESSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TENX",
@@ -841,7 +841,7 @@
     },
     {
       "asset": "TEEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCORP",
