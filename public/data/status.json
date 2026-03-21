@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 362,
+  "available": 366,
   "sold": 13,
-  "notListed": 624,
+  "notListed": 620,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1891,8 +1891,8 @@
     },
     {
       "asset": "TCORP",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/TCORP",
@@ -1900,8 +1900,8 @@
     },
     {
       "asset": "TCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/TCOMPANY",
@@ -1909,8 +1909,8 @@
     },
     {
       "asset": "TCOM",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TCOM",
@@ -1918,8 +1918,8 @@
     },
     {
       "asset": "TCOIN",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/TCOIN",

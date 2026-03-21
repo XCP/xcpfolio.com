@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 362,
+  "available": 366,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -845,19 +845,19 @@
     },
     {
       "asset": "TCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TANGO",
