@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 368,
+  "available": 369,
   "sold": 13,
-  "notListed": 618,
+  "notListed": 617,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1954,8 +1954,8 @@
     },
     {
       "asset": "SYLT",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SYLT",
