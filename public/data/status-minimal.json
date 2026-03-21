@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 329,
+  "available": 332,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -713,11 +713,11 @@
     },
     {
       "asset": "TRITON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEC",
@@ -745,7 +745,7 @@
     },
     {
       "asset": "TRADEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOXIC",
