@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 369,
+  "available": 370,
   "sold": 13,
-  "notListed": 617,
+  "notListed": 616,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2026,8 +2026,8 @@
     },
     {
       "asset": "STOCKC",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/STOCKC",
