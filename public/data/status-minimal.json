@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 335,
+  "available": 340,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -741,7 +741,7 @@
     },
     {
       "asset": "TRADEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEE",
@@ -769,7 +769,7 @@
     },
     {
       "asset": "TORQUE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORC",
@@ -785,11 +785,11 @@
     },
     {
       "asset": "TNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TLTD",
@@ -797,7 +797,7 @@
     },
     {
       "asset": "TLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TIPO",

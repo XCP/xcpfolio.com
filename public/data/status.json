@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 335,
+  "available": 340,
   "sold": 13,
-  "notListed": 651,
+  "notListed": 646,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1659,8 +1659,8 @@
     },
     {
       "asset": "TRADEX",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/TRADEX",
@@ -1721,8 +1721,8 @@
     },
     {
       "asset": "TORQUE",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 6,
       "url": "https://xcpfolio.com/TORQUE",
@@ -1756,8 +1756,8 @@
     },
     {
       "asset": "TNET",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TNET",
@@ -1765,8 +1765,8 @@
     },
     {
       "asset": "TMONEY",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/TMONEY",
@@ -1783,8 +1783,8 @@
     },
     {
       "asset": "TLLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/TLLC",
