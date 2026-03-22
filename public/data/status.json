@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 424,
+  "available": 426,
   "sold": 13,
-  "notListed": 562,
+  "notListed": 560,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2574,8 +2574,8 @@
     },
     {
       "asset": "SAAA",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/SAAA",
@@ -2592,8 +2592,8 @@
     },
     {
       "asset": "RUBE",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/RUBE",
