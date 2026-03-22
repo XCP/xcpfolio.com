@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 611,
+  "available": 636,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -177,7 +177,7 @@
     },
     {
       "asset": "XSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XSHARES",
@@ -201,35 +201,35 @@
     },
     {
       "asset": "XORO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XIAO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XHOLDINGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XGEN",
@@ -237,39 +237,39 @@
     },
     {
       "asset": "XCPX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCPSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCPSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XABC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "XAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WYSIWYG",
@@ -281,27 +281,27 @@
     },
     {
       "asset": "WWWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWWA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WWIII",
@@ -317,7 +317,7 @@
     },
     {
       "asset": "WSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSHARES",
