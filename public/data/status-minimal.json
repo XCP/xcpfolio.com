@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 394,
+  "available": 398,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -993,15 +993,15 @@
     },
     {
       "asset": "SKYY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SINN",
@@ -1025,7 +1025,7 @@
     },
     {
       "asset": "SHAREZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREY",

@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 394,
+  "available": 398,
   "sold": 13,
-  "notListed": 592,
+  "notListed": 588,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2223,8 +2223,8 @@
     },
     {
       "asset": "SKYY",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SKYY",
@@ -2232,8 +2232,8 @@
     },
     {
       "asset": "SIXX",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SIXX",
@@ -2241,8 +2241,8 @@
     },
     {
       "asset": "SIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/SIPO",
@@ -2295,8 +2295,8 @@
     },
     {
       "asset": "SHAREZ",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREZ",
