@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 385,
+  "available": 387,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -925,7 +925,7 @@
     },
     {
       "asset": "SSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSTOCK",
@@ -957,7 +957,7 @@
     },
     {
       "asset": "SONGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOLS",

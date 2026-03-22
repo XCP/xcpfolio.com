@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 385,
+  "available": 387,
   "sold": 13,
-  "notListed": 601,
+  "notListed": 599,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2071,8 +2071,8 @@
     },
     {
       "asset": "SSTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SSTOCKS",
@@ -2142,8 +2142,8 @@
     },
     {
       "asset": "SONGS",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SONGS",
