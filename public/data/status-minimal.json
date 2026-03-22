@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 416,
+  "available": 418,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1081,7 +1081,7 @@
     },
     {
       "asset": "SERIESBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESB",
@@ -1117,7 +1117,7 @@
     },
     {
       "asset": "SCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOM",

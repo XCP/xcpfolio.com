@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 416,
+  "available": 418,
   "sold": 13,
-  "notListed": 570,
+  "notListed": 568,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2421,8 +2421,8 @@
     },
     {
       "asset": "SERIESBB",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/SERIESBB",
@@ -2502,8 +2502,8 @@
     },
     {
       "asset": "SCOMPANY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/SCOMPANY",
