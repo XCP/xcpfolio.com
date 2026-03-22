@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 399,
+  "available": 406,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1017,11 +1017,11 @@
     },
     {
       "asset": "SHHH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREZ",
@@ -1033,23 +1033,23 @@
     },
     {
       "asset": "SHAREX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHARER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREQUITY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREA",
