@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 398,
+  "available": 399,
   "sold": 13,
-  "notListed": 588,
+  "notListed": 587,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2268,8 +2268,8 @@
     },
     {
       "asset": "SIBYL",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Mythology",
       "length": 5,
       "url": "https://xcpfolio.com/SIBYL",

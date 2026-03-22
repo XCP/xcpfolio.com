@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 398,
+  "available": 399,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1013,7 +1013,7 @@
     },
     {
       "asset": "SIBYL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHHH",
