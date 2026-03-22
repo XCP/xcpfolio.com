@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 420,
+  "available": 424,
   "sold": 13,
-  "notListed": 566,
+  "notListed": 562,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2439,8 +2439,8 @@
     },
     {
       "asset": "SERIESAA",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/SERIESAA",
@@ -2484,8 +2484,8 @@
     },
     {
       "asset": "SCORP",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/SCORP",
@@ -2493,8 +2493,8 @@
     },
     {
       "asset": "SCOPE",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SCOPE",
@@ -2601,8 +2601,8 @@
     },
     {
       "asset": "RSTOCKS",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/RSTOCKS",
