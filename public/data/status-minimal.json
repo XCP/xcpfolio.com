@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 426,
+  "available": 428,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1121,7 +1121,7 @@
     },
     {
       "asset": "SCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOIN",
@@ -1173,7 +1173,7 @@
     },
     {
       "asset": "RSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDZ",

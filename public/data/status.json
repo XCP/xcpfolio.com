@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 426,
+  "available": 428,
   "sold": 13,
-  "notListed": 560,
+  "notListed": 558,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2511,8 +2511,8 @@
     },
     {
       "asset": "SCOM",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/SCOM",
@@ -2628,8 +2628,8 @@
     },
     {
       "asset": "RSHARE",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/RSHARE",
