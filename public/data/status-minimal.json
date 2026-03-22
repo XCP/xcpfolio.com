@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 549,
+  "available": 569,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2097,7 +2097,7 @@
     },
     {
       "asset": "KSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KSTOCK",
@@ -2153,7 +2153,7 @@
     },
     {
       "asset": "KCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "KCOIN",
@@ -2217,7 +2217,7 @@
     },
     {
       "asset": "JIAO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JFUND",
@@ -2229,7 +2229,7 @@
     },
     {
       "asset": "JETE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "JCORP",
@@ -2301,7 +2301,7 @@
     },
     {
       "asset": "IQQQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IQIQ",
@@ -2381,7 +2381,7 @@
     },
     {
       "asset": "IGLOO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "IFIF",
@@ -2409,7 +2409,7 @@
     },
     {
       "asset": "ICCC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ICASH",
@@ -2425,7 +2425,7 @@
     },
     {
       "asset": "IAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HYPERCOMPLEX",
@@ -2469,7 +2469,7 @@
     },
     {
       "asset": "HOVER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HOUSING",
@@ -2529,7 +2529,7 @@
     },
     {
       "asset": "HILO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HIJK",
@@ -2549,7 +2549,7 @@
     },
     {
       "asset": "HEGEL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "HEDG",
@@ -2617,7 +2617,7 @@
     },
     {
       "asset": "GTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GTOKEN",
@@ -2629,7 +2629,7 @@
     },
     {
       "asset": "GSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GSHARES",
@@ -2657,7 +2657,7 @@
     },
     {
       "asset": "GOLDY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GNET",
@@ -2673,7 +2673,7 @@
     },
     {
       "asset": "GLAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GIPO",
@@ -2697,7 +2697,7 @@
     },
     {
       "asset": "GHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GFUND",
@@ -2713,11 +2713,11 @@
     },
     {
       "asset": "GENX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEMAS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GEMA",
@@ -2725,7 +2725,7 @@
     },
     {
       "asset": "GELT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GCORP",
@@ -2857,7 +2857,7 @@
     },
     {
       "asset": "FSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FSTOCK",
