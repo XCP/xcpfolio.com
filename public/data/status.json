@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 413,
+  "available": 416,
   "sold": 13,
-  "notListed": 573,
+  "notListed": 570,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2457,8 +2457,8 @@
     },
     {
       "asset": "SEEQ",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SEEQ",
@@ -2466,8 +2466,8 @@
     },
     {
       "asset": "SECT",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/SECT",
@@ -2475,8 +2475,8 @@
     },
     {
       "asset": "SCORSESE",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 8,
       "url": "https://xcpfolio.com/SCORSESE",

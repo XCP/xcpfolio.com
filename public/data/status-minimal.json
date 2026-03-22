@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 413,
+  "available": 416,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1097,15 +1097,15 @@
     },
     {
       "asset": "SEEQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SECT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCORSESE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCORP",
