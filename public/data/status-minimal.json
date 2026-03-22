@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 492,
+  "available": 517,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1433,7 +1433,7 @@
     },
     {
       "asset": "PMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PLTD",
@@ -1441,11 +1441,11 @@
     },
     {
       "asset": "PIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PINZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PICKS",
@@ -1461,7 +1461,7 @@
     },
     {
       "asset": "PEARSON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCORP",
@@ -1469,7 +1469,7 @@
     },
     {
       "asset": "PCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PCOM",
@@ -1481,47 +1481,47 @@
     },
     {
       "asset": "PAYOUTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAYMENTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAGEVIEWS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "PAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OXIDE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OXID",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OWED",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OOON",
@@ -1529,19 +1529,19 @@
     },
     {
       "asset": "OOOH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ONIONS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OLLC",
@@ -1549,11 +1549,11 @@
     },
     {
       "asset": "OJOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OFUND",
@@ -1565,7 +1565,7 @@
     },
     {
       "asset": "OCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCOMPANY",
@@ -1573,7 +1573,7 @@
     },
     {
       "asset": "OCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "OCASH",
@@ -1637,7 +1637,7 @@
     },
     {
       "asset": "NLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NIPO",
