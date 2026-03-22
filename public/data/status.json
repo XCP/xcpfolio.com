@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 412,
+  "available": 413,
   "sold": 13,
-  "notListed": 574,
+  "notListed": 573,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2430,8 +2430,8 @@
     },
     {
       "asset": "SERIESB",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SERIESB",
