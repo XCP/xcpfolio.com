@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 388,
+  "available": 393,
   "sold": 13,
-  "notListed": 598,
+  "notListed": 593,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2116,8 +2116,8 @@
     },
     {
       "asset": "SPORES",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 6,
       "url": "https://xcpfolio.com/SPORES",
@@ -2178,8 +2178,8 @@
     },
     {
       "asset": "SMONEY",
-      "status": "not-listed",
-      "suggestedPrice": 100,
+      "status": "available",
+      "price": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/SMONEY",
@@ -2196,8 +2196,8 @@
     },
     {
       "asset": "SLTD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/SLTD",
@@ -2205,8 +2205,8 @@
     },
     {
       "asset": "SLOAN",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 5,
       "url": "https://xcpfolio.com/SLOAN",
@@ -2259,8 +2259,8 @@
     },
     {
       "asset": "SIBYLS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Mythology",
       "length": 6,
       "url": "https://xcpfolio.com/SIBYLS",

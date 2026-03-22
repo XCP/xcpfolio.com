@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 388,
+  "available": 393,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -945,7 +945,7 @@
     },
     {
       "asset": "SPORES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPORE",
@@ -973,7 +973,7 @@
     },
     {
       "asset": "SMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLUSH",
@@ -981,11 +981,11 @@
     },
     {
       "asset": "SLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLOAN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLLC",
@@ -1009,7 +1009,7 @@
     },
     {
       "asset": "SIBYLS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIBYL",
