@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 418,
+  "available": 420,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1073,7 +1073,7 @@
     },
     {
       "asset": "SERIESX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESC",
@@ -1093,7 +1093,7 @@
     },
     {
       "asset": "SERIESA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SEEQ",

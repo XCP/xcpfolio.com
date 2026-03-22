@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 418,
+  "available": 420,
   "sold": 13,
-  "notListed": 568,
+  "notListed": 566,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2403,8 +2403,8 @@
     },
     {
       "asset": "SERIESX",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SERIESX",
@@ -2448,8 +2448,8 @@
     },
     {
       "asset": "SERIESA",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SERIESA",
