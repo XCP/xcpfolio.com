@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 406,
+  "available": 407,
   "sold": 13,
-  "notListed": 580,
+  "notListed": 579,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2304,8 +2304,8 @@
     },
     {
       "asset": "SHAREY",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREY",

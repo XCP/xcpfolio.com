@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 406,
+  "available": 407,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1029,7 +1029,7 @@
     },
     {
       "asset": "SHAREY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREX",
