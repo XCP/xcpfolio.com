@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 407,
+  "available": 412,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1053,7 +1053,7 @@
     },
     {
       "asset": "SHAREA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHARDS",
@@ -1061,15 +1061,15 @@
     },
     {
       "asset": "SHARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SEXO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESX",
@@ -1077,7 +1077,7 @@
     },
     {
       "asset": "SERIESC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESBB",

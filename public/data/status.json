@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 407,
+  "available": 412,
   "sold": 13,
-  "notListed": 579,
+  "notListed": 574,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2358,8 +2358,8 @@
     },
     {
       "asset": "SHAREA",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREA",
@@ -2376,8 +2376,8 @@
     },
     {
       "asset": "SHARD",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SHARD",
@@ -2385,8 +2385,8 @@
     },
     {
       "asset": "SFUND",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/SFUND",
@@ -2394,8 +2394,8 @@
     },
     {
       "asset": "SEXO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/SEXO",
@@ -2412,8 +2412,8 @@
     },
     {
       "asset": "SERIESC",
-      "status": "not-listed",
-      "suggestedPrice": 5,
+      "status": "available",
+      "price": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SERIESC",
