@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 393,
+  "available": 394,
   "sold": 13,
-  "notListed": 593,
+  "notListed": 592,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2250,8 +2250,8 @@
     },
     {
       "asset": "SINN",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SINN",
