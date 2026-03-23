@@ -6,19 +6,20 @@ import { useParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { getAssetOrders, getDetailedAsset, getAssetOrderHistory, getAssetIssuances, getAssetOrderMatches, formatPrice, formatAge, formatRegistrationDate, getAssetMetadata, type Order, type DetailedAsset, type Issuance } from '@/lib/api';
-import { getOrderFeeRate } from '@/lib/feeRate';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { useWeb3 } from '@/contexts/Web3Context';
+import { useWallet } from '@/lib/wallet/wallet-context';
+import { useCompose } from '@/lib/wallet/useCompose';
 import { trackEvent } from 'fathom-client';
 
 export default function AssetPage() {
   const params = useParams();
   const asset = params.asset as string;
-  const { isConnected, account, connect, composeOrder } = useWeb3();
-  const [isCreatingOrder, setIsCreatingOrder] = useState(false);
-  const [orderError, setOrderError] = useState<string | null>(null);
-  const [orderSuccess, setOrderSuccess] = useState<string | null>(null);
+  const { status, address, connect } = useWallet();
+  const { composeOrder, status: composeStatus, txid: composeTxid, error: composeError, reset: composeReset } = useCompose();
+  const isConnected = status === 'connected';
+  const account = address;
+  const isCreatingOrder = composeStatus === 'composing' || composeStatus === 'signing' || composeStatus === 'broadcasting';
   const [currentBlockHeight, setCurrentBlockHeight] = useState<number | null>(null);
 
   // Use React Query for caching orders
@@ -101,84 +102,24 @@ export default function AssetPage() {
     staleTime: 5 * 60 * 1000, // 5 minutes
   });
 
-  const handleBuy = async (order?: Order) => {
-    // Track purchase button click
-    trackEvent('purchase_clicked', {
-      _value: order ? order.get_quantity : 0
-    });
+  const handleBuy = (order?: Order) => {
+    trackEvent('purchase_clicked', { _value: order ? order.get_quantity : 0 });
 
-    // If not connected, trigger wallet connection
     if (!isConnected) {
-      await connect();
+      connect();
       return;
     }
 
-    // If we don't have an account after connection, bail out
-    if (!account) {
-      setOrderError('Please connect your wallet to continue');
-      return;
-    }
+    if (!account || !order) return;
 
-    // If no order is available, show error
-    if (!order) {
-      setOrderError('No order available for this asset');
-      return;
-    }
-
-    setIsCreatingOrder(true);
-    setOrderError(null);
-    setOrderSuccess(null);
-
-    try {
-      const feeRate = await getOrderFeeRate();
-
-      // Match existing sell order
-      const orderParams = {
-        give_asset: order.get_asset, // What seller wants (e.g., XCP)
-        give_quantity: order.get_quantity, // Amount seller wants
-        get_asset: order.give_asset, // What we want (XCPFOLIO.{asset})
-        get_quantity: order.give_quantity, // Amount we want (1)
-        expiration: 100, // blocks until expiration
-        sat_per_vbyte: feeRate
-      };
-
-      console.log('Creating buy order with params:', orderParams);
-
-      // Compose and broadcast the order transaction through the extension UI
-      const result = await composeOrder(orderParams);
-      console.log('Order transaction result:', result);
-
-      // The result should contain the transaction hash
-      const txid = result.txid || result.tx_hash || result;
-      setOrderSuccess(`Order created successfully! Transaction: ${txid}`);
-
-      // Show success message for a few seconds
-      setTimeout(() => {
-        setOrderSuccess(null);
-      }, 10000);
-
-    } catch (error: any) {
-      console.error('Purchase error:', error);
-
-      // Handle specific error cases
-      if (error.message?.includes('User cancelled') || error.message?.includes('User denied') || error.message?.includes('rejected')) {
-        setOrderError('Transaction was cancelled');
-      } else if (error.message?.includes('Popup required')) {
-        setOrderError('Please approve the transaction in the wallet popup');
-      } else if (error.message?.includes('WALLET_LOCKED')) {
-        setOrderError('Please unlock your wallet and try again');
-      } else if (error.message?.includes('insufficient')) {
-        setOrderError('Insufficient balance to complete this purchase');
-      } else if (error.message?.includes('timeout')) {
-        setOrderError('Transaction timed out. Please try again');
-      } else if (error.message?.includes('Rate limit')) {
-        setOrderError('Too many requests. Please wait a moment and try again');
-      } else {
-        setOrderError(`Purchase failed: ${error.message || 'Unknown error'}`);
-      }
-    } finally {
-      setIsCreatingOrder(false);
-    }
+    composeReset();
+    composeOrder({
+      give_asset: order.get_asset,
+      give_quantity: order.get_quantity,
+      get_asset: order.give_asset,
+      get_quantity: order.give_quantity,
+      expiration: 100,
+    });
   };
 
   const hasOrders = orders.length > 0;
@@ -390,16 +331,16 @@ export default function AssetPage() {
                     </button>
                     
                     {/* Error Message */}
-                    {orderError && (
+                    {composeError && (
                       <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg" role="alert" aria-live="polite">
-                        <p className="text-sm text-red-700">{orderError}</p>
+                        <p className="text-sm text-red-700">{composeError}</p>
                       </div>
                     )}
-                    
+
                     {/* Success Message */}
-                    {orderSuccess && (
+                    {composeTxid && (
                       <div className="mt-4 p-3 bg-green-50 border border-green-200 rounded-lg" role="status" aria-live="polite">
-                        <p className="text-sm text-green-700">{orderSuccess}</p>
+                        <p className="text-sm text-green-700">Order created successfully! Transaction: {composeTxid}</p>
                       </div>
                     )}
                     

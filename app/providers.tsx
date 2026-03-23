@@ -2,7 +2,7 @@
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactNode, useState } from 'react';
-import { Web3Provider } from '@/contexts/Web3Context';
+import { WalletProvider } from '@/lib/wallet/wallet-context';
 
 export function Providers({ children }: { children: ReactNode }) {
   const [queryClient] = useState(
@@ -25,9 +25,9 @@ export function Providers({ children }: { children: ReactNode }) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Web3Provider>
+      <WalletProvider>
         {children}
-      </Web3Provider>
+      </WalletProvider>
     </QueryClientProvider>
   );
 }
