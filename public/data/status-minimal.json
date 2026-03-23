@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 636,
+  "available": 661,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -309,11 +309,11 @@
     },
     {
       "asset": "WTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WSTOCK",
@@ -353,7 +353,7 @@
     },
     {
       "asset": "WIZZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WIPO",
@@ -405,7 +405,7 @@
     },
     {
       "asset": "WAXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "WAVY",
@@ -537,7 +537,7 @@
     },
     {
       "asset": "UTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UTOKEN",
@@ -553,7 +553,7 @@
     },
     {
       "asset": "USHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "USHARE",
@@ -1125,7 +1125,7 @@
     },
     {
       "asset": "SCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCION",
@@ -1601,7 +1601,7 @@
     },
     {
       "asset": "NSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NRGY",
@@ -1609,15 +1609,15 @@
     },
     {
       "asset": "NORTE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NONYMOUS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NONY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NOMS",
@@ -1625,15 +1625,15 @@
     },
     {
       "asset": "NOISEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NLLC",
@@ -1641,15 +1641,15 @@
     },
     {
       "asset": "NIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NINER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NIETZSCHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NICHES",
@@ -1657,7 +1657,7 @@
     },
     {
       "asset": "NICHE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NFUND",
@@ -1665,7 +1665,7 @@
     },
     {
       "asset": "NERDY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NERDS",
@@ -1673,19 +1673,19 @@
     },
     {
       "asset": "NENE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NEGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NDEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NCOMPANY",
@@ -1693,7 +1693,7 @@
     },
     {
       "asset": "NCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NCOIN",
@@ -1701,7 +1701,7 @@
     },
     {
       "asset": "NATE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "NARCOS",
