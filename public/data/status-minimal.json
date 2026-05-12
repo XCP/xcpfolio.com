@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 880,
+  "available": 850,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2117,7 +2117,7 @@
     },
     {
       "asset": "KLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KITT",
@@ -2185,7 +2185,7 @@
     },
     {
       "asset": "JSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JOYAS",
@@ -2257,7 +2257,7 @@
     },
     {
       "asset": "IVYY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IVVY",
@@ -2593,7 +2593,7 @@
     },
     {
       "asset": "HAMPTON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HABERMAS",
@@ -2609,7 +2609,7 @@
     },
     {
       "asset": "GUID",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GTRANCHE",
@@ -2625,7 +2625,7 @@
     },
     {
       "asset": "GSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GSTOCK",
@@ -2681,7 +2681,7 @@
     },
     {
       "asset": "GINTO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GINN",
@@ -2705,7 +2705,7 @@
     },
     {
       "asset": "GETT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GEOS",
@@ -2733,7 +2733,7 @@
     },
     {
       "asset": "GCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GCOM",
@@ -2749,7 +2749,7 @@
     },
     {
       "asset": "GATO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GATA",
@@ -2765,7 +2765,7 @@
     },
     {
       "asset": "GARRISON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GANO",
@@ -2801,7 +2801,7 @@
     },
     {
       "asset": "GAJE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GAAA",
@@ -2825,7 +2825,7 @@
     },
     {
       "asset": "FUNDZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FUNDX",
@@ -2833,7 +2833,7 @@
     },
     {
       "asset": "FUNDR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FUNDB",
@@ -2909,7 +2909,7 @@
     },
     {
       "asset": "FOOTY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FONO",
@@ -2933,7 +2933,7 @@
     },
     {
       "asset": "FLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FLLC",
@@ -2941,7 +2941,7 @@
     },
     {
       "asset": "FITT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FIPO",
@@ -2993,7 +2993,7 @@
     },
     {
       "asset": "FABB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FAAA",
@@ -3005,7 +3005,7 @@
     },
     {
       "asset": "EYED",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EXXX",
@@ -3177,7 +3177,7 @@
     },
     {
       "asset": "DUNK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DUAL",
@@ -3185,7 +3185,7 @@
     },
     {
       "asset": "DTRANCHE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DTRADE",
@@ -3193,7 +3193,7 @@
     },
     {
       "asset": "DSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DSTOCK",
@@ -3205,7 +3205,7 @@
     },
     {
       "asset": "DSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DOOO",
@@ -3221,7 +3221,7 @@
     },
     {
       "asset": "DOLARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DOIT",
@@ -3229,7 +3229,7 @@
     },
     {
       "asset": "DMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DLTD",
@@ -3237,7 +3237,7 @@
     },
     {
       "asset": "DLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DJINN",
@@ -3245,7 +3245,7 @@
     },
     {
       "asset": "DIVERGENT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIPS",
@@ -3253,7 +3253,7 @@
     },
     {
       "asset": "DIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIOS",
@@ -3297,7 +3297,7 @@
     },
     {
       "asset": "DERRIDA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DENALI",
@@ -3325,7 +3325,7 @@
     },
     {
       "asset": "DCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCOM",
