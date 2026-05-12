@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 845,
+  "available": 838,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1545,7 +1545,7 @@
     },
     {
       "asset": "OLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OJOS",
@@ -1557,11 +1557,11 @@
     },
     {
       "asset": "OFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OESTE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OCORP",
@@ -1717,7 +1717,7 @@
     },
     {
       "asset": "NAAN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NAAA",
@@ -1725,11 +1725,11 @@
     },
     {
       "asset": "MYSQL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MUNI",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MUDD",
@@ -2001,7 +2001,7 @@
     },
     {
       "asset": "LOVV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LOVER",

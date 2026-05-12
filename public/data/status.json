@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 845,
+  "available": 838,
   "sold": 13,
-  "notListed": 141,
+  "notListed": 148,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -3464,8 +3464,8 @@
     },
     {
       "asset": "OLLC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/OLLC",
@@ -3491,8 +3491,8 @@
     },
     {
       "asset": "OFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/OFUND",
@@ -3500,8 +3500,8 @@
     },
     {
       "asset": "OESTE",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 5,
       "url": "https://xcpfolio.com/OESTE",
@@ -3851,8 +3851,8 @@
     },
     {
       "asset": "NAAN",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/NAAN",
@@ -3869,8 +3869,8 @@
     },
     {
       "asset": "MYSQL",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 5,
       "url": "https://xcpfolio.com/MYSQL",
@@ -3878,8 +3878,8 @@
     },
     {
       "asset": "MUNI",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 4,
       "url": "https://xcpfolio.com/MUNI",
@@ -4488,8 +4488,8 @@
     },
     {
       "asset": "LOVV",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/LOVV",
