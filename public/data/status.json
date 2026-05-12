@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 838,
+  "available": 834,
   "sold": 13,
-  "notListed": 148,
+  "notListed": 152,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2808,8 +2808,8 @@
     },
     {
       "asset": "REWARDU",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 7,
       "url": "https://xcpfolio.com/REWARDU",
@@ -2835,8 +2835,8 @@
     },
     {
       "asset": "REPP",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/REPP",
@@ -3419,8 +3419,8 @@
     },
     {
       "asset": "OOON",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/OOON",
@@ -3518,8 +3518,8 @@
     },
     {
       "asset": "OCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/OCOMPANY",
