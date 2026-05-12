@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 850,
+  "available": 845,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2061,7 +2061,7 @@
     },
     {
       "asset": "LELE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LCORP",
@@ -2101,7 +2101,7 @@
     },
     {
       "asset": "KSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KSHARE",
@@ -2201,7 +2201,7 @@
     },
     {
       "asset": "JLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JLLC",
@@ -2249,7 +2249,7 @@
     },
     {
       "asset": "IXXX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IWWW",
@@ -2273,7 +2273,7 @@
     },
     {
       "asset": "ISTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ISTOCK",
