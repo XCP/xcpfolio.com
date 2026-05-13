@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 809,
+  "available": 801,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -17,7 +17,7 @@
     },
     {
       "asset": "ZSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSHARE",
@@ -29,19 +29,19 @@
     },
     {
       "asset": "ZNET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZIPO",
@@ -57,7 +57,7 @@
     },
     {
       "asset": "ZFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZETA",
@@ -65,7 +65,7 @@
     },
     {
       "asset": "ZEST",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZCORP",
@@ -85,7 +85,7 @@
     },
     {
       "asset": "ZAPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZAGS",
