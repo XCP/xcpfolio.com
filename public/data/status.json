@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 789,
+  "available": 781,
   "sold": 13,
-  "notListed": 197,
+  "notListed": 205,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -231,8 +231,8 @@
     },
     {
       "asset": "YSTOCKS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/YSTOCKS",
@@ -240,8 +240,8 @@
     },
     {
       "asset": "YSTOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/YSTOCK",
@@ -258,8 +258,8 @@
     },
     {
       "asset": "YSHARE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/YSHARE",
@@ -294,8 +294,8 @@
     },
     {
       "asset": "YLTD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/YLTD",
@@ -303,8 +303,8 @@
     },
     {
       "asset": "YLLC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/YLLC",
@@ -321,8 +321,8 @@
     },
     {
       "asset": "YFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/YFUND",
@@ -348,8 +348,8 @@
     },
     {
       "asset": "YCOM",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/YCOM",
@@ -366,8 +366,8 @@
     },
     {
       "asset": "YAAA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/YAAA",

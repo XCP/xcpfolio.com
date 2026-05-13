@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 789,
+  "available": 781,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -105,11 +105,11 @@
     },
     {
       "asset": "YSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YSHARES",
@@ -117,7 +117,7 @@
     },
     {
       "asset": "YSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YOOO",
@@ -133,11 +133,11 @@
     },
     {
       "asset": "YLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YIPO",
@@ -145,7 +145,7 @@
     },
     {
       "asset": "YFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YCORP",
@@ -157,7 +157,7 @@
     },
     {
       "asset": "YCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YCOIN",
@@ -165,7 +165,7 @@
     },
     {
       "asset": "YAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "XWWW",
