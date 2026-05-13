@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 834,
+  "available": 827,
   "sold": 13,
-  "notListed": 152,
+  "notListed": 159,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2610,8 +2610,8 @@
     },
     {
       "asset": "RSTOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/RSTOCK",
@@ -2664,8 +2664,8 @@
     },
     {
       "asset": "ROUNDC",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/ROUNDC",
@@ -3257,8 +3257,8 @@
     },
     {
       "asset": "PFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/PFUND",
@@ -3536,8 +3536,8 @@
     },
     {
       "asset": "OCASH",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/OCASH",
@@ -3554,8 +3554,8 @@
     },
     {
       "asset": "NTRADE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/NTRADE",
@@ -3572,8 +3572,8 @@
     },
     {
       "asset": "NSTOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/NSTOCK",
@@ -3581,8 +3581,8 @@
     },
     {
       "asset": "NSHARES",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/NSHARES",

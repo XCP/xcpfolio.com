@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 834,
+  "available": 827,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1165,7 +1165,7 @@
     },
     {
       "asset": "RSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RSHARES",
@@ -1189,7 +1189,7 @@
     },
     {
       "asset": "ROUNDC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROUNDB",
@@ -1453,7 +1453,7 @@
     },
     {
       "asset": "PFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PEDO",
@@ -1577,7 +1577,7 @@
     },
     {
       "asset": "OCASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OAAA",
@@ -1585,7 +1585,7 @@
     },
     {
       "asset": "NTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NSTOCKS",
@@ -1593,11 +1593,11 @@
     },
     {
       "asset": "NSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NSHARE",
