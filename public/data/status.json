@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 781,
+  "available": 778,
   "sold": 13,
-  "notListed": 205,
+  "notListed": 208,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -330,8 +330,8 @@
     },
     {
       "asset": "YCORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/YCORP",
@@ -339,8 +339,8 @@
     },
     {
       "asset": "YCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/YCOMPANY",
@@ -384,8 +384,8 @@
     },
     {
       "asset": "XTRANCHE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/XTRANCHE",
