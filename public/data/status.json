@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 801,
+  "available": 795,
   "sold": 13,
-  "notListed": 185,
+  "notListed": 191,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -132,8 +132,8 @@
     },
     {
       "asset": "ZETA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/ZETA",
@@ -168,8 +168,8 @@
     },
     {
       "asset": "ZCASH",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/ZCASH",
@@ -177,8 +177,8 @@
     },
     {
       "asset": "ZBIT",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Bitcoin",
       "length": 4,
       "url": "https://xcpfolio.com/ZBIT",
@@ -195,8 +195,8 @@
     },
     {
       "asset": "ZAGS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/ZAGS",
@@ -204,8 +204,8 @@
     },
     {
       "asset": "ZABC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/ZABC",
@@ -213,8 +213,8 @@
     },
     {
       "asset": "ZAAA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/ZAAA",
