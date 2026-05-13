@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 778,
+  "available": 776,
   "sold": 13,
-  "notListed": 208,
+  "notListed": 210,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -357,8 +357,8 @@
     },
     {
       "asset": "YCOIN",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/YCOIN",
@@ -6817,8 +6817,8 @@
     },
     {
       "asset": "EVERETT",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 7,
       "url": "https://xcpfolio.com/EVERETT",

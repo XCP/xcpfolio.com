@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 778,
+  "available": 776,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -161,7 +161,7 @@
     },
     {
       "asset": "YCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YAAA",
@@ -3037,7 +3037,7 @@
     },
     {
       "asset": "EVERETT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EVEREST",
