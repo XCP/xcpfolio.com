@@ -1,19 +1,19 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 813,
+  "available": 809,
   "statuses": [
     {
       "asset": "ZTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZSHARES",
@@ -25,7 +25,7 @@
     },
     {
       "asset": "ZONA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZNET",

@@ -1,13 +1,13 @@
 {
   "total": 999,
-  "available": 813,
+  "available": 809,
   "sold": 13,
-  "notListed": 173,
+  "notListed": 177,
   "assets": [
     {
       "asset": "ZTRADE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/ZTRADE",
@@ -15,8 +15,8 @@
     },
     {
       "asset": "ZSTOCKS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/ZSTOCKS",
@@ -24,8 +24,8 @@
     },
     {
       "asset": "ZSTOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/ZSTOCK",
@@ -51,8 +51,8 @@
     },
     {
       "asset": "ZONA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/ZONA",
