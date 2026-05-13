@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 795,
+  "available": 789,
   "sold": 13,
-  "notListed": 191,
+  "notListed": 197,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -150,8 +150,8 @@
     },
     {
       "asset": "ZCORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/ZCORP",
@@ -159,8 +159,8 @@
     },
     {
       "asset": "ZCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/ZCOMPANY",
@@ -222,8 +222,8 @@
     },
     {
       "asset": "YTRADE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/YTRADE",
@@ -267,8 +267,8 @@
     },
     {
       "asset": "YOOO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/YOOO",
@@ -276,8 +276,8 @@
     },
     {
       "asset": "YMONEY",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/YMONEY",
@@ -8975,8 +8975,8 @@
     },
     {
       "asset": "A112358132134558914",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Numeric",
       "length": 19,
       "url": "https://xcpfolio.com/A112358132134558914",
