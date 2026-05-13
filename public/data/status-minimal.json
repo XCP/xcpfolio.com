@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 827,
+  "available": 813,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -21,7 +21,7 @@
     },
     {
       "asset": "ZSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZONA",
@@ -45,15 +45,15 @@
     },
     {
       "asset": "ZIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZINE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZIGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZFUND",
@@ -113,7 +113,7 @@
     },
     {
       "asset": "YSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YSHARE",
@@ -129,7 +129,7 @@
     },
     {
       "asset": "YMMV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YLTD",
@@ -141,7 +141,7 @@
     },
     {
       "asset": "YIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "YFUND",
@@ -185,7 +185,7 @@
     },
     {
       "asset": "XSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "XSERIES",
@@ -233,7 +233,7 @@
     },
     {
       "asset": "XGEN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "XCPX",
@@ -277,7 +277,7 @@
     },
     {
       "asset": "WWWX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WWWS",
@@ -321,7 +321,7 @@
     },
     {
       "asset": "WSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WSHARE",
@@ -337,7 +337,7 @@
     },
     {
       "asset": "WONT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WMONEY",
@@ -393,7 +393,7 @@
     },
     {
       "asset": "WCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WCOM",
@@ -597,7 +597,7 @@
     },
     {
       "asset": "USAD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USAC",
