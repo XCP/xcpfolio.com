@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 745,
+  "available": 730,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -325,7 +325,7 @@
     },
     {
       "asset": "WSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WRESTLING",
@@ -389,7 +389,7 @@
     },
     {
       "asset": "WCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WCOMPANY",
@@ -397,7 +397,7 @@
     },
     {
       "asset": "WCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WCOIN",
@@ -409,7 +409,7 @@
     },
     {
       "asset": "WAVY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WARNER",
@@ -425,7 +425,7 @@
     },
     {
       "asset": "VYBE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VTRADE",
@@ -433,7 +433,7 @@
     },
     {
       "asset": "VSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VSTOCK",
@@ -453,7 +453,7 @@
     },
     {
       "asset": "VOILA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VMONEY",
@@ -465,7 +465,7 @@
     },
     {
       "asset": "VLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VIVID",
@@ -489,7 +489,7 @@
     },
     {
       "asset": "VIBES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VFUND",
@@ -497,27 +497,27 @@
     },
     {
       "asset": "VERGE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VERDE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VCASH",
