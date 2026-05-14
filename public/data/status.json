@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 730,
+  "available": 727,
   "sold": 13,
-  "notListed": 256,
+  "notListed": 259,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -732,8 +732,8 @@
     },
     {
       "asset": "WRESTLING",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Gambling",
       "length": 9,
       "url": "https://xcpfolio.com/WRESTLING",
@@ -741,8 +741,8 @@
     },
     {
       "asset": "WORDY",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/WORDY",
@@ -777,8 +777,8 @@
     },
     {
       "asset": "WLLC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/WLLC",
