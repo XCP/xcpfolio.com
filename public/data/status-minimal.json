@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 719,
+  "available": 718,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -381,7 +381,7 @@
     },
     {
       "asset": "WEBS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WEBB",

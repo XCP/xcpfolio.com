@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 719,
+  "available": 718,
   "sold": 13,
-  "notListed": 267,
+  "notListed": 268,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -849,8 +849,8 @@
     },
     {
       "asset": "WEBS",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/WEBS",
