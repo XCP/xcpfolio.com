@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 776,
+  "available": 773,
   "sold": 13,
-  "notListed": 210,
+  "notListed": 213,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -6799,8 +6799,8 @@
     },
     {
       "asset": "EXED",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/EXED",
@@ -6853,8 +6853,8 @@
     },
     {
       "asset": "ESTOCKS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/ESTOCKS",
@@ -6907,8 +6907,8 @@
     },
     {
       "asset": "EQQQ",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/EQQQ",
