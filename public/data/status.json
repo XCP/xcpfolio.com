@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 749,
+  "available": 745,
   "sold": 13,
-  "notListed": 237,
+  "notListed": 241,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1173,8 +1173,8 @@
     },
     {
       "asset": "VBIT",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Bitcoin",
       "length": 4,
       "url": "https://xcpfolio.com/VBIT",
@@ -1281,8 +1281,8 @@
     },
     {
       "asset": "USAT",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAT",
@@ -1380,8 +1380,8 @@
     },
     {
       "asset": "UMONEY",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/UMONEY",
@@ -1398,8 +1398,8 @@
     },
     {
       "asset": "ULLC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/ULLC",

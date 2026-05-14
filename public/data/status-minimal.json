@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 749,
+  "available": 745,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -525,7 +525,7 @@
     },
     {
       "asset": "VBIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VABC",
@@ -573,7 +573,7 @@
     },
     {
       "asset": "USAT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USAO",
@@ -617,7 +617,7 @@
     },
     {
       "asset": "UMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ULTD",
@@ -625,7 +625,7 @@
     },
     {
       "asset": "ULLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "UIPO",
