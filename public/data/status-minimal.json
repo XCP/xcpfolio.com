@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 773,
+  "available": 758,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1465,7 +1465,7 @@
     },
     {
       "asset": "PCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PCOMPANY",
@@ -1473,11 +1473,11 @@
     },
     {
       "asset": "PCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PAYOUTS",
@@ -1581,7 +1581,7 @@
     },
     {
       "asset": "OAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NTRADE",
@@ -1605,7 +1605,7 @@
     },
     {
       "asset": "NRGY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NORTE",
@@ -1753,7 +1753,7 @@
     },
     {
       "asset": "MSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MSHARE",
@@ -1777,7 +1777,7 @@
     },
     {
       "asset": "MONROE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MONIES",
@@ -1817,7 +1817,7 @@
     },
     {
       "asset": "MMMK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MMKT",
@@ -1881,7 +1881,7 @@
     },
     {
       "asset": "MCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MCOMPANY",
@@ -1921,7 +1921,7 @@
     },
     {
       "asset": "MAXED",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MAPAS",
@@ -2073,7 +2073,7 @@
     },
     {
       "asset": "LCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LCOIN",
@@ -2149,7 +2149,7 @@
     },
     {
       "asset": "KCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KCOM",
@@ -2241,7 +2241,7 @@
     },
     {
       "asset": "JCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JAAA",
@@ -2637,7 +2637,7 @@
     },
     {
       "asset": "GSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GRAN",
@@ -3025,7 +3025,7 @@
     },
     {
       "asset": "EXES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EXED",
