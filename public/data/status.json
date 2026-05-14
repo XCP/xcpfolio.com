@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 758,
+  "available": 750,
   "sold": 13,
-  "notListed": 228,
+  "notListed": 236,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2044,8 +2044,8 @@
     },
     {
       "asset": "STOCKA",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/STOCKA",
@@ -2107,8 +2107,8 @@
     },
     {
       "asset": "SPOTPRICE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 9,
       "url": "https://xcpfolio.com/SPOTPRICE",
@@ -2187,8 +2187,8 @@
     },
     {
       "asset": "SLUSH",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SLUSH",
@@ -2214,8 +2214,8 @@
     },
     {
       "asset": "SLLC",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/SLLC",
@@ -2367,8 +2367,8 @@
     },
     {
       "asset": "SHARDS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 6,
       "url": "https://xcpfolio.com/SHARDS",
@@ -2529,8 +2529,8 @@
     },
     {
       "asset": "SCION",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SCION",
@@ -2655,8 +2655,8 @@
     },
     {
       "asset": "ROUNDS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/ROUNDS",
@@ -3221,8 +3221,8 @@
     },
     {
       "asset": "PLTD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/PLTD",

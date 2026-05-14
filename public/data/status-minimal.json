@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 758,
+  "available": 750,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -913,7 +913,7 @@
     },
     {
       "asset": "STOCKA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STANLEY",
@@ -941,7 +941,7 @@
     },
     {
       "asset": "SPOTPRICE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SPORES",
@@ -977,7 +977,7 @@
     },
     {
       "asset": "SLUSH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SLTD",
@@ -989,7 +989,7 @@
     },
     {
       "asset": "SLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SKYY",
@@ -1057,7 +1057,7 @@
     },
     {
       "asset": "SHARDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SHARD",
@@ -1129,7 +1129,7 @@
     },
     {
       "asset": "SCION",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SAUL",
@@ -1185,7 +1185,7 @@
     },
     {
       "asset": "ROUNDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ROUNDC",
@@ -1437,7 +1437,7 @@
     },
     {
       "asset": "PLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PIPO",
