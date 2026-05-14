@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 722,
+  "available": 719,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -357,7 +357,7 @@
     },
     {
       "asset": "WIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WHIZZ",
@@ -365,7 +365,7 @@
     },
     {
       "asset": "WFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WEBSTER",
@@ -373,7 +373,7 @@
     },
     {
       "asset": "WEBSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "WEBSHARE",

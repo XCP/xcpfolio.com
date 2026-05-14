@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 722,
+  "available": 719,
   "sold": 13,
-  "notListed": 264,
+  "notListed": 267,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -795,8 +795,8 @@
     },
     {
       "asset": "WIPO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/WIPO",
@@ -813,8 +813,8 @@
     },
     {
       "asset": "WFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/WFUND",
@@ -831,8 +831,8 @@
     },
     {
       "asset": "WEBSHARES",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 9,
       "url": "https://xcpfolio.com/WEBSHARES",
