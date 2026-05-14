@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 750,
+  "available": 749,
   "sold": 13,
-  "notListed": 236,
+  "notListed": 237,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1927,8 +1927,8 @@
     },
     {
       "asset": "TANGO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 5,
       "url": "https://xcpfolio.com/TANGO",

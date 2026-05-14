@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 750,
+  "available": 749,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -861,7 +861,7 @@
     },
     {
       "asset": "TANGO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TAAA",
