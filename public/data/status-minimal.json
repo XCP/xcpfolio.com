@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 661,
+  "available": 660,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -721,7 +721,7 @@
     },
     {
       "asset": "TRANCHEC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TRANCHEB",
