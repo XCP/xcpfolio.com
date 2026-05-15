@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 712,
+  "available": 690,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -421,7 +421,7 @@
     },
     {
       "asset": "WAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VYBE",
@@ -441,15 +441,15 @@
     },
     {
       "asset": "VSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VOLTA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VOILA",
@@ -457,11 +457,11 @@
     },
     {
       "asset": "VMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VLLC",
@@ -469,23 +469,23 @@
     },
     {
       "asset": "VIVID",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VIPP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VIDAS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VIDA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VIBES",
@@ -493,7 +493,7 @@
     },
     {
       "asset": "VFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VERGE",
@@ -521,7 +521,7 @@
     },
     {
       "asset": "VCASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VBIT",
@@ -529,11 +529,11 @@
     },
     {
       "asset": "VABC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "VAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "UTRADE",
@@ -541,15 +541,15 @@
     },
     {
       "asset": "UTOKEN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USHARES",
@@ -561,15 +561,15 @@
     },
     {
       "asset": "USAY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USAX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USAV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USAT",
@@ -577,7 +577,7 @@
     },
     {
       "asset": "USAO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "USAI",
