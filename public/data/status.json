@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 660,
+  "available": 657,
   "sold": 13,
-  "notListed": 326,
+  "notListed": 329,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1569,8 +1569,8 @@
     },
     {
       "asset": "TSSK",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/TSSK",
@@ -1623,8 +1623,8 @@
     },
     {
       "asset": "TRANCHEB",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/TRANCHEB",
@@ -1641,8 +1641,8 @@
     },
     {
       "asset": "TRADEZ",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/TRADEZ",
