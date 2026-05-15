@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 674,
+  "available": 669,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -661,7 +661,7 @@
     },
     {
       "asset": "UCASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "UBLOCK",
@@ -677,15 +677,15 @@
     },
     {
       "asset": "TYVM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TYME",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TUFF",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TTOR",
@@ -693,7 +693,7 @@
     },
     {
       "asset": "TSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TSTOCK",

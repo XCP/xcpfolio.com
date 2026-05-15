@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 674,
+  "available": 669,
   "sold": 13,
-  "notListed": 312,
+  "notListed": 317,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1479,8 +1479,8 @@
     },
     {
       "asset": "UCASH",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/UCASH",
@@ -1515,8 +1515,8 @@
     },
     {
       "asset": "TYVM",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/TYVM",
@@ -1524,8 +1524,8 @@
     },
     {
       "asset": "TYME",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/TYME",
@@ -1533,8 +1533,8 @@
     },
     {
       "asset": "TUFF",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/TUFF",
@@ -1551,8 +1551,8 @@
     },
     {
       "asset": "TSTOCKS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/TSTOCKS",
