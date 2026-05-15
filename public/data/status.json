@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 690,
+  "available": 687,
   "sold": 13,
-  "notListed": 296,
+  "notListed": 299,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1245,8 +1245,8 @@
     },
     {
       "asset": "USHARE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/USHARE",
@@ -1308,8 +1308,8 @@
     },
     {
       "asset": "USAG",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAG",
@@ -1317,8 +1317,8 @@
     },
     {
       "asset": "USAF",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/USAF",
