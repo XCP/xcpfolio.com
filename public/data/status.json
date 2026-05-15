@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 718,
+  "available": 712,
   "sold": 13,
-  "notListed": 268,
+  "notListed": 274,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -759,8 +759,8 @@
     },
     {
       "asset": "WMONEY",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/WMONEY",
@@ -894,8 +894,8 @@
     },
     {
       "asset": "WCOIN",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/WCOIN",
@@ -921,8 +921,8 @@
     },
     {
       "asset": "WARNER",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 6,
       "url": "https://xcpfolio.com/WARNER",
@@ -930,8 +930,8 @@
     },
     {
       "asset": "WAGR",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Gambling",
       "length": 4,
       "url": "https://xcpfolio.com/WAGR",
@@ -957,8 +957,8 @@
     },
     {
       "asset": "VTRADE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/VTRADE",
@@ -975,8 +975,8 @@
     },
     {
       "asset": "VSTOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/VSTOCK",
