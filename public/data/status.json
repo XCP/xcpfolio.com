@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 615,
+  "available": 614,
   "sold": 13,
-  "notListed": 371,
+  "notListed": 372,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2862,8 +2862,8 @@
     },
     {
       "asset": "RELO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/RELO",

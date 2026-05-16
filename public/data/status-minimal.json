@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 615,
+  "available": 614,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1277,7 +1277,7 @@
     },
     {
       "asset": "RELO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REDD",
