@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 655,
+  "available": 652,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -705,7 +705,7 @@
     },
     {
       "asset": "TSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TSHARE",
@@ -737,7 +737,7 @@
     },
     {
       "asset": "TRADEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TRADEX",
@@ -745,7 +745,7 @@
     },
     {
       "asset": "TRADEE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TOXIC",

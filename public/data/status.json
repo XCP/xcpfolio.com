@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 655,
+  "available": 652,
   "sold": 13,
-  "notListed": 331,
+  "notListed": 334,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1578,8 +1578,8 @@
     },
     {
       "asset": "TSHARES",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/TSHARES",
@@ -1650,8 +1650,8 @@
     },
     {
       "asset": "TRADEY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/TRADEY",
@@ -1668,8 +1668,8 @@
     },
     {
       "asset": "TRADEE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/TRADEE",
