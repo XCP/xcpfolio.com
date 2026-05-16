@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 600,
+  "available": 596,
   "sold": 13,
-  "notListed": 386,
+  "notListed": 390,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2098,8 +2098,8 @@
     },
     {
       "asset": "SSHARE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SSHARE",
@@ -2116,8 +2116,8 @@
     },
     {
       "asset": "SPORES",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 6,
       "url": "https://xcpfolio.com/SPORES",
@@ -2142,8 +2142,8 @@
     },
     {
       "asset": "SONGS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SONGS",
@@ -2178,8 +2178,8 @@
     },
     {
       "asset": "SMONEY",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 6,
       "url": "https://xcpfolio.com/SMONEY",
