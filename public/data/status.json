@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 610,
+  "available": 603,
   "sold": 13,
-  "notListed": 376,
+  "notListed": 383,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1999,8 +1999,8 @@
     },
     {
       "asset": "STOCKY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/STOCKY",
@@ -2080,8 +2080,8 @@
     },
     {
       "asset": "SSTOCK",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SSTOCK",
@@ -2089,8 +2089,8 @@
     },
     {
       "asset": "SSHARES",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SSHARES",
@@ -2151,8 +2151,8 @@
     },
     {
       "asset": "SOLS",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/SOLS",
@@ -2160,8 +2160,8 @@
     },
     {
       "asset": "SOLES",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 5,
       "url": "https://xcpfolio.com/SOLES",
@@ -2169,8 +2169,8 @@
     },
     {
       "asset": "SNYDER",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 6,
       "url": "https://xcpfolio.com/SNYDER",
@@ -2826,8 +2826,8 @@
     },
     {
       "asset": "REVSHARE",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/REVSHARE",
