@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 603,
+  "available": 600,
   "sold": 13,
-  "notListed": 383,
+  "notListed": 386,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2062,8 +2062,8 @@
     },
     {
       "asset": "STAFFORD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 8,
       "url": "https://xcpfolio.com/STAFFORD",
@@ -2071,8 +2071,8 @@
     },
     {
       "asset": "SSTOCKS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SSTOCKS",
@@ -2125,8 +2125,8 @@
     },
     {
       "asset": "SPORE",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SPORE",
