@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 634,
+  "available": 624,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -805,11 +805,11 @@
     },
     {
       "asset": "THRU",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "THEDIP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TFUND",
@@ -825,15 +825,15 @@
     },
     {
       "asset": "TESSA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TENX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TENN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TEES",
@@ -841,7 +841,7 @@
     },
     {
       "asset": "TEEE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TCORP",
@@ -865,11 +865,11 @@
     },
     {
       "asset": "TAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SYSTEMATIC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SYLT",
@@ -885,11 +885,11 @@
     },
     {
       "asset": "STUV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "STOCKY",
