@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 641,
+  "available": 634,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -753,11 +753,11 @@
     },
     {
       "asset": "TOWR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TORX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TORRENTS",
@@ -801,7 +801,7 @@
     },
     {
       "asset": "TIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "THRU",
@@ -813,15 +813,15 @@
     },
     {
       "asset": "TFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TEXTS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TESTNET",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TESSA",
@@ -837,7 +837,7 @@
     },
     {
       "asset": "TEES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TEEE",

@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 641,
+  "available": 634,
   "sold": 13,
-  "notListed": 345,
+  "notListed": 352,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -1686,8 +1686,8 @@
     },
     {
       "asset": "TOWR",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/TOWR",
@@ -1695,8 +1695,8 @@
     },
     {
       "asset": "TORX",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Internet",
       "length": 4,
       "url": "https://xcpfolio.com/TORX",
@@ -1792,8 +1792,8 @@
     },
     {
       "asset": "TIPO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/TIPO",
@@ -1819,8 +1819,8 @@
     },
     {
       "asset": "TFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/TFUND",
@@ -1828,8 +1828,8 @@
     },
     {
       "asset": "TEXTS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/TEXTS",
@@ -1837,8 +1837,8 @@
     },
     {
       "asset": "TESTNET",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Bitcoin",
       "length": 7,
       "url": "https://xcpfolio.com/TESTNET",
@@ -1873,8 +1873,8 @@
     },
     {
       "asset": "TEES",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Gambling",
       "length": 4,
       "url": "https://xcpfolio.com/TEES",
