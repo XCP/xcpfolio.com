@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 596,
+  "available": 593,
   "sold": 13,
-  "notListed": 390,
+  "notListed": 393,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2196,8 +2196,8 @@
     },
     {
       "asset": "SLTD",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/SLTD",
@@ -2205,8 +2205,8 @@
     },
     {
       "asset": "SLOAN",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 5,
       "url": "https://xcpfolio.com/SLOAN",
@@ -2259,8 +2259,8 @@
     },
     {
       "asset": "SIBYLS",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Mythology",
       "length": 6,
       "url": "https://xcpfolio.com/SIBYLS",
