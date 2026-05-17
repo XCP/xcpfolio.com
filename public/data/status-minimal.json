@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 538,
+  "available": 494,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1241,15 +1241,15 @@
     },
     {
       "asset": "RHODES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REWARDX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REWARDU",
@@ -1257,7 +1257,7 @@
     },
     {
       "asset": "REVV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "REVSHARE",
@@ -1269,7 +1269,7 @@
     },
     {
       "asset": "RENEWAL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RELOADS",
@@ -1281,35 +1281,35 @@
     },
     {
       "asset": "REDD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RAGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RAFT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QWERTY",
@@ -1317,119 +1317,119 @@
     },
     {
       "asset": "QUINN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QUAD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QLIC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "QAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PURS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PUNTOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PROUD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PROCTOR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "POSEIDON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "POPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "POMP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PMONEY",
@@ -1449,7 +1449,7 @@
     },
     {
       "asset": "PICKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PFUND",
@@ -1457,7 +1457,7 @@
     },
     {
       "asset": "PEDO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "PEARSON",
