@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 283,
+  "available": 261,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1805,7 +1805,7 @@
     },
     {
       "asset": "MOAR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "MNOP",
@@ -1997,7 +1997,7 @@
     },
     {
       "asset": "LSHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LOVV",
@@ -2009,7 +2009,7 @@
     },
     {
       "asset": "LOTT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LOTO",
@@ -2017,7 +2017,7 @@
     },
     {
       "asset": "LOCH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LOCA",
@@ -2025,11 +2025,11 @@
     },
     {
       "asset": "LMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLLC",
@@ -2037,27 +2037,27 @@
     },
     {
       "asset": "LLCX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLCS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLCC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LLCA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LIANG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LELE",
@@ -2065,11 +2065,11 @@
     },
     {
       "asset": "LCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LCOM",
@@ -2081,7 +2081,7 @@
     },
     {
       "asset": "LAPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "LALA",
@@ -2089,7 +2089,7 @@
     },
     {
       "asset": "LAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KTRADE",
@@ -2109,7 +2109,7 @@
     },
     {
       "asset": "KMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KLTD",
@@ -2193,7 +2193,7 @@
     },
     {
       "asset": "JOES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JMONEY",
@@ -2237,7 +2237,7 @@
     },
     {
       "asset": "JCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JCOM",
@@ -2397,7 +2397,7 @@
     },
     {
       "asset": "ICORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ICOMPANY",
@@ -2405,7 +2405,7 @@
     },
     {
       "asset": "ICOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ICCC",
@@ -2581,7 +2581,7 @@
     },
     {
       "asset": "HAVOC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HASTE",
