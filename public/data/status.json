@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 582,
+  "available": 569,
   "sold": 13,
-  "notListed": 404,
+  "notListed": 417,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2304,8 +2304,8 @@
     },
     {
       "asset": "SHAREY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREY",
@@ -2331,8 +2331,8 @@
     },
     {
       "asset": "SHAREQUITY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 10,
       "url": "https://xcpfolio.com/SHAREQUITY",
@@ -2349,8 +2349,8 @@
     },
     {
       "asset": "SHAREB",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREB",
@@ -2358,8 +2358,8 @@
     },
     {
       "asset": "SHAREA",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 6,
       "url": "https://xcpfolio.com/SHAREA",
@@ -2376,8 +2376,8 @@
     },
     {
       "asset": "SHARD",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SHARD",
@@ -2385,8 +2385,8 @@
     },
     {
       "asset": "SFUND",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 5,
       "url": "https://xcpfolio.com/SFUND",
@@ -2394,8 +2394,8 @@
     },
     {
       "asset": "SEXO",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Spanish",
       "length": 4,
       "url": "https://xcpfolio.com/SEXO",
@@ -2412,8 +2412,8 @@
     },
     {
       "asset": "SERIESC",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SERIESC",
@@ -2430,8 +2430,8 @@
     },
     {
       "asset": "SERIESB",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/SERIESB",
@@ -2457,8 +2457,8 @@
     },
     {
       "asset": "SEEQ",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/SEEQ",
@@ -2466,8 +2466,8 @@
     },
     {
       "asset": "SECT",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/SECT",
@@ -2475,8 +2475,8 @@
     },
     {
       "asset": "SCORSESE",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Name",
       "length": 8,
       "url": "https://xcpfolio.com/SCORSESE",
@@ -2502,8 +2502,8 @@
     },
     {
       "asset": "SCOMPANY",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 8,
       "url": "https://xcpfolio.com/SCOMPANY",
