@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 261,
+  "available": 221,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2125,7 +2125,7 @@
     },
     {
       "asset": "KIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KIERKEGAARD",
@@ -2133,7 +2133,7 @@
     },
     {
       "asset": "KIDD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KHAT",
@@ -2141,7 +2141,7 @@
     },
     {
       "asset": "KFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KCORP",
@@ -2161,7 +2161,7 @@
     },
     {
       "asset": "KANT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KAAA",
@@ -2169,7 +2169,7 @@
     },
     {
       "asset": "JTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JSTOCKS",
@@ -2177,7 +2177,7 @@
     },
     {
       "asset": "JSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JSHARES",
@@ -2209,7 +2209,7 @@
     },
     {
       "asset": "JIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JINN",
@@ -2225,7 +2225,7 @@
     },
     {
       "asset": "JETT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JETE",
@@ -2265,7 +2265,7 @@
     },
     {
       "asset": "IVIV",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ITRANCHE",
@@ -2281,7 +2281,7 @@
     },
     {
       "asset": "ISHARE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ISERIES",
@@ -2289,11 +2289,11 @@
     },
     {
       "asset": "IROUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IREWARD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IREPORT",
@@ -2309,11 +2309,11 @@
     },
     {
       "asset": "IPOO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IPOC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IPOB",
@@ -2321,7 +2321,7 @@
     },
     {
       "asset": "IPOA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IOTA",
@@ -2337,7 +2337,7 @@
     },
     {
       "asset": "INDI",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "INCREMENTAL",
@@ -2345,7 +2345,7 @@
     },
     {
       "asset": "IMSG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IMONEY",
@@ -2353,11 +2353,11 @@
     },
     {
       "asset": "ILTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ILLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IIPO",
@@ -2365,7 +2365,7 @@
     },
     {
       "asset": "IHOLDINGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IHOLD",
@@ -2373,7 +2373,7 @@
     },
     {
       "asset": "IGOLD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IGLU",
@@ -2389,7 +2389,7 @@
     },
     {
       "asset": "IDID",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IDEO",
@@ -2401,7 +2401,7 @@
     },
     {
       "asset": "ICOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ICOM",
@@ -2417,7 +2417,7 @@
     },
     {
       "asset": "IBLOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IBBB",
@@ -2433,7 +2433,7 @@
     },
     {
       "asset": "HURST",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HULL",
@@ -2441,7 +2441,7 @@
     },
     {
       "asset": "HUGG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HUBB",
@@ -2449,11 +2449,11 @@
     },
     {
       "asset": "HTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HSTOCK",
@@ -2461,7 +2461,7 @@
     },
     {
       "asset": "HSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HSHARE",
@@ -2477,7 +2477,7 @@
     },
     {
       "asset": "HOPIUM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HONEST",
@@ -2489,15 +2489,15 @@
     },
     {
       "asset": "HOLDS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HOLDR",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HOLDG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HOLDE",
@@ -2505,7 +2505,7 @@
     },
     {
       "asset": "HOLDA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HMONEY",
@@ -2513,7 +2513,7 @@
     },
     {
       "asset": "HLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HLLC",
@@ -2533,7 +2533,7 @@
     },
     {
       "asset": "HIJK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HFUND",
@@ -2541,7 +2541,7 @@
     },
     {
       "asset": "HEIDEGGER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HEHE",
@@ -2557,7 +2557,7 @@
     },
     {
       "asset": "HCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HCOMPANY",
@@ -2565,7 +2565,7 @@
     },
     {
       "asset": "HCOM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HCOIN",
@@ -2585,7 +2585,7 @@
     },
     {
       "asset": "HASTE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HANCOCK",
