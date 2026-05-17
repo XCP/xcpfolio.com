@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 566,
+  "available": 560,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -1089,7 +1089,7 @@
     },
     {
       "asset": "SERIESAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SERIESA",
@@ -1109,11 +1109,11 @@
     },
     {
       "asset": "SCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCOPE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "SCOMPANY",
@@ -1149,7 +1149,7 @@
     },
     {
       "asset": "SAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RYFT",
@@ -1157,11 +1157,11 @@
     },
     {
       "asset": "RUBE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "RSTOCK",

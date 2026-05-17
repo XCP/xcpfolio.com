@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 566,
+  "available": 560,
   "sold": 13,
-  "notListed": 420,
+  "notListed": 426,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -2439,8 +2439,8 @@
     },
     {
       "asset": "SERIESAA",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 8,
       "url": "https://xcpfolio.com/SERIESAA",
@@ -2484,8 +2484,8 @@
     },
     {
       "asset": "SCORP",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Business",
       "length": 5,
       "url": "https://xcpfolio.com/SCORP",
@@ -2493,8 +2493,8 @@
     },
     {
       "asset": "SCOPE",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/SCOPE",
@@ -2574,8 +2574,8 @@
     },
     {
       "asset": "SAAA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/SAAA",
@@ -2592,8 +2592,8 @@
     },
     {
       "asset": "RUBE",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/RUBE",
@@ -2601,8 +2601,8 @@
     },
     {
       "asset": "RSTOCKS",
-      "status": "available",
-      "price": 5,
+      "status": "not-listed",
+      "suggestedPrice": 5,
       "category": "Finance",
       "length": 7,
       "url": "https://xcpfolio.com/RSTOCKS",
