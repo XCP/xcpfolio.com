@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 221,
+  "available": 192,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2521,7 +2521,7 @@
     },
     {
       "asset": "HJKL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HIPO",
@@ -2573,7 +2573,7 @@
     },
     {
       "asset": "HCASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HAYLOFT",
@@ -2601,7 +2601,7 @@
     },
     {
       "asset": "HAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GUSTO",
@@ -2665,7 +2665,7 @@
     },
     {
       "asset": "GLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GLLC",
@@ -2689,7 +2689,7 @@
     },
     {
       "asset": "GIGG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GHOLDINGS",
@@ -3261,39 +3261,39 @@
     },
     {
       "asset": "DIEZ",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIBS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DGOLD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEXOMATIC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEXO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEUCES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEUCE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DESCARTES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DERRIDA",
@@ -3301,7 +3301,7 @@
     },
     {
       "asset": "DENALI",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DELPHI",
@@ -3309,7 +3309,7 @@
     },
     {
       "asset": "DECKER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DEALFLOW",
@@ -3317,7 +3317,7 @@
     },
     {
       "asset": "DDOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCORP",
@@ -3333,7 +3333,7 @@
     },
     {
       "asset": "DCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DCASH",
@@ -3341,7 +3341,7 @@
     },
     {
       "asset": "DBIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DATOS",
@@ -3357,15 +3357,15 @@
     },
     {
       "asset": "DAPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DAPPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DANO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DANN",
@@ -3381,7 +3381,7 @@
     },
     {
       "asset": "CUTX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CUBOS",
@@ -3389,7 +3389,7 @@
     },
     {
       "asset": "CUBO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CUBED",
@@ -3405,7 +3405,7 @@
     },
     {
       "asset": "CSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CSTOCK",
@@ -3413,7 +3413,7 @@
     },
     {
       "asset": "CSHARES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CSHARE",
@@ -3437,7 +3437,7 @@
     },
     {
       "asset": "CRITICAL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CRIT",
@@ -3449,7 +3449,7 @@
     },
     {
       "asset": "CREA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "COVE",
@@ -3457,7 +3457,7 @@
     },
     {
       "asset": "COSA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CORPZ",
