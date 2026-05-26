@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 0,
+  "available": 1,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3257,7 +3257,7 @@
     },
     {
       "asset": "DIOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIEZ",
