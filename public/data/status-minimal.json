@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 1,
+  "available": 2,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -3453,7 +3453,7 @@
     },
     {
       "asset": "COVE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COSA",

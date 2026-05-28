@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 1,
+  "available": 2,
   "sold": 13,
-  "notListed": 985,
+  "notListed": 984,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -7753,8 +7753,8 @@
     },
     {
       "asset": "COVE",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/COVE",
