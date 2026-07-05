@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 61,
+  "available": 0,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2113,7 +2113,7 @@
     },
     {
       "asset": "KLTD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KLLC",
@@ -2121,7 +2121,7 @@
     },
     {
       "asset": "KITT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KIPO",
@@ -2145,7 +2145,7 @@
     },
     {
       "asset": "KCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "KCOMPANY",
@@ -2173,7 +2173,7 @@
     },
     {
       "asset": "JSTOCKS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JSTOCK",
@@ -2205,7 +2205,7 @@
     },
     {
       "asset": "JLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JIPO",
@@ -2221,7 +2221,7 @@
     },
     {
       "asset": "JFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JETT",
@@ -2233,7 +2233,7 @@
     },
     {
       "asset": "JCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "JCOMPANY",
@@ -2245,7 +2245,7 @@
     },
     {
       "asset": "JAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IXXX",
@@ -2261,7 +2261,7 @@
     },
     {
       "asset": "IVVY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IVIV",
@@ -2277,7 +2277,7 @@
     },
     {
       "asset": "ISTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ISHARE",
@@ -2285,7 +2285,7 @@
     },
     {
       "asset": "ISERIES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IROUND",
@@ -2341,7 +2341,7 @@
     },
     {
       "asset": "INCREMENTAL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "IMSG",
@@ -2393,7 +2393,7 @@
     },
     {
       "asset": "IDEO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ICORP",
@@ -2437,7 +2437,7 @@
     },
     {
       "asset": "HULL",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HUGG",
@@ -2445,7 +2445,7 @@
     },
     {
       "asset": "HUBB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HTRADE",
@@ -2457,7 +2457,7 @@
     },
     {
       "asset": "HSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "HSHARES",
@@ -2813,7 +2813,7 @@
     },
     {
       "asset": "FWIW",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FUTR",
@@ -2849,7 +2849,7 @@
     },
     {
       "asset": "FUELS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FTRADE",
@@ -2877,7 +2877,7 @@
     },
     {
       "asset": "FRAG",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FOXX",
@@ -2913,7 +2913,7 @@
     },
     {
       "asset": "FONO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FOLIO",
@@ -2945,7 +2945,7 @@
     },
     {
       "asset": "FIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FIFO",
@@ -2953,7 +2953,7 @@
     },
     {
       "asset": "FFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FETCH",
@@ -2969,7 +2969,7 @@
     },
     {
       "asset": "FCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FCOM",
@@ -2977,7 +2977,7 @@
     },
     {
       "asset": "FCOIN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "FBIT",
@@ -3065,7 +3065,7 @@
     },
     {
       "asset": "EROUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "EREWARD",
@@ -3257,7 +3257,7 @@
     },
     {
       "asset": "DIOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIEZ",
@@ -3337,7 +3337,7 @@
     },
     {
       "asset": "DCASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DBIT",
@@ -3345,7 +3345,7 @@
     },
     {
       "asset": "DATOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DATO",
@@ -3369,7 +3369,7 @@
     },
     {
       "asset": "DANN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DADD",
@@ -3385,7 +3385,7 @@
     },
     {
       "asset": "CUBOS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CUBO",
@@ -3393,7 +3393,7 @@
     },
     {
       "asset": "CUBED",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CTRANCHE",
@@ -3401,7 +3401,7 @@
     },
     {
       "asset": "CTRADE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CSTOCKS",
@@ -3409,7 +3409,7 @@
     },
     {
       "asset": "CSTOCK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CSHARES",
@@ -3433,7 +3433,7 @@
     },
     {
       "asset": "CRITS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CRITICAL",
@@ -3453,7 +3453,7 @@
     },
     {
       "asset": "COVE",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "COSA",
@@ -3469,7 +3469,7 @@
     },
     {
       "asset": "CORPX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CORPE",
@@ -3485,7 +3485,7 @@
     },
     {
       "asset": "CORPB",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CORPA",
@@ -3501,7 +3501,7 @@
     },
     {
       "asset": "COPIES",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CONWAY",
@@ -3569,7 +3569,7 @@
     },
     {
       "asset": "CMONEY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CLTD",
@@ -3597,7 +3597,7 @@
     },
     {
       "asset": "CIPO",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CION",
@@ -3625,7 +3625,7 @@
     },
     {
       "asset": "CFUND",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CERO",
@@ -3657,7 +3657,7 @@
     },
     {
       "asset": "CBIT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "CASTOR",
@@ -3693,7 +3693,7 @@
     },
     {
       "asset": "CAAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BZZZ",
@@ -3829,7 +3829,7 @@
     },
     {
       "asset": "BLOCKC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BLOCKB",
@@ -3845,7 +3845,7 @@
     },
     {
       "asset": "BLLC",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BLDR",
@@ -3853,7 +3853,7 @@
     },
     {
       "asset": "BLAM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BLAB",
@@ -3865,11 +3865,11 @@
     },
     {
       "asset": "BKON",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BKNY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BKLYN",
@@ -3877,7 +3877,7 @@
     },
     {
       "asset": "BITY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BITI",
@@ -3885,7 +3885,7 @@
     },
     {
       "asset": "BIRCH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BIPO",
@@ -3893,7 +3893,7 @@
     },
     {
       "asset": "BHOLDINGS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BHOLD",
@@ -3901,7 +3901,7 @@
     },
     {
       "asset": "BGOLD",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BFUND",
@@ -3909,7 +3909,7 @@
     },
     {
       "asset": "BERK",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BENTLEY",
@@ -3917,7 +3917,7 @@
     },
     {
       "asset": "BEEM",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BEAUX",
@@ -3929,11 +3929,11 @@
     },
     {
       "asset": "BCORP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BCOMPANY",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BCOM",
@@ -3941,7 +3941,7 @@
     },
     {
       "asset": "BCNU",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BBLOCK",
@@ -3957,7 +3957,7 @@
     },
     {
       "asset": "BBAA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BAZA",
@@ -3965,11 +3965,11 @@
     },
     {
       "asset": "BARNS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BARKER",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BAJA",
@@ -3989,7 +3989,7 @@
     },
     {
       "asset": "A123581321345589144",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "A12345678910987654321",
