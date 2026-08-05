@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 59,
+  "available": 80,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2797,7 +2797,7 @@
     },
     {
       "asset": "GALE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "GAJE",
@@ -2805,7 +2805,7 @@
     },
     {
       "asset": "GAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FYEO",
@@ -2821,7 +2821,7 @@
     },
     {
       "asset": "FURS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUNDZ",
@@ -2841,7 +2841,7 @@
     },
     {
       "asset": "FUNDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FUFU",
@@ -2893,7 +2893,7 @@
     },
     {
       "asset": "FOTOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FOTO",
@@ -2929,7 +2929,7 @@
     },
     {
       "asset": "FLYY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "FLTD",
@@ -3041,7 +3041,7 @@
     },
     {
       "asset": "EVEREST",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EUSA",
@@ -3097,7 +3097,7 @@
     },
     {
       "asset": "EMPRESA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EMCEE",
@@ -3109,7 +3109,7 @@
     },
     {
       "asset": "ELTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ELLC",
@@ -3133,7 +3133,7 @@
     },
     {
       "asset": "EHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "EDITS",
@@ -3189,7 +3189,7 @@
     },
     {
       "asset": "DTRADE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSTOCKS",
@@ -3197,7 +3197,7 @@
     },
     {
       "asset": "DSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DSHARES",
@@ -3233,7 +3233,7 @@
     },
     {
       "asset": "DLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DLLC",
@@ -3257,7 +3257,7 @@
     },
     {
       "asset": "DIOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DIEZ",
@@ -3305,7 +3305,7 @@
     },
     {
       "asset": "DELPHI",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DECKER",
@@ -3313,7 +3313,7 @@
     },
     {
       "asset": "DEALFLOW",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DDOS",
@@ -3329,7 +3329,7 @@
     },
     {
       "asset": "DCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "DCOIN",
@@ -3417,7 +3417,7 @@
     },
     {
       "asset": "CSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CSERIES",
@@ -3425,7 +3425,7 @@
     },
     {
       "asset": "CROWDSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "CROWDSHARE",
@@ -3453,7 +3453,7 @@
     },
     {
       "asset": "COVE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COSA",
@@ -3553,7 +3553,7 @@
     },
     {
       "asset": "COINDEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "COIND",
