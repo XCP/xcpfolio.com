@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 537,
+  "available": 621,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -857,7 +857,7 @@
     },
     {
       "asset": "TCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TANGO",
@@ -873,15 +873,15 @@
     },
     {
       "asset": "SYLT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SUGA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SUDS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STUV",
@@ -893,23 +893,23 @@
     },
     {
       "asset": "STOCKY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKPHOTOS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKPHOTO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKA",
@@ -917,27 +917,27 @@
     },
     {
       "asset": "STANLEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STAFFORD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPOTPRICE",
@@ -945,11 +945,11 @@
     },
     {
       "asset": "SPORES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SPORE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOULS",
@@ -957,23 +957,23 @@
     },
     {
       "asset": "SONGS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOLS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SOLES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SNYDER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLUSH",
@@ -981,11 +981,11 @@
     },
     {
       "asset": "SLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLOAN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SLLC",
@@ -993,67 +993,67 @@
     },
     {
       "asset": "SKYY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIXX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SINN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIBYLS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SIBYL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHHH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHEN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHARER",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREQUITY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHAREA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SHARDS",
@@ -1061,67 +1061,67 @@
     },
     {
       "asset": "SHARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SEXO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESBB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SERIESA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SEEQ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SECT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCORSESE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOPE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SCOIN",
@@ -1133,35 +1133,35 @@
     },
     {
       "asset": "SAUL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SATT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SARTRE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SAMPSON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RYFT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RUBE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RSTOCK",
@@ -1169,19 +1169,19 @@
     },
     {
       "asset": "RSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDS",
@@ -1193,55 +1193,55 @@
     },
     {
       "asset": "ROUNDB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROUNDA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROTFL",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROPA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROOMY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ROOMIES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RIVA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RISKY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RHODES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RFUND",
@@ -1261,7 +1261,7 @@
     },
     {
       "asset": "REVSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REPP",
@@ -1273,11 +1273,11 @@
     },
     {
       "asset": "RELOADS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "RELO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "REDD",
