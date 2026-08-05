@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 621,
+  "available": 658,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -701,11 +701,11 @@
     },
     {
       "asset": "TSSK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSHARES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSHARE",
@@ -713,11 +713,11 @@
     },
     {
       "asset": "TRITON",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEC",
@@ -729,7 +729,7 @@
     },
     {
       "asset": "TRANCHEA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEZ",
@@ -737,27 +737,27 @@
     },
     {
       "asset": "TRADEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOXIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOWR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORRENTS",
@@ -765,15 +765,15 @@
     },
     {
       "asset": "TORR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORQUE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TORC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TOKENX",
@@ -781,79 +781,79 @@
     },
     {
       "asset": "TOGA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TMONEY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TLTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TLLC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "THRU",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "THEDIP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEXTS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TESTNET",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TESSA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TENX",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TENN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEES",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TEEE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCORP",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TCOIN",
@@ -865,11 +865,11 @@
     },
     {
       "asset": "TAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SYSTEMATIC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "SYLT",
@@ -885,11 +885,11 @@
     },
     {
       "asset": "STUV",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "STOCKY",
