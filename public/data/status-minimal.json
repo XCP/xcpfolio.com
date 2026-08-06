@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 658,
+  "available": 683,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -605,15 +605,15 @@
     },
     {
       "asset": "USAB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "URGE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UREWARD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UMONEY",
@@ -621,7 +621,7 @@
     },
     {
       "asset": "ULTD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "ULLC",
@@ -629,19 +629,19 @@
     },
     {
       "asset": "UIPO",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UHOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UGOLD",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UFUND",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCORP",
@@ -649,55 +649,55 @@
     },
     {
       "asset": "UCOMPANY",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCOM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCOIN",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UCASH",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UBLOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UBIT",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "UAAA",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TYVM",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TYME",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TUFF",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TTOR",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSTOCKS",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSTOCK",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TSSK",
@@ -709,7 +709,7 @@
     },
     {
       "asset": "TSHARE",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRITON",
@@ -721,11 +721,11 @@
     },
     {
       "asset": "TRANCHEC",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEB",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRANCHEA",
@@ -733,7 +733,7 @@
     },
     {
       "asset": "TRADEZ",
-      "status": "not-listed"
+      "status": "available"
     },
     {
       "asset": "TRADEY",
