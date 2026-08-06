@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 978,
+  "available": 986,
   "sold": 13,
-  "notListed": 8,
+  "notListed": 0,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -6592,8 +6592,8 @@
     },
     {
       "asset": "FLLC",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Business",
       "length": 4,
       "url": "https://xcpfolio.com/FLLC",
@@ -7015,8 +7015,8 @@
     },
     {
       "asset": "EIPO",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Finance",
       "length": 4,
       "url": "https://xcpfolio.com/EIPO",
@@ -7528,8 +7528,8 @@
     },
     {
       "asset": "DARKMARKET",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Internet",
       "length": 10,
       "url": "https://xcpfolio.com/DARKMARKET",
@@ -7879,8 +7879,8 @@
     },
     {
       "asset": "CONRAD",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Name",
       "length": 6,
       "url": "https://xcpfolio.com/CONRAD",
@@ -8310,8 +8310,8 @@
     },
     {
       "asset": "BYOB",
-      "status": "not-listed",
-      "suggestedPrice": 25,
+      "status": "available",
+      "price": 25,
       "category": "Acronym",
       "length": 4,
       "url": "https://xcpfolio.com/BYOB",
@@ -8490,8 +8490,8 @@
     },
     {
       "asset": "BOUTS",
-      "status": "not-listed",
-      "suggestedPrice": 10,
+      "status": "available",
+      "price": 10,
       "category": "Gambling",
       "length": 5,
       "url": "https://xcpfolio.com/BOUTS",
@@ -8948,8 +8948,8 @@
     },
     {
       "asset": "A987654321123456789",
-      "status": "not-listed",
-      "suggestedPrice": 50,
+      "status": "available",
+      "price": 50,
       "category": "Numeric",
       "length": 19,
       "url": "https://xcpfolio.com/A987654321123456789",
@@ -8966,8 +8966,8 @@
     },
     {
       "asset": "A12345678910987654321",
-      "status": "not-listed",
-      "suggestedPrice": 50,
+      "status": "available",
+      "price": 50,
       "category": "Numeric",
       "length": 21,
       "url": "https://xcpfolio.com/A12345678910987654321",
