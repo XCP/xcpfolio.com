@@ -1,7 +1,7 @@
 {
   "total": 999,
   "sold": 13,
-  "available": 986,
+  "available": 977,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -77,7 +77,7 @@
     },
     {
       "asset": "ZCASH",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "ZBIT",
@@ -817,7 +817,7 @@
     },
     {
       "asset": "TEXTS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TESTNET",
@@ -829,7 +829,7 @@
     },
     {
       "asset": "TENX",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "TENN",
@@ -1533,7 +1533,7 @@
     },
     {
       "asset": "ONIONS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "OMONEY",
@@ -1717,7 +1717,7 @@
     },
     {
       "asset": "NAAN",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "NAAA",
@@ -2649,7 +2649,7 @@
     },
     {
       "asset": "GOOP",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GOOO",
@@ -2725,7 +2725,7 @@
     },
     {
       "asset": "GELT",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "GCORP",
@@ -3249,7 +3249,7 @@
     },
     {
       "asset": "DIPS",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "DIPO",
@@ -3973,7 +3973,7 @@
     },
     {
       "asset": "BAJA",
-      "status": "available"
+      "status": "not-listed"
     },
     {
       "asset": "BACH",

@@ -1,8 +1,8 @@
 {
   "total": 999,
-  "available": 986,
+  "available": 977,
   "sold": 13,
-  "notListed": 0,
+  "notListed": 9,
   "assets": [
     {
       "asset": "ZTRADE",
@@ -168,8 +168,8 @@
     },
     {
       "asset": "ZCASH",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 5,
       "url": "https://xcpfolio.com/ZCASH",
@@ -1828,8 +1828,8 @@
     },
     {
       "asset": "TEXTS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 5,
       "url": "https://xcpfolio.com/TEXTS",
@@ -1855,8 +1855,8 @@
     },
     {
       "asset": "TENX",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Brandable",
       "length": 4,
       "url": "https://xcpfolio.com/TENX",
@@ -3437,8 +3437,8 @@
     },
     {
       "asset": "ONIONS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 6,
       "url": "https://xcpfolio.com/ONIONS",
@@ -3851,8 +3851,8 @@
     },
     {
       "asset": "NAAN",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/NAAN",
@@ -5944,8 +5944,8 @@
     },
     {
       "asset": "GOOP",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/GOOP",
@@ -6115,8 +6115,8 @@
     },
     {
       "asset": "GELT",
-      "status": "available",
-      "price": 100,
+      "status": "not-listed",
+      "suggestedPrice": 100,
       "category": "Currency",
       "length": 4,
       "url": "https://xcpfolio.com/GELT",
@@ -7294,8 +7294,8 @@
     },
     {
       "asset": "DIPS",
-      "status": "available",
-      "price": 25,
+      "status": "not-listed",
+      "suggestedPrice": 25,
       "category": "Dictionary",
       "length": 4,
       "url": "https://xcpfolio.com/DIPS",
@@ -8921,8 +8921,8 @@
     },
     {
       "asset": "BAJA",
-      "status": "available",
-      "price": 10,
+      "status": "not-listed",
+      "suggestedPrice": 10,
       "category": "Geographic",
       "length": 4,
       "url": "https://xcpfolio.com/BAJA",
