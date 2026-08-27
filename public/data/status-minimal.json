@@ -1,7 +1,7 @@
 {
   "total": 999,
-  "sold": 13,
-  "available": 977,
+  "sold": 14,
+  "available": 976,
   "statuses": [
     {
       "asset": "ZTRADE",
@@ -2713,7 +2713,7 @@
     },
     {
       "asset": "GENX",
-      "status": "available"
+      "status": "sold"
     },
     {
       "asset": "GEMAS",
