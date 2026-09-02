@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.CORPX",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.CORPX for 5 XCP to claim ownership of CORPX",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: CORPX is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/CORPX"
 }
