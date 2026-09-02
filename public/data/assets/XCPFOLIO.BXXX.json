@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.BXXX",
-  "description": "⚫ NOT LISTED: BXXX is not currently available for purchase on XCPFOLIO.",
-  "image": "https://xcpfolio.com/status/not-listed.svg",
+  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.BXXX for 10 XCP to claim ownership of BXXX",
+  "image": "https://xcpfolio.com/status/available.svg",
   "website": "https://xcpfolio.com/BXXX"
 }
