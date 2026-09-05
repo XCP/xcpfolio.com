@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.LOCH",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.LOCH for 25 XCP to claim ownership of LOCH",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: LOCH is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/LOCH"
 }

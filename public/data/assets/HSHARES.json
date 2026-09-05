@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.HSHARES",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.HSHARES for 5 XCP to claim ownership of HSHARES",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: HSHARES is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/HSHARES"
 }

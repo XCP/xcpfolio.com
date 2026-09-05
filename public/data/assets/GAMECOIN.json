@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.GAMECOIN",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.GAMECOIN for 100 XCP to claim ownership of GAMECOIN",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: GAMECOIN is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/GAMECOIN"
 }
