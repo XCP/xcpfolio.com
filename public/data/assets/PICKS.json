@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.PICKS",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.PICKS for 10 XCP to claim ownership of PICKS",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: PICKS is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/PICKS"
 }

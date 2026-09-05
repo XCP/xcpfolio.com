@@ -1,6 +1,6 @@
 {
   "asset": "XCPFOLIO.VTRADE",
-  "description": "🟢 FOR SALE: Buy 1 XCPFOLIO.VTRADE for 5 XCP to claim ownership of VTRADE",
-  "image": "https://xcpfolio.com/status/available.svg",
+  "description": "⚫ NOT LISTED: VTRADE is not currently available for purchase on XCPFOLIO.",
+  "image": "https://xcpfolio.com/status/not-listed.svg",
   "website": "https://xcpfolio.com/VTRADE"
 }
