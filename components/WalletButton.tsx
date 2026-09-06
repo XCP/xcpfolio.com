@@ -1,50 +1,29 @@
 'use client'
 
-import { useState } from 'react'
 import { useWallet } from '@/lib/wallet/wallet-context'
-import { WalletInstallModal } from '@/components/WalletInstallModal'
+import { useConnectFlow } from '@/lib/wallet/useConnectFlow'
 
 export function WalletButton() {
-  const { status, address, connecting, connect, disconnect } = useWallet()
-  const [showInstall, setShowInstall] = useState(false)
+  const { status, address, disconnect } = useWallet()
+  const wallet = useConnectFlow()
 
-  if (status === 'not_detected') {
+  if (status !== 'connected') {
     return (
       <>
         <button
-          onClick={() => {
-            if (window.xcpwallet) {
-              connect()
-            } else {
-              setShowInstall(true)
-            }
-          }}
-          className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors cursor-pointer"
-          aria-label="Connect XCP wallet"
+          onClick={wallet.start}
+          disabled={wallet.connecting}
+          className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+          aria-label="Connect wallet"
+          aria-busy={wallet.connecting}
         >
-          <span className="sm:hidden">Connect</span>
-          <span className="hidden sm:inline">Connect Wallet</span>
+          {wallet.connecting ? 'Connecting...' : <><span className="sm:hidden">Connect</span><span className="hidden sm:inline">Connect Wallet</span></>}
         </button>
-        {showInstall && <WalletInstallModal onClose={() => setShowInstall(false)} />}
+        {wallet.walletModal}
       </>
     )
   }
 
-  if (status === 'disconnected') {
-    return (
-      <button
-        onClick={connect}
-        disabled={connecting}
-        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-        aria-label="Connect XCP wallet"
-        aria-busy={connecting}
-      >
-        {connecting ? 'Connecting...' : <><span className="sm:hidden">Connect</span><span className="hidden sm:inline">Connect Wallet</span></>}
-      </button>
-    )
-  }
-
-  // Connected
   return (
     <div className="flex items-center gap-2">
       <span className="text-sm text-gray-600 font-mono">
