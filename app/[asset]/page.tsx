@@ -8,14 +8,16 @@ import { useQuery } from '@tanstack/react-query';
 import { getAssetOrders, getDetailedAsset, getAssetOrderHistory, getAssetIssuances, getAssetOrderMatches, formatPrice, formatAge, formatRegistrationDate, getAssetMetadata, type Order, type DetailedAsset, type Issuance } from '@/lib/api';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { useCompose } from '@xcp/wallet-sdk/react';
 import { useWallet } from '@/lib/wallet/wallet-context';
-import { useCompose } from '@/lib/wallet/useCompose';
+import { useConnectFlow } from '@/lib/wallet/useConnectFlow';
 import { trackEvent } from 'fathom-client';
 
 export default function AssetPage() {
   const params = useParams();
   const asset = params.asset as string;
-  const { status, address, connect } = useWallet();
+  const { status, address } = useWallet();
+  const wallet = useConnectFlow();
   const { composeOrder, status: composeStatus, txid: composeTxid, error: composeError, reset: composeReset } = useCompose();
   const isConnected = status === 'connected';
   const account = address;
@@ -106,7 +108,7 @@ export default function AssetPage() {
     trackEvent('purchase_clicked', { _value: order ? order.get_quantity : 0 });
 
     if (!isConnected) {
-      connect();
+      wallet.start();
       return;
     }
 
@@ -132,6 +134,7 @@ export default function AssetPage() {
     <>
     <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Header />
+      {wallet.walletModal}
 
       {/* Compact Hero with Side-by-Side Layout */}
       <section className="py-8">
