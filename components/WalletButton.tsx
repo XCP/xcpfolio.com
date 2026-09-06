@@ -1,10 +1,12 @@
 'use client'
 
+import { useWalletMenu } from '@xcp/wallet-sdk/react'
 import { useWallet } from '@/lib/wallet/wallet-context'
 import { useConnectFlow } from '@/lib/wallet/useConnectFlow'
 
 export function WalletButton() {
-  const { status, address, disconnect, accounts, switchAccount } = useWallet()
+  const { status, address } = useWallet()
+  const { accounts, switchAccount, disconnect, canSwitchWallet, switchWallet } = useWalletMenu()
   const wallet = useConnectFlow()
 
   if (status !== 'connected') {
@@ -43,6 +45,15 @@ export function WalletButton() {
         <span className="text-sm text-gray-600 font-mono">
           {address!.slice(0, 6)}...{address!.slice(-4)}
         </span>
+      )}
+      {canSwitchWallet && (
+        <button
+          onClick={switchWallet}
+          className="px-3 py-2 text-sm text-gray-500 hover:text-gray-700 transition-colors cursor-pointer"
+          aria-label="Switch wallet"
+        >
+          Switch
+        </button>
       )}
       <button
         onClick={disconnect}

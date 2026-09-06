@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.84.2",
-    "@xcp/wallet-sdk": "github:XCP/wallet-sdk#v0.3.0",
+    "@xcp/wallet-sdk": "github:XCP/wallet-sdk#v0.4.0",
     "csv-parser": "^3.2.0",
     "fathom-client": "^3.7.2",
     "next": "15.4.10",
