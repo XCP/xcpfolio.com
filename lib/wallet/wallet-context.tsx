@@ -16,6 +16,8 @@ const STATUS: Record<WalletReadyState, XcpWalletStatus> = {
   disconnected: 'disconnected',
   connected: 'connected',
   locked: 'connected',
+  // The wallet was updated under this page: signing is off, and the connect button reloads the page.
+  reload_required: 'disconnected',
 }
 
 export function WalletProvider({ children }: { children: ReactNode }) {
