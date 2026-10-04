@@ -1,3 +1,4 @@
+import { counterpartyRead } from '@/lib/counterparty-read'
 const COUNTERPARTY_API_BASE = 'https://api.counterparty.io:4000/v2'
 
 /** GET only, and only onward to /v2: the SDK's relay for a browser the node has stopped talking to. */
@@ -18,7 +19,7 @@ export async function GET(
 
   let upstream: Response
   try {
-    upstream = await fetch(target, {
+    upstream = await counterpartyRead(target, {
       signal: AbortSignal.timeout(8_000),
       headers: { accept: 'application/json' },
     })
@@ -30,7 +31,7 @@ export async function GET(
     status: upstream.status,
     headers: {
       'content-type': upstream.headers.get('content-type') ?? 'application/json',
-      'cache-control': upstream.headers.get('cache-control') ?? 'no-store',
+      'cache-control': 'no-store',
     },
   })
 }
