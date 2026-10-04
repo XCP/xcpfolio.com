@@ -1,3 +1,4 @@
+import { counterpartyRead } from './counterparty-read';
 // API functions for interacting with Counterparty
 
 const API_BASE = 'https://api.counterparty.io:4000';
@@ -121,18 +122,10 @@ export interface OrderMatch {
   confirmed?: boolean;
 }
 
-// Get all XCPFOLIO subassets with caching
+// Get current XCPFOLIO subassets
 export async function getSubassets(): Promise<Subasset[]> {
   try {
-    const response = await fetch(
-      `${API_BASE}/v2/assets/XCPFOLIO/subassets?verbose=true&limit=1000`,
-      {
-        // Cache for 5 minutes on the server
-        next: { revalidate: 300 },
-        // Also use browser cache
-        cache: 'force-cache'
-      }
-    );
+    const response = await counterpartyRead(`${API_BASE}/v2/assets/XCPFOLIO/subassets?verbose=true&limit=1000`);
     const data = await response.json();
     return data.result || [];
   } catch (error) {
@@ -145,8 +138,7 @@ export async function getSubassets(): Promise<Subasset[]> {
 export async function getDetailedAsset(asset: string): Promise<DetailedAsset | null> {
   try {
     // Fetch parent asset info directly (no XCPFOLIO prefix)
-    const response = await fetch(
-      `${API_BASE}/v2/assets/${asset}?verbose=true&show_unconfirmed=true`
+    const response = await counterpartyRead(`${API_BASE}/v2/assets/${asset}?verbose=true&show_unconfirmed=true`
     );
     const data = await response.json();
     return data.result || null;
@@ -162,7 +154,7 @@ export async function getAssetOrders(asset: string): Promise<Order[]> {
     const fullAssetName = asset.includes('.') ? asset : `XCPFOLIO.${asset}`;
     
     // First get the asset info to find the numeric ID
-    const assetInfoResponse = await fetch(`${API_BASE}/v2/assets/${fullAssetName}`);
+    const assetInfoResponse = await counterpartyRead(`${API_BASE}/v2/assets/${fullAssetName}`);
     if (!assetInfoResponse.ok) {
       console.error('Asset not found:', fullAssetName);
       return [];
@@ -177,8 +169,7 @@ export async function getAssetOrders(asset: string): Promise<Order[]> {
     }
     
     // Use the numeric ID to query orders
-    const response = await fetch(
-      `${API_BASE}/v2/assets/${numericAssetId}/orders?status=open&verbose=true`
+    const response = await counterpartyRead(`${API_BASE}/v2/assets/${numericAssetId}/orders?status=open&verbose=true`
     );
     const data = await response.json();
     return data.result || [];
@@ -194,7 +185,7 @@ export async function getAssetOrderHistory(asset: string): Promise<Order[]> {
     const fullAssetName = asset.includes('.') ? asset : `XCPFOLIO.${asset}`;
     
     // First get the asset info to find the numeric ID
-    const assetInfoResponse = await fetch(`${API_BASE}/v2/assets/${fullAssetName}`);
+    const assetInfoResponse = await counterpartyRead(`${API_BASE}/v2/assets/${fullAssetName}`);
     if (!assetInfoResponse.ok) {
       console.error('Asset not found:', fullAssetName);
       return [];
@@ -209,8 +200,7 @@ export async function getAssetOrderHistory(asset: string): Promise<Order[]> {
     }
     
     // Use the numeric ID to query orders
-    const response = await fetch(
-      `${API_BASE}/v2/assets/${numericAssetId}/orders?status=all&verbose=true&limit=50&sort=tx_index:desc`
+    const response = await counterpartyRead(`${API_BASE}/v2/assets/${numericAssetId}/orders?status=all&verbose=true&limit=50&sort=tx_index:desc`
     );
     const data = await response.json();
     return data.result || [];
@@ -224,8 +214,7 @@ export async function getAssetOrderHistory(asset: string): Promise<Order[]> {
 export async function getAssetIssuances(asset: string): Promise<Issuance[]> {
   try {
     // Fetch parent asset issuances directly (no XCPFOLIO prefix)
-    const response = await fetch(
-      `${API_BASE}/v2/assets/${asset}/issuances?verbose=true&show_unconfirmed=true&limit=50`
+    const response = await counterpartyRead(`${API_BASE}/v2/assets/${asset}/issuances?verbose=true&show_unconfirmed=true&limit=50`
     );
     const data = await response.json();
     return data.result || [];
@@ -238,8 +227,7 @@ export async function getAssetIssuances(asset: string): Promise<Issuance[]> {
 // Get orders from our address (to see what we're selling)
 export async function getAddressOrders(address: string): Promise<Order[]> {
   try {
-    const response = await fetch(
-      `${API_BASE}/v2/addresses/${address}/orders?status=open&verbose=true`
+    const response = await counterpartyRead(`${API_BASE}/v2/addresses/${address}/orders?status=open&verbose=true`
     );
     const data = await response.json();
     return data.result || [];
@@ -255,7 +243,7 @@ export async function getAssetOrderMatches(asset: string): Promise<OrderMatch[]>
     const fullAssetName = asset.includes('.') ? asset : `XCPFOLIO.${asset}`;
     
     // First get the asset info to find the numeric ID
-    const assetInfoResponse = await fetch(`${API_BASE}/v2/assets/${fullAssetName}`);
+    const assetInfoResponse = await counterpartyRead(`${API_BASE}/v2/assets/${fullAssetName}`);
     if (!assetInfoResponse.ok) {
       console.error('Asset not found:', fullAssetName);
       return [];
@@ -270,8 +258,7 @@ export async function getAssetOrderMatches(asset: string): Promise<OrderMatch[]>
     }
     
     // Use the numeric ID to query matches
-    const response = await fetch(
-      `${API_BASE}/v2/assets/${numericAssetId}/matches?status=completed&verbose=true`
+    const response = await counterpartyRead(`${API_BASE}/v2/assets/${numericAssetId}/matches?status=completed&verbose=true`
     );
     const data = await response.json();
     return data.result || [];
