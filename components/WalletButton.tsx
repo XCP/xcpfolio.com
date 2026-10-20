@@ -11,7 +11,7 @@ export function WalletButton() {
 
   if (status !== 'connected') {
     return (
-      <>
+      <div className="relative">
         <button
           onClick={wallet.start}
           disabled={wallet.connecting}
@@ -22,7 +22,8 @@ export function WalletButton() {
           {wallet.connecting ? 'Connecting...' : <><span className="sm:hidden">Connect</span><span className="hidden sm:inline">Connect Wallet</span></>}
         </button>
         {wallet.walletModal}
-      </>
+        {wallet.connectError && <p role="alert" className="absolute right-0 top-full z-50 mt-2 w-64 rounded-lg border border-red-200 bg-white p-3 text-sm text-red-700">{wallet.connectError}</p>}
+      </div>
     )
   }
 

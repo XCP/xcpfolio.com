@@ -26,7 +26,7 @@ export function WalletModal({ chooser }: { chooser: WalletChooserState }) {
             <h3 className="text-sm font-semibold text-gray-900">{installing ? 'Wallet Required' : 'Choose a Wallet'}</h3>
             <p className="text-xs text-gray-500 mt-1">
               {installing
-                ? 'Install a Counterparty wallet extension to connect.'
+                ? 'Open this site in a supported wallet browser or install a wallet extension.'
                 : 'More than one wallet is installed. Pick the one to connect with.'}
             </p>
           </div>
