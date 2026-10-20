@@ -1,0 +1,14 @@
+{
+  "name": "XCPFolio",
+  "short_name": "XCPFolio",
+  "description": "Discover and buy Counterparty asset names.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "icons": [{ "src": "/XCP.png", "type": "image/png", "purpose": "any" }],
+  "wallet": {
+    "version": "1",
+    "chains": { "optional": ["bip122:000000000019d6689c085ae165831e93"] },
+    "capabilities": { "optional": ["provider.bitcoin"] }
+  }
+}

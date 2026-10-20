@@ -24,11 +24,12 @@
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "test:casatookan": "playwright test -c playwright.casatookan.config.mjs"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.84.2",
-    "@xcp/wallet-sdk": "github:XCP/wallet-sdk#v0.5.0",
+    "@xcp/wallet-sdk": "github:XCP/wallet-sdk#25425b75142f832705d1c3611ab2cba2adc0f942",
     "csv-parser": "^3.2.0",
     "fathom-client": "^3.7.2",
     "next": "15.4.10",
@@ -36,6 +37,8 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@noble/curves": "1.9.7",
+    "@playwright/test": "1.63.0",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",

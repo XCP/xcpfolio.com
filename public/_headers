@@ -1,0 +1,5 @@
+/.well-known/*
+  Access-Control-Allow-Origin: *
+
+/XCP.png
+  Access-Control-Allow-Origin: *
